@@ -8,6 +8,61 @@ body {
   min-width: 0;
 }
 
+.site-header {
+  background: rgba(13, 14, 16, 0.94);
+  border-bottom-color: rgba(255, 255, 255, 0.08);
+}
+
+.brand img {
+  display: block;
+  width: auto;
+  height: 54px;
+  object-fit: contain;
+}
+
+.site-header nav {
+  color: #fff;
+}
+
+.hero-cars {
+  background: #111214;
+}
+
+.hero-cars img {
+  object-position: center;
+}
+
+footer .brand img {
+  height: 88px;
+}
+
+.footer-contact {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px 30px !important;
+}
+
+.footer-contact small {
+  grid-column: 1 / -1;
+}
+
+.footer-contact a,
+.footer-contact p {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin: 0;
+  color: #fff;
+}
+
+.footer-contact span {
+  color: #85858a;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
 @media (max-width: 600px) {
   .site-header {
     gap: 12px;
@@ -15,7 +70,10 @@ body {
 
   .site-header .brand {
     flex-shrink: 0;
-    font-size: 18px;
+  }
+
+  .site-header .brand img {
+    height: 46px;
   }
 
   .site-header .button-small {
@@ -32,5 +90,17 @@ body {
 
   .hero h1 {
     overflow-wrap: anywhere;
+  }
+
+  footer .brand img {
+    height: 78px;
+  }
+
+  .footer-contact {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-contact small {
+    grid-column: auto;
   }
 }
