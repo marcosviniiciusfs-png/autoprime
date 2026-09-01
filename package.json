@@ -6,7 +6,10 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "worker:types": "wrangler types --config cloudflare/autoprime-conversions-api/wrangler.jsonc",
+    "worker:check": "wrangler deploy --dry-run --config cloudflare/autoprime-conversions-api/wrangler.jsonc",
+    "worker:deploy": "wrangler deploy --config cloudflare/autoprime-conversions-api/wrangler.jsonc"
   },
   "devDependencies": {
     "vite": "^7.1.3",

@@ -33,6 +33,8 @@ jobs:
 
       - name: Build
         run: npm run build
+        env:
+          VITE_META_CAPI_URL: https://autoprime-conversions-api.marcosviniicius-fs.workers.dev/events
 
       - name: Setup Pages
         uses: actions/configure-pages@v5

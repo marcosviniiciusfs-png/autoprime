@@ -13,7 +13,26 @@ const stepLabel = document.querySelector('#step-label');
 const stepTitle = document.querySelector('#step-title');
 const progressBar = document.querySelector('#progress-bar');
 const titles = ['Seu objetivo', 'Valor desejado', 'Entrada disponível', 'Parcela mensal', 'Prazo', 'Seus dados'];
+const metaCapiUrl = import.meta.env.VITE_META_CAPI_URL;
 let currentStep = 0;
+
+function getCookie(name) {
+  const prefix = `${name}=`;
+  const cookie = document.cookie.split('; ').find((item) => item.startsWith(prefix));
+  return cookie ? decodeURIComponent(cookie.slice(prefix.length)) : undefined;
+}
+
+function splitName(fullName) {
+  const parts = fullName.trim().split(/\s+/);
+  return {
+    firstName: parts[0] || '',
+    lastName: parts.slice(1).join(' '),
+  };
+}
+
+function createEventId() {
+  return `lead_${crypto.randomUUID()}`;
+}
 
 function isStepValid() {
   const step = steps[currentStep];
@@ -58,23 +77,83 @@ backButton.addEventListener('click', () => {
   updateStep();
 });
 
-form.addEventListener('submit', (event) => {
+form.addEventListener('submit', async (event) => {
   event.preventDefault();
   if (currentStep !== steps.length - 1 || !isStepValid()) return;
   const data = new FormData(form);
+  const fullName = String(data.get('nome'));
+  const whatsapp = String(data.get('whatsapp'));
+  const city = String(data.get('cidade'));
+  const { firstName, lastName } = splitName(fullName);
+  const eventId = createEventId();
   const message = [
     'Olá, Auto Prime! Fiz uma simulação pelo site:',
     '',
-    `Nome: ${data.get('nome')}`,
-    `WhatsApp: ${data.get('whatsapp')}`,
-    `Cidade: ${data.get('cidade')}`,
+    `Nome: ${fullName}`,
+    `WhatsApp: ${whatsapp}`,
+    `Cidade: ${city}`,
     `Objetivo: ${data.get('objetivo')}`,
     `Valor aproximado: ${Number(data.get('valor')).toLocaleString('pt-BR', { style: 'currency', currency: 'BRL', maximumFractionDigits: 0 })}`,
     `Entrada disponível: ${data.get('entrada')}`,
     `Parcela ideal: ${data.get('parcela')}`,
     `Prazo: ${data.get('prazo')}`,
   ].join('\n');
-  window.open(`https://wa.me/5593991207140?text=${encodeURIComponent(message)}`, '_blank', 'noopener,noreferrer');
+  const whatsappUrl = `https://wa.me/5593991207140?text=${encodeURIComponent(message)}`;
+
+  submitButton.disabled = true;
+  submitButton.textContent = 'Enviando simulação…';
+
+  try {
+    if (!metaCapiUrl) throw new Error('Endpoint da API de conversões não configurado.');
+
+    const response = await fetch(metaCapiUrl, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        event_name: 'Lead',
+        event_id: eventId,
+        event_source_url: window.location.href,
+        lead_data: {
+          nome: fullName,
+          whatsapp,
+          cidade: city,
+          objetivo: data.get('objetivo'),
+          valor: Number(data.get('valor')),
+          entrada: data.get('entrada'),
+          parcela: data.get('parcela'),
+          prazo: data.get('prazo'),
+          origem: 'simulador_autoprime',
+          received_at: new Date().toISOString(),
+        },
+        user_data: {
+          ph: whatsapp,
+          fn: firstName,
+          ln: lastName,
+          ct: city,
+          fbp: getCookie('_fbp'),
+          fbc: getCookie('_fbc'),
+        },
+        custom_data: {
+          content_name: 'Simulador Auto Prime',
+          content_category: 'Veículos',
+          lead_type: 'simulador_autoprime',
+          value: Number(data.get('valor')),
+          currency: 'BRL',
+        },
+      }),
+    });
+
+    const result = await response.json().catch(() => ({}));
+    if (!response.ok || !result.success) throw new Error('Falha ao registrar a conversão.');
+
+    window.fbq?.('track', 'Lead', {}, { eventID: eventId });
+    window.location.assign(whatsappUrl);
+  } catch (error) {
+    console.error('Não foi possível enviar a simulação:', error);
+    submitButton.disabled = false;
+    submitButton.innerHTML = 'Tentar novamente <span>→</span>';
+    window.alert('Não conseguimos enviar sua simulação agora. Verifique sua conexão e tente novamente.');
+  }
 });
 
 document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
