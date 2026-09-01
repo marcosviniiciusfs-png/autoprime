@@ -1,0 +1,214 @@
+.simulator:not([data-current-step="0"]) #step-title {
+  display: none;
+}
+
+.form-step:not([data-step="0"]) .step-icon {
+  display: grid;
+  width: 42px;
+  height: 42px;
+  place-items: center;
+  border: 1px solid #f0c4b2;
+  background: #fff1ea;
+  color: var(--orange);
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.form-step:not([data-step="0"]) h3 {
+  margin: 17px 0 6px;
+  font: 700 25px/1.15 Manrope, sans-serif;
+  letter-spacing: -0.03em;
+}
+
+.step-sub {
+  margin: 0 0 24px;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.value-display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px 0 20px;
+}
+
+.value-display small {
+  color: #9a9690;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+}
+
+.value-display strong {
+  margin-top: 7px;
+  color: var(--orange);
+  font: 800 38px Manrope, sans-serif;
+}
+
+.choice-stack {
+  display: grid;
+  gap: 10px;
+}
+
+.choice-card {
+  position: relative;
+  display: grid;
+  min-height: 72px;
+  grid-template-columns: 52px 1fr 22px;
+  align-items: center;
+  gap: 14px;
+  padding: 9px 13px;
+  border: 1px solid #dedbd4;
+  background: #fbfbf9;
+  color: var(--ink);
+  cursor: pointer;
+  transition: border-color 0.18s, background-color 0.18s, transform 0.18s;
+}
+
+.choice-card:hover,
+.choice-card:has(input:checked) {
+  transform: translateY(-1px);
+  border-color: var(--orange);
+  background: #fff8f4;
+}
+
+.choice-card input {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.choice-icon,
+.time-chip {
+  display: grid;
+  width: 52px;
+  height: 52px;
+  place-items: center;
+  border: 1px solid #f0c4b2;
+  background: #fff1ea;
+  color: var(--orange);
+  font-size: 17px;
+  font-weight: 800;
+}
+
+.time-chip {
+  border-radius: 50%;
+  font-size: 9px;
+}
+
+.choice-copy {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.choice-copy strong {
+  font-size: 14px;
+}
+
+.choice-copy small {
+  color: #858585;
+  font-size: 11px;
+  line-height: 1.35;
+}
+
+.choice-card > i {
+  display: grid;
+  width: 21px;
+  height: 21px;
+  place-items: center;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  color: transparent;
+  font-size: 12px;
+  font-style: normal;
+}
+
+.choice-card:has(input:checked) > i {
+  border-color: var(--orange);
+  background: var(--orange);
+  color: #fff;
+}
+
+.contact-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-fields label {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.contact-fields label > span {
+  color: #555;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.contact-fields input {
+  width: 100%;
+  height: 50px;
+  border: 1px solid #d9d5cc;
+  border-radius: 0;
+  outline: none;
+  background: #faf9f6;
+  padding: 0 14px;
+  color: var(--ink);
+}
+
+.contact-fields input:focus {
+  border-color: var(--orange);
+  box-shadow: 0 0 0 3px rgba(240, 90, 32, 0.1);
+}
+
+.form-step:not([data-step="0"]) .contact-grid {
+  margin-top: 0;
+}
+
+.form-step:not([data-step="0"]) .privacy {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  margin-top: 18px;
+}
+
+@media (max-width: 600px) {
+  .form-step:not([data-step="0"]) h3 {
+    font-size: 22px;
+  }
+
+  .value-display strong {
+    font-size: 32px;
+  }
+
+  .choice-card {
+    min-height: 67px;
+    grid-template-columns: 46px 1fr 20px;
+    gap: 10px;
+    padding: 9px;
+  }
+
+  .choice-icon,
+  .time-chip {
+    width: 44px;
+    height: 44px;
+  }
+
+  .choice-copy strong {
+    font-size: 13px;
+  }
+
+  .choice-copy small {
+    font-size: 10px;
+  }
+
+  .timing-stack {
+    gap: 8px;
+  }
+}

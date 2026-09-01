@@ -1,5 +1,6 @@
 import './style.css';
 import './mobile.css';
+import './form-r2.css';
 
 const form = document.querySelector('#vehicle-form');
 const steps = [...document.querySelectorAll('.form-step')];
@@ -23,6 +24,7 @@ function isStepValid() {
 }
 
 function updateStep() {
+  form.dataset.currentStep = String(currentStep);
   steps.forEach((step, index) => step.classList.toggle('is-active', index === currentStep));
   const progress = ((currentStep + 1) / steps.length) * 100;
   stepLabel.textContent = `Etapa ${currentStep + 1} de ${steps.length}`;
@@ -38,6 +40,12 @@ function updateStep() {
 
 form.addEventListener('input', (event) => {
   if (event.target === range) rangeValue.textContent = Number(range.value).toLocaleString('pt-BR', { style: 'currency', currency: 'BRL', maximumFractionDigits: 0 });
+  if (event.target instanceof HTMLInputElement && event.target.name === 'whatsapp') {
+    const digits = event.target.value.replace(/\D/g, '').slice(0, 11);
+    if (digits.length <= 2) event.target.value = digits;
+    else if (digits.length <= 7) event.target.value = `(${digits.slice(0, 2)}) ${digits.slice(2)}`;
+    else event.target.value = `(${digits.slice(0, 2)}) ${digits.slice(2, digits.length === 11 ? 7 : 6)}-${digits.slice(digits.length === 11 ? 7 : 6)}`;
+  }
   nextButton.disabled = !isStepValid();
   submitButton.disabled = !isStepValid();
 });

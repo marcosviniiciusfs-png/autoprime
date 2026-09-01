@@ -65,33 +65,46 @@
             </div>
           </div>
           <div class="form-step" data-step="1">
-            <label class="field-label" for="valor">Qual valor de veículo você tem em mente?</label>
-            <div class="range-value" id="range-value">R$ 80.000</div>
+            <span class="step-icon" aria-hidden="true">$</span>
+            <h3>Qual valor de veículo você tem em mente?</h3>
+            <p class="step-sub">Pode ser aproximado. Ajuste para a faixa mais próxima do que você procura.</p>
+            <div class="value-display"><small>VALOR DO VEÍCULO</small><strong id="range-value">R$ 80.000</strong></div>
             <input class="range" id="valor" name="valor" type="range" min="20000" max="300000" step="5000" value="80000" />
             <div class="range-ends"><span>R$ 20 mil</span><span>R$ 300 mil</span></div>
           </div>
           <div class="form-step" data-step="2">
-            <label class="field-label">Como você pretende negociar?</label>
-            <div class="option-grid option-grid-three">
-              <label class="option"><input type="radio" name="negociacao" value="Tenho entrada" /><span class="option-icon">%</span><strong>Tenho entrada</strong></label>
-              <label class="option"><input type="radio" name="negociacao" value="Tenho veículo na troca" /><span class="option-icon">⇄</span><strong>Tenho veículo na troca</strong></label>
-              <label class="option"><input type="radio" name="negociacao" value="Quero avaliar as opções" /><span class="option-icon">?</span><strong>Quero avaliar as opções</strong></label>
+            <span class="step-icon" aria-hidden="true">⇄</span>
+            <h3>Como você pretende negociar?</h3>
+            <p class="step-sub">Escolha a alternativa que mais combina com o seu momento.</p>
+            <div class="choice-stack">
+              <label class="choice-card"><input type="radio" name="negociacao" value="Tenho entrada" /><span class="choice-icon">%</span><span class="choice-copy"><strong>Tenho entrada</strong><small>Quero usar um valor inicial na negociação</small></span><i>✓</i></label>
+              <label class="choice-card"><input type="radio" name="negociacao" value="Tenho veículo na troca" /><span class="choice-icon">⇄</span><span class="choice-copy"><strong>Tenho veículo na troca</strong><small>Quero incluir meu veículo atual na avaliação</small></span><i>✓</i></label>
+              <label class="choice-card"><input type="radio" name="negociacao" value="Quero avaliar as opções" /><span class="choice-icon">?</span><span class="choice-copy"><strong>Quero avaliar as opções</strong><small>Prefiro entender os caminhos com a equipe</small></span><i>✓</i></label>
             </div>
           </div>
           <div class="form-step" data-step="3">
-            <label class="field-label" for="prazo">Quando você pretende fechar negócio?</label>
-            <select id="prazo" name="prazo" required>
-              <option value="">Selecione uma opção</option>
-              <option>O quanto antes</option><option>Nos próximos 30 dias</option><option>Entre 1 e 3 meses</option><option>Ainda estou pesquisando</option>
-            </select>
+            <span class="step-icon" aria-hidden="true">◷</span>
+            <h3>Quando você pretende fechar negócio?</h3>
+            <p class="step-sub">Escolha o prazo mais próximo do seu momento.</p>
+            <div class="choice-stack timing-stack">
+              <label class="choice-card"><input type="radio" name="prazo" value="O quanto antes" required /><span class="time-chip">AGORA</span><span class="choice-copy"><strong>O quanto antes</strong><small>Já quero conhecer as opções disponíveis</small></span><i>✓</i></label>
+              <label class="choice-card"><input type="radio" name="prazo" value="Nos próximos 30 dias" required /><span class="time-chip">30D</span><span class="choice-copy"><strong>Nos próximos 30 dias</strong><small>Estou organizando os detalhes para decidir</small></span><i>✓</i></label>
+              <label class="choice-card"><input type="radio" name="prazo" value="Entre 1 e 3 meses" required /><span class="time-chip">1-3M</span><span class="choice-copy"><strong>Entre 1 e 3 meses</strong><small>Quero me planejar com mais calma</small></span><i>✓</i></label>
+              <label class="choice-card"><input type="radio" name="prazo" value="Ainda estou pesquisando" required /><span class="time-chip">IDEIA</span><span class="choice-copy"><strong>Ainda estou pesquisando</strong><small>Quero entender melhor as possibilidades</small></span><i>✓</i></label>
+            </div>
           </div>
           <div class="form-step" data-step="4">
-            <div class="contact-grid">
-              <label>Seu nome<input name="nome" autocomplete="name" placeholder="Como podemos chamar você?" required /></label>
-              <label>Seu WhatsApp<input name="whatsapp" inputmode="tel" autocomplete="tel" placeholder="(93) 99999-9999" required /></label>
-              <label class="full">Sua cidade<input name="cidade" autocomplete="address-level2" value="Santarém" required /></label>
+            <span class="step-icon" aria-hidden="true">○</span>
+            <h3>Para quem preparamos este atendimento?</h3>
+            <p class="step-sub">Preencha seus dados para abrir a conversa com a Auto Prime.</p>
+            <div class="contact-fields">
+              <label><span>Nome completo</span><input name="nome" autocomplete="name" placeholder="Como podemos chamar você?" required /></label>
+              <div class="contact-grid">
+                <label><span>WhatsApp</span><input name="whatsapp" inputmode="tel" autocomplete="tel" placeholder="(93) 99999-9999" required /></label>
+                <label><span>Cidade</span><input name="cidade" autocomplete="address-level2" value="Santarém" required /></label>
+              </div>
             </div>
-            <p class="privacy">Ao enviar, você inicia o atendimento da Auto Prime pelo WhatsApp.</p>
+            <p class="privacy"><span aria-hidden="true">◇</span> Seus dados serão usados apenas para este atendimento.</p>
           </div>
           <div class="form-actions">
             <button class="button button-ghost" type="button" id="back-button" hidden>Voltar</button>
