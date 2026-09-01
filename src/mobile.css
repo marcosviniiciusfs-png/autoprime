@@ -145,3 +145,7 @@ footer .brand img {
     grid-column: auto;
   }
 }
+
+html {
+  -webkit-text-size-adjust: 100%;
+}

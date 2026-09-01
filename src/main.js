@@ -2,6 +2,8 @@ import './style.css';
 import './mobile.css';
 import './form-r2.css';
 
+// GitHub Pages build revision: assets are resolved relative to the page.
+
 const form = document.querySelector('#vehicle-form');
 const steps = [...document.querySelectorAll('.form-step')];
 const nextButton = document.querySelector('#next-button');
