@@ -212,3 +212,221 @@
     gap: 8px;
   }
 }
+
+/* Estrutura do simulador espelhada do projeto R2 Group. */
+@media (min-width: 901px) {
+  .hero {
+    min-height: 630px;
+    padding-top: 42px;
+    padding-bottom: 42px;
+  }
+
+  .simulator-section {
+    padding-top: 72px;
+  }
+}
+
+.simulator {
+  display: block;
+  min-height: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #d7d3c9;
+  border-radius: 0;
+  box-shadow: 0 28px 80px rgba(16, 14, 10, 0.12);
+}
+
+.simulator .form-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 22px 28px 15px;
+}
+
+.simulator .form-top > span {
+  color: var(--orange);
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.simulator .form-top > strong,
+.simulator:not([data-current-step="0"]) #step-title {
+  display: block;
+  color: #777;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.simulator .progress-track {
+  height: 3px;
+  margin: 0;
+  background: #ece8df;
+}
+
+.simulator .form-body {
+  min-height: 420px;
+  padding: 38px 50px 28px;
+}
+
+.form-step .step-icon {
+  display: grid;
+  width: 40px;
+  height: 40px;
+  place-items: center;
+  border: 1px solid #f0c4b2;
+  background: #fff1ea;
+  color: var(--orange);
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.form-step h3 {
+  margin: 17px 0 6px;
+  font: 700 27px/1.15 Manrope, sans-serif;
+  letter-spacing: -0.03em;
+}
+
+.goal-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.goal {
+  position: relative;
+  display: grid;
+  min-height: 82px;
+  grid-template-columns: 24px 1fr 20px;
+  align-items: center;
+  gap: 14px;
+  padding: 15px;
+  border: 1px solid #dedbd4;
+  background: #fbfbf9;
+  color: #333;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.goal:hover,
+.goal:has(input:checked) {
+  border-color: var(--orange);
+  background: #fff8f4;
+  box-shadow: inset 0 0 0 1px var(--orange);
+}
+
+.goal input {
+  position: absolute;
+  opacity: 0;
+}
+
+.goal-symbol {
+  color: var(--orange);
+  font-size: 21px;
+}
+
+.goal strong {
+  font-size: 14px;
+  text-align: left;
+}
+
+.goal i {
+  display: grid;
+  width: 20px;
+  height: 20px;
+  place-items: center;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  color: transparent;
+  font-size: 11px;
+  font-style: normal;
+}
+
+.goal:has(input:checked) i {
+  border-color: var(--orange);
+  background: var(--orange);
+  color: #fff;
+}
+
+.simulator .form-actions {
+  display: flex;
+  justify-content: space-between;
+  gap: 14px;
+  margin: 0;
+  padding: 18px 28px;
+  border-top: 1px solid #e9e6df;
+}
+
+.form-back {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border: 0;
+  background: none;
+  color: #777;
+  cursor: pointer;
+}
+
+.form-back:disabled {
+  opacity: 0.2;
+  cursor: default;
+}
+
+.form-next {
+  display: inline-flex;
+  min-height: 47px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 0 24px;
+  border: 0;
+  border-radius: 2px;
+  background: linear-gradient(120deg, #d84914, #ff8658 52%, #db4812);
+  color: #fff;
+  font-weight: 700;
+  box-shadow: 0 9px 28px rgba(240, 90, 32, 0.18);
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+.form-next:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 35px rgba(240, 90, 32, 0.28);
+}
+
+.form-next:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+@media (max-width: 600px) {
+  .simulator .form-top {
+    padding: 20px 20px 14px;
+  }
+
+  .simulator .form-body {
+    min-height: 560px;
+    padding: 30px 20px 20px;
+  }
+
+  .form-step h3 {
+    font-size: 23px;
+  }
+
+  .goal-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .goal {
+    min-height: 64px;
+  }
+
+  .simulator .form-actions {
+    padding: 15px;
+  }
+
+  .form-next {
+    padding: 0 17px;
+  }
+}

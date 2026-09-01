@@ -9,11 +9,8 @@ const backButton = document.querySelector('#back-button');
 const submitButton = document.querySelector('#submit-button');
 const stepLabel = document.querySelector('#step-label');
 const stepTitle = document.querySelector('#step-title');
-const progressNumber = document.querySelector('#progress-number');
 const progressBar = document.querySelector('#progress-bar');
-const range = document.querySelector('#valor');
-const rangeValue = document.querySelector('#range-value');
-const titles = ['O que você procura?', 'Qual faixa de valor?', 'Como pretende negociar?', 'Qual é o seu prazo?', 'Para onde enviamos?'];
+const titles = ['Seu objetivo', 'Valor desejado', 'Forma de negociação', 'Parcela mensal', 'Prazo', 'Seus dados'];
 let currentStep = 0;
 
 function isStepValid() {
@@ -29,9 +26,8 @@ function updateStep() {
   const progress = ((currentStep + 1) / steps.length) * 100;
   stepLabel.textContent = `Etapa ${currentStep + 1} de ${steps.length}`;
   stepTitle.textContent = titles[currentStep];
-  progressNumber.textContent = `${progress}%`;
   progressBar.style.width = `${progress}%`;
-  backButton.hidden = currentStep === 0;
+  backButton.disabled = currentStep === 0;
   nextButton.hidden = currentStep === steps.length - 1;
   submitButton.hidden = currentStep !== steps.length - 1;
   nextButton.disabled = !isStepValid();
@@ -39,7 +35,6 @@ function updateStep() {
 }
 
 form.addEventListener('input', (event) => {
-  if (event.target === range) rangeValue.textContent = Number(range.value).toLocaleString('pt-BR', { style: 'currency', currency: 'BRL', maximumFractionDigits: 0 });
   if (event.target instanceof HTMLInputElement && event.target.name === 'whatsapp') {
     const digits = event.target.value.replace(/\D/g, '').slice(0, 11);
     if (digits.length <= 2) event.target.value = digits;
@@ -74,6 +69,7 @@ form.addEventListener('submit', (event) => {
     `Objetivo: ${data.get('objetivo')}`,
     `Valor aproximado: ${Number(data.get('valor')).toLocaleString('pt-BR', { style: 'currency', currency: 'BRL', maximumFractionDigits: 0 })}`,
     `Negociação: ${data.get('negociacao')}`,
+    `Parcela ideal: ${data.get('parcela')}`,
     `Prazo: ${data.get('prazo')}`,
   ].join('\n');
   window.open(`https://wa.me/5593991207140?text=${encodeURIComponent(message)}`, '_blank', 'noopener,noreferrer');

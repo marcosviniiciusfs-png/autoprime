@@ -50,67 +50,61 @@
           <p>Leva menos de dois minutos. No final, suas respostas seguem direto para o WhatsApp da Auto Prime.</p>
         </div>
         <form class="simulator reveal" id="vehicle-form">
-          <div class="form-top">
-            <div><span id="step-label">Etapa 1 de 5</span><strong id="step-title">O que você procura?</strong></div>
-            <span class="progress-number" id="progress-number">20%</span>
-          </div>
+          <div class="form-top"><span id="step-label">ETAPA 1 DE 6</span><strong id="step-title">Seu objetivo</strong></div>
           <div class="progress-track"><span id="progress-bar"></span></div>
-
-          <div class="form-step is-active" data-step="0">
-            <div class="option-grid">
-              <label class="option"><input type="radio" name="objetivo" value="Comprar um carro" /><span class="option-icon">◇</span><strong>Comprar um carro</strong><small>Novo para você, do seu jeito</small></label>
-              <label class="option"><input type="radio" name="objetivo" value="Comprar uma moto" /><span class="option-icon">◇</span><strong>Comprar uma moto</strong><small>Praticidade para a rotina</small></label>
-              <label class="option"><input type="radio" name="objetivo" value="Trocar meu veículo" /><span class="option-icon">⇄</span><strong>Trocar meu veículo</strong><small>Use o seu atual na negociação</small></label>
-              <label class="option"><input type="radio" name="objetivo" value="Vender meu veículo" /><span class="option-icon">$</span><strong>Vender meu veículo</strong><small>Receba uma avaliação da equipe</small></label>
-            </div>
-          </div>
-          <div class="form-step" data-step="1">
-            <span class="step-icon" aria-hidden="true">$</span>
-            <h3>Qual valor de veículo você tem em mente?</h3>
-            <p class="step-sub">Pode ser aproximado. Ajuste para a faixa mais próxima do que você procura.</p>
-            <div class="value-display"><small>VALOR DO VEÍCULO</small><strong id="range-value">R$ 80.000</strong></div>
-            <input class="range" id="valor" name="valor" type="range" min="20000" max="300000" step="5000" value="80000" />
-            <div class="range-ends"><span>R$ 20 mil</span><span>R$ 300 mil</span></div>
-          </div>
-          <div class="form-step" data-step="2">
-            <span class="step-icon" aria-hidden="true">⇄</span>
-            <h3>Como você pretende negociar?</h3>
-            <p class="step-sub">Escolha a alternativa que mais combina com o seu momento.</p>
-            <div class="choice-stack">
-              <label class="choice-card"><input type="radio" name="negociacao" value="Tenho entrada" /><span class="choice-icon">%</span><span class="choice-copy"><strong>Tenho entrada</strong><small>Quero usar um valor inicial na negociação</small></span><i>✓</i></label>
-              <label class="choice-card"><input type="radio" name="negociacao" value="Tenho veículo na troca" /><span class="choice-icon">⇄</span><span class="choice-copy"><strong>Tenho veículo na troca</strong><small>Quero incluir meu veículo atual na avaliação</small></span><i>✓</i></label>
-              <label class="choice-card"><input type="radio" name="negociacao" value="Quero avaliar as opções" /><span class="choice-icon">?</span><span class="choice-copy"><strong>Quero avaliar as opções</strong><small>Prefiro entender os caminhos com a equipe</small></span><i>✓</i></label>
-            </div>
-          </div>
-          <div class="form-step" data-step="3">
-            <span class="step-icon" aria-hidden="true">◷</span>
-            <h3>Quando você pretende fechar negócio?</h3>
-            <p class="step-sub">Escolha o prazo mais próximo do seu momento.</p>
-            <div class="choice-stack timing-stack">
-              <label class="choice-card"><input type="radio" name="prazo" value="O quanto antes" required /><span class="time-chip">AGORA</span><span class="choice-copy"><strong>O quanto antes</strong><small>Já quero conhecer as opções disponíveis</small></span><i>✓</i></label>
-              <label class="choice-card"><input type="radio" name="prazo" value="Nos próximos 30 dias" required /><span class="time-chip">30D</span><span class="choice-copy"><strong>Nos próximos 30 dias</strong><small>Estou organizando os detalhes para decidir</small></span><i>✓</i></label>
-              <label class="choice-card"><input type="radio" name="prazo" value="Entre 1 e 3 meses" required /><span class="time-chip">1-3M</span><span class="choice-copy"><strong>Entre 1 e 3 meses</strong><small>Quero me planejar com mais calma</small></span><i>✓</i></label>
-              <label class="choice-card"><input type="radio" name="prazo" value="Ainda estou pesquisando" required /><span class="time-chip">IDEIA</span><span class="choice-copy"><strong>Ainda estou pesquisando</strong><small>Quero entender melhor as possibilidades</small></span><i>✓</i></label>
-            </div>
-          </div>
-          <div class="form-step" data-step="4">
-            <span class="step-icon" aria-hidden="true">○</span>
-            <h3>Para quem preparamos este atendimento?</h3>
-            <p class="step-sub">Preencha seus dados para abrir a conversa com a Auto Prime.</p>
-            <div class="contact-fields">
-              <label><span>Nome completo</span><input name="nome" autocomplete="name" placeholder="Como podemos chamar você?" required /></label>
-              <div class="contact-grid">
-                <label><span>WhatsApp</span><input name="whatsapp" inputmode="tel" autocomplete="tel" placeholder="(93) 99999-9999" required /></label>
-                <label><span>Cidade</span><input name="cidade" autocomplete="address-level2" value="Santarém" required /></label>
+          <div class="form-body">
+            <div class="form-step is-active" data-step="0">
+              <span class="step-icon" aria-hidden="true">✦</span><h3>O que você procura?</h3><p class="step-sub">Escolha o objetivo que mais combina com o seu momento.</p>
+              <div class="goal-grid">
+                <label class="goal"><input type="radio" name="objetivo" value="Comprar um carro" /><span class="goal-symbol">◇</span><strong>Comprar um carro</strong><i>✓</i></label>
+                <label class="goal"><input type="radio" name="objetivo" value="Comprar uma moto" /><span class="goal-symbol">◇</span><strong>Comprar uma moto</strong><i>✓</i></label>
+                <label class="goal"><input type="radio" name="objetivo" value="Trocar meu veículo" /><span class="goal-symbol">⇄</span><strong>Trocar meu veículo</strong><i>✓</i></label>
+                <label class="goal"><input type="radio" name="objetivo" value="Vender meu veículo" /><span class="goal-symbol">$</span><strong>Vender meu veículo</strong><i>✓</i></label>
               </div>
             </div>
-            <p class="privacy"><span aria-hidden="true">◇</span> Seus dados serão usados apenas para este atendimento.</p>
+            <div class="form-step" data-step="1">
+              <span class="step-icon" aria-hidden="true">$</span><h3>Qual valor de veículo você está buscando?</h3><p class="step-sub">Escolha a faixa mais próxima do seu objetivo.</p>
+              <div class="choice-stack">
+                <label class="choice-card"><input type="radio" name="valor" value="40000" /><span class="choice-icon">$</span><span class="choice-copy"><strong>Até R$ 50 mil</strong><small>Opções econômicas para começar</small></span><i>✓</i></label>
+                <label class="choice-card"><input type="radio" name="valor" value="70000" /><span class="choice-icon">$</span><span class="choice-copy"><strong>De R$ 50 mil a R$ 80 mil</strong><small>Uma faixa ampla de carros e motos</small></span><i>✓</i></label>
+                <label class="choice-card"><input type="radio" name="valor" value="100000" /><span class="choice-icon">$</span><span class="choice-copy"><strong>De R$ 80 mil a R$ 120 mil</strong><small>Mais espaço para escolher versão e modelo</small></span><i>✓</i></label>
+                <label class="choice-card"><input type="radio" name="valor" value="150000" /><span class="choice-icon">$</span><span class="choice-copy"><strong>Acima de R$ 120 mil</strong><small>Veículos premium, SUVs e pickups</small></span><i>✓</i></label>
+              </div>
+            </div>
+            <div class="form-step" data-step="2">
+              <span class="step-icon" aria-hidden="true">⇄</span><h3>Como você pretende negociar?</h3><p class="step-sub">Escolha a alternativa mais próxima do seu cenário.</p>
+              <div class="choice-stack">
+                <label class="choice-card"><input type="radio" name="negociacao" value="Tenho entrada" /><span class="choice-icon">%</span><span class="choice-copy"><strong>Tenho entrada</strong><small>Quero usar um valor inicial na negociação</small></span><i>✓</i></label>
+                <label class="choice-card"><input type="radio" name="negociacao" value="Tenho veículo na troca" /><span class="choice-icon">⇄</span><span class="choice-copy"><strong>Tenho veículo na troca</strong><small>Quero incluir meu veículo atual na avaliação</small></span><i>✓</i></label>
+                <label class="choice-card"><input type="radio" name="negociacao" value="Tenho entrada e veículo" /><span class="choice-icon">+</span><span class="choice-copy"><strong>Tenho entrada e veículo</strong><small>Quero combinar as duas possibilidades</small></span><i>✓</i></label>
+                <label class="choice-card"><input type="radio" name="negociacao" value="Quero avaliar as opções" /><span class="choice-icon">?</span><span class="choice-copy"><strong>Quero avaliar as opções</strong><small>Prefiro conversar com a equipe primeiro</small></span><i>✓</i></label>
+              </div>
+            </div>
+            <div class="form-step" data-step="3">
+              <span class="step-icon" aria-hidden="true">$</span><h3>Qual parcela mensal fica ideal para você?</h3><p class="step-sub">Marque a faixa que cabe melhor no seu planejamento.</p>
+              <div class="choice-stack">
+                <label class="choice-card"><input type="radio" name="parcela" value="Até R$ 1.000" /><span class="choice-icon">$</span><span class="choice-copy"><strong>Até R$ 1.000</strong><small>Quero manter a parcela mais leve</small></span><i>✓</i></label>
+                <label class="choice-card"><input type="radio" name="parcela" value="De R$ 1.000 a R$ 2.000" /><span class="choice-icon">$</span><span class="choice-copy"><strong>De R$ 1.000 a R$ 2.000</strong><small>Uma faixa intermediária para planejar</small></span><i>✓</i></label>
+                <label class="choice-card"><input type="radio" name="parcela" value="De R$ 2.000 a R$ 3.500" /><span class="choice-icon">$</span><span class="choice-copy"><strong>De R$ 2.000 a R$ 3.500</strong><small>Tenho mais espaço no orçamento mensal</small></span><i>✓</i></label>
+                <label class="choice-card"><input type="radio" name="parcela" value="Acima de R$ 3.500" /><span class="choice-icon">$</span><span class="choice-copy"><strong>Acima de R$ 3.500</strong><small>Quero priorizar prazo e condições</small></span><i>✓</i></label>
+              </div>
+            </div>
+            <div class="form-step" data-step="4">
+              <span class="step-icon" aria-hidden="true">◷</span><h3>Quando você pretende fechar negócio?</h3><p class="step-sub">Escolha o prazo mais próximo do seu momento.</p>
+              <div class="choice-stack timing-stack">
+                <label class="choice-card"><input type="radio" name="prazo" value="O quanto antes" /><span class="time-chip">AGORA</span><span class="choice-copy"><strong>O quanto antes</strong><small>Já quero conhecer as opções</small></span><i>✓</i></label>
+                <label class="choice-card"><input type="radio" name="prazo" value="Nos próximos 30 dias" /><span class="time-chip">30D</span><span class="choice-copy"><strong>Nos próximos 30 dias</strong><small>Estou organizando os detalhes</small></span><i>✓</i></label>
+                <label class="choice-card"><input type="radio" name="prazo" value="Entre 1 e 3 meses" /><span class="time-chip">1-3M</span><span class="choice-copy"><strong>Entre 1 e 3 meses</strong><small>Quero me planejar com calma</small></span><i>✓</i></label>
+                <label class="choice-card"><input type="radio" name="prazo" value="Ainda estou pesquisando" /><span class="time-chip">IDEIA</span><span class="choice-copy"><strong>Ainda estou pesquisando</strong><small>Quero entender as possibilidades</small></span><i>✓</i></label>
+              </div>
+            </div>
+            <div class="form-step" data-step="5">
+              <span class="step-icon" aria-hidden="true">○</span><h3>Para quem preparamos este atendimento?</h3><p class="step-sub">Preencha seus dados para abrir a conversa com a Auto Prime.</p>
+              <div class="contact-fields"><label><span>Nome completo</span><input name="nome" autocomplete="name" placeholder="Como podemos chamar você?" required /></label><div class="contact-grid"><label><span>WhatsApp</span><input name="whatsapp" inputmode="tel" autocomplete="tel" placeholder="(93) 99999-9999" required /></label><label><span>Cidade</span><input name="cidade" autocomplete="address-level2" value="Santarém" required /></label></div></div>
+              <p class="privacy"><span aria-hidden="true">◇</span> Seus dados serão usados apenas para este atendimento.</p>
+            </div>
           </div>
-          <div class="form-actions">
-            <button class="button button-ghost" type="button" id="back-button" hidden>Voltar</button>
-            <button class="button" type="button" id="next-button" disabled>Continuar <span>→</span></button>
-            <button class="button" type="submit" id="submit-button" hidden>Enviar simulação <span>↗</span></button>
-          </div>
+          <div class="form-actions"><button class="form-back" type="button" id="back-button" disabled>← Voltar</button><button class="form-next" type="button" id="next-button" disabled>Continuar <span>→</span></button><button class="form-next" type="submit" id="submit-button" hidden>Enviar simulação <span>→</span></button></div>
         </form>
       </section>
 
