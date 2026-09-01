@@ -102,6 +102,7 @@ form.addEventListener('submit', async (event) => {
 
   submitButton.disabled = true;
   submitButton.textContent = 'Enviando simulação…';
+  window.fbq?.('track', 'Lead', {}, { eventID: eventId });
 
   try {
     if (!metaCapiUrl) throw new Error('Endpoint da API de conversões não configurado.');
@@ -146,7 +147,6 @@ form.addEventListener('submit', async (event) => {
     const result = await response.json().catch(() => ({}));
     if (!response.ok || !result.success) throw new Error('Falha ao registrar a conversão.');
 
-    window.fbq?.('track', 'Lead', {}, { eventID: eventId });
     window.location.assign(whatsappUrl);
   } catch (error) {
     console.error('Não foi possível enviar a simulação:', error);

@@ -14,6 +14,10 @@
   "vars": {
     "META_PIXEL_ID": "1374722030921722",
     "META_GRAPH_API_VERSION": "v25.0",
-    "ALLOWED_ORIGINS": "http://autoprime.simulead.com.br,https://autoprime.simulead.com.br,https://marcosviniiciusfs-png.github.io,http://localhost:5173,http://127.0.0.1:5173"
+    "ALLOWED_ORIGINS": "http://autoprime.simulead.com.br,https://autoprime.simulead.com.br,https://marcosviniiciusfs-png.github.io,http://localhost:5173,http://127.0.0.1:5173",
+    "GITHUB_LEADS_OWNER": "marcosviniiciusfs-png",
+    "GITHUB_LEADS_REPO": "autoprime",
+    "GITHUB_LEADS_BRANCH": "main",
+    "GITHUB_LEADS_DIR": "leads-cadastrados"
   }
 }

@@ -21,6 +21,14 @@ type MetaResponse = {
   error?: { message?: string; code?: number; error_subcode?: number; fbtrace_id?: string };
 };
 
+type DestinationResult = {
+  success: boolean;
+  status: number;
+  error?: string;
+};
+
+const GITHUB_API_VERSION = "2022-11-28";
+
 const isRecord = (value: unknown): value is Record<string, unknown> =>
   typeof value === "object" && value !== null && !Array.isArray(value);
 
@@ -48,6 +56,111 @@ const normalizePhone = (value = "") => {
 const sha256 = async (value: string) => {
   const digest = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(value));
   return [...new Uint8Array(digest)].map((byte) => byte.toString(16).padStart(2, "0")).join("");
+};
+
+const bytesToBase64 = (value: string) => {
+  const bytes = new TextEncoder().encode(value);
+  let binary = "";
+  const chunkSize = 0x8000;
+  for (let index = 0; index < bytes.length; index += chunkSize) {
+    binary += String.fromCharCode(...bytes.subarray(index, index + chunkSize));
+  }
+  return btoa(binary);
+};
+
+const slugify = (value: unknown) =>
+  String(value ?? "lead")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "") || "lead";
+
+const configuredWebhooks = (env: Env) => {
+  const raw = env.LEAD_DESTINATION_WEBHOOK_URLS?.trim();
+  if (!raw) return [];
+  return raw.split(/[\n,]+/).map((url) => url.trim()).filter(Boolean);
+};
+
+const sendWebhook = async (url: string, payload: ConversionPayload): Promise<DestinationResult> => {
+  try {
+    const response = await fetch(url, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        ...payload.lead_data,
+        event_name: payload.event_name,
+        event_id: payload.event_id,
+        source_url: payload.event_source_url,
+      }),
+    });
+    return {
+      success: response.ok,
+      status: response.status,
+      error: response.ok ? undefined : `Webhook HTTP ${response.status}`,
+    };
+  } catch (error) {
+    return {
+      success: false,
+      status: 0,
+      error: error instanceof Error ? error.message : "Webhook request failed",
+    };
+  }
+};
+
+const archiveLead = async (
+  payload: ConversionPayload,
+  request: Request,
+  env: Env,
+  destinations: { meta: DestinationResult; webhooks: DestinationResult[] },
+) => {
+  const archivedAt = new Date().toISOString();
+  const timestamp = archivedAt.replace(/[:.]/g, "-");
+  const date = archivedAt.slice(0, 10);
+  const name = slugify(payload.lead_data.nome);
+  const directory = env.GITHUB_LEADS_DIR.replace(/^\/+|\/+$/g, "");
+  const path = `${directory}/${date}/${timestamp}-${payload.event_id}-${name}.json`;
+  const record = {
+    archive_version: 1,
+    archived_at: archivedAt,
+    event_name: payload.event_name,
+    event_id: payload.event_id,
+    destination_results: destinations,
+    lead: payload.lead_data,
+    request: {
+      source_url: payload.event_source_url,
+      user_agent: request.headers.get("User-Agent"),
+      client_ip_address: request.headers.get("CF-Connecting-IP"),
+    },
+  };
+  const apiPath = path.split("/").map(encodeURIComponent).join("/");
+  const url = `https://api.github.com/repos/${encodeURIComponent(env.GITHUB_LEADS_OWNER)}/${encodeURIComponent(env.GITHUB_LEADS_REPO)}/contents/${apiPath}`;
+
+  const response = await fetch(url, {
+    method: "PUT",
+    headers: {
+      Accept: "application/vnd.github+json",
+      Authorization: `Bearer ${env.GITHUB_LEADS_TOKEN}`,
+      "Content-Type": "application/json",
+      "User-Agent": "autoprime-lead-worker",
+      "X-GitHub-Api-Version": GITHUB_API_VERSION,
+    },
+    body: JSON.stringify({
+      message: `Registra lead Auto Prime ${String(payload.lead_data.nome ?? payload.event_id)}`,
+      content: bytesToBase64(JSON.stringify(record, null, 2)),
+      branch: env.GITHUB_LEADS_BRANCH,
+    }),
+  });
+
+  const body = await response.json<{ content?: { html_url?: string }; commit?: { sha?: string }; message?: string }>().catch(() => ({}));
+  return {
+    success: response.ok,
+    status: response.status,
+    path,
+    html_url: body.content?.html_url,
+    commit_sha: body.commit?.sha,
+    error: response.ok ? undefined : body.message ?? `GitHub HTTP ${response.status}`,
+  };
 };
 
 const allowedOrigins = (env: Env) => env.ALLOWED_ORIGINS.split(",").map((origin) => origin.trim());
@@ -101,7 +214,7 @@ export default {
         return json({ success: false, error: "Invalid event source" }, 400, cors);
       }
 
-      const response = await fetch(
+      const metaRequest = fetch(
         `https://graph.facebook.com/${encodeURIComponent(env.META_GRAPH_API_VERSION)}/${encodeURIComponent(env.META_PIXEL_ID)}/events`,
         {
           method: "POST",
@@ -121,14 +234,33 @@ export default {
         },
       );
 
+      const webhookUrls = configuredWebhooks(env);
+      const [response, webhookResults] = await Promise.all([
+        metaRequest,
+        Promise.all(webhookUrls.map((webhookUrl) => sendWebhook(webhookUrl, body))),
+      ]);
+
       const meta = await response.json<MetaResponse>().catch(() => ({}));
-      const success = response.ok && (meta.events_received ?? 0) > 0;
+      const metaSuccess = response.ok && (meta.events_received ?? 0) > 0;
+      const metaResult: DestinationResult = {
+        success: metaSuccess,
+        status: response.status,
+        error: metaSuccess ? undefined : meta.error?.message ?? `Meta HTTP ${response.status}`,
+      };
+      const archive = await archiveLead(body, request, env, { meta: metaResult, webhooks: webhookResults });
+      const webhooksSuccess = webhookResults.every((result) => result.success);
+      const success = metaSuccess && webhooksSuccess && archive.success;
       console.log(JSON.stringify({
         message: "conversion processed",
         event_id: body.event_id,
         success,
         meta_status: response.status,
         events_received: meta.events_received ?? 0,
+        webhook_count: webhookResults.length,
+        webhooks_success: webhooksSuccess,
+        archive_success: archive.success,
+        archive_status: archive.status,
+        archive_path: archive.path,
         fbtrace_id: meta.fbtrace_id ?? meta.error?.fbtrace_id ?? null,
         error_code: meta.error?.code ?? null,
       }));
@@ -136,13 +268,15 @@ export default {
       return json({
         success,
         meta: {
-          success,
+          success: metaSuccess,
           status: response.status,
           events_received: meta.events_received ?? 0,
           messages: meta.messages ?? [],
           error: meta.error ?? null,
           fbtrace_id: meta.fbtrace_id ?? meta.error?.fbtrace_id ?? null,
         },
+        webhooks: webhookResults,
+        archive,
       }, success ? 200 : 502, cors);
     } catch (error) {
       console.error(JSON.stringify({
