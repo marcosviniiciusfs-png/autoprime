@@ -55,7 +55,7 @@ backButton.addEventListener('click', () => {
 
 form.addEventListener('submit', (event) => {
   event.preventDefault();
-  if (!isStepValid()) return;
+  if (currentStep !== steps.length - 1 || !isStepValid()) return;
   const data = new FormData(form);
   const message = [
     'Olá, Auto Prime! Fiz uma simulação pelo site:',

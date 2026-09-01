@@ -4,6 +4,10 @@ body {
   overflow-x: hidden;
 }
 
+[hidden] {
+  display: none !important;
+}
+
 .hero > * {
   min-width: 0;
 }
@@ -25,11 +29,18 @@ body {
 }
 
 .hero-cars {
-  background: #111214;
+  background: transparent;
+  box-shadow: none;
+  overflow: visible;
 }
 
 .hero-cars img {
+  object-fit: contain;
   object-position: center;
+}
+
+.hero-cars::after {
+  display: none;
 }
 
 footer .brand img {
