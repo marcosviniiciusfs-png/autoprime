@@ -78,6 +78,30 @@ footer .brand img {
   .proof-grid {
     grid-template-columns: repeat(5, minmax(0, 1fr));
   }
+
+  .process-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+.process-location a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 20px;
+  border-bottom: 1px solid rgba(240, 90, 32, 0.45);
+  color: var(--orange);
+  font-size: 13px;
+  font-weight: 700;
+  padding-bottom: 4px;
+}
+
+.process-location a:hover {
+  border-bottom-color: var(--orange);
+}
+
+.process-location a b {
+  font-size: 14px;
 }
 
 @media (max-width: 600px) {
