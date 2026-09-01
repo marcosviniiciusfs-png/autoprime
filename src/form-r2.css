@@ -133,6 +133,32 @@
   color: #fff;
 }
 
+.choice-badge {
+  min-width: 58px;
+  padding: 9px 8px;
+  border-radius: 999px;
+  background: #ffe9df;
+  color: #b53d12;
+  font-size: 11px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.choice-card:has(.choice-badge) {
+  grid-template-columns: 52px 1fr auto;
+}
+
+@media (max-width: 600px) {
+  .choice-card:has(.choice-badge) {
+    grid-template-columns: 44px 1fr auto;
+  }
+
+  .choice-badge {
+    min-width: 48px;
+    font-size: 10px;
+  }
+}
+
 .contact-fields {
   display: flex;
   flex-direction: column;

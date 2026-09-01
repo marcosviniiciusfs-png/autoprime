@@ -10,7 +10,7 @@ const submitButton = document.querySelector('#submit-button');
 const stepLabel = document.querySelector('#step-label');
 const stepTitle = document.querySelector('#step-title');
 const progressBar = document.querySelector('#progress-bar');
-const titles = ['Seu objetivo', 'Valor desejado', 'Forma de negociação', 'Parcela mensal', 'Prazo', 'Seus dados'];
+const titles = ['Seu objetivo', 'Valor desejado', 'Entrada disponível', 'Parcela mensal', 'Prazo', 'Seus dados'];
 let currentStep = 0;
 
 function isStepValid() {
@@ -68,7 +68,7 @@ form.addEventListener('submit', (event) => {
     `Cidade: ${data.get('cidade')}`,
     `Objetivo: ${data.get('objetivo')}`,
     `Valor aproximado: ${Number(data.get('valor')).toLocaleString('pt-BR', { style: 'currency', currency: 'BRL', maximumFractionDigits: 0 })}`,
-    `Negociação: ${data.get('negociacao')}`,
+    `Entrada disponível: ${data.get('entrada')}`,
     `Parcela ideal: ${data.get('parcela')}`,
     `Prazo: ${data.get('prazo')}`,
   ].join('\n');
