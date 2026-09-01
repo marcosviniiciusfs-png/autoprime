@@ -1,0 +1,36 @@
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.hero > * {
+  min-width: 0;
+}
+
+@media (max-width: 600px) {
+  .site-header {
+    gap: 12px;
+  }
+
+  .site-header .brand {
+    flex-shrink: 0;
+    font-size: 18px;
+  }
+
+  .site-header .button-small {
+    padding: 10px;
+    font-size: 11px;
+    white-space: nowrap;
+  }
+
+  .hero-copy,
+  .hero-media {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .hero h1 {
+    overflow-wrap: anywhere;
+  }
+}

@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Simule seu próximo veículo com a Auto Prime em Santarém." />
+    <meta name="theme-color" content="#111214" />
+    <title>Auto Prime | Seu próximo veículo começa aqui</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#inicio" aria-label="Auto Prime, início">
+        <span class="brand-mark" aria-hidden="true">›</span><span>AUTO</span><strong>PRIME</strong>
+      </a>
+      <nav aria-label="Navegação principal">
+        <a href="#contemplados">Clientes</a>
+        <a href="#como-funciona">Como funciona</a>
+      </nav>
+      <a class="button button-small" href="#simulador">Simular agora</a>
+    </header>
+
+    <main>
+      <section class="hero" id="inicio">
+        <div class="hero-glow"></div>
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Compra, venda e troca de veículos</p>
+          <h1>O caminho mais direto para o seu <em>próximo veículo.</em></h1>
+          <p class="hero-text">Conte o que você procura. A equipe da Auto Prime recebe sua simulação pronta e continua o atendimento pelo WhatsApp.</p>
+          <div class="hero-actions">
+            <a class="button" href="#simulador">Fazer minha simulação</a>
+            <a class="text-link" href="https://wa.me/5593991207140?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Auto%20Prime." target="_blank" rel="noreferrer">Falar com a equipe ↗</a>
+          </div>
+          <div class="hero-facts">
+            <span><i></i> Atendimento em Santarém</span>
+            <span><i></i> Veículos e consórcios</span>
+          </div>
+        </div>
+        <figure class="hero-media reveal">
+          <img src="/clientes/cliente-fachada.jpeg" alt="Cliente contemplado em frente à Auto Prime" />
+          <figcaption><span>Histórias reais</span><strong>de quem saiu de chave na mão.</strong></figcaption>
+        </figure>
+      </section>
+
+      <section class="simulator-section" id="simulador">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Simulação personalizada</p>
+          <h2>Qual veículo combina com o seu momento?</h2>
+          <p>Leva menos de dois minutos. No final, suas respostas seguem direto para o WhatsApp da Auto Prime.</p>
+        </div>
+        <form class="simulator reveal" id="vehicle-form">
+          <div class="form-top">
+            <div><span id="step-label">Etapa 1 de 5</span><strong id="step-title">O que você procura?</strong></div>
+            <span class="progress-number" id="progress-number">20%</span>
+          </div>
+          <div class="progress-track"><span id="progress-bar"></span></div>
+
+          <div class="form-step is-active" data-step="0">
+            <div class="option-grid">
+              <label class="option"><input type="radio" name="objetivo" value="Comprar um carro" /><span class="option-icon">◇</span><strong>Comprar um carro</strong><small>Novo para você, do seu jeito</small></label>
+              <label class="option"><input type="radio" name="objetivo" value="Comprar uma moto" /><span class="option-icon">◇</span><strong>Comprar uma moto</strong><small>Praticidade para a rotina</small></label>
+              <label class="option"><input type="radio" name="objetivo" value="Trocar meu veículo" /><span class="option-icon">⇄</span><strong>Trocar meu veículo</strong><small>Use o seu atual na negociação</small></label>
+              <label class="option"><input type="radio" name="objetivo" value="Vender meu veículo" /><span class="option-icon">$</span><strong>Vender meu veículo</strong><small>Receba uma avaliação da equipe</small></label>
+            </div>
+          </div>
+          <div class="form-step" data-step="1">
+            <label class="field-label" for="valor">Qual valor de veículo você tem em mente?</label>
+            <div class="range-value" id="range-value">R$ 80.000</div>
+            <input class="range" id="valor" name="valor" type="range" min="20000" max="300000" step="5000" value="80000" />
+            <div class="range-ends"><span>R$ 20 mil</span><span>R$ 300 mil</span></div>
+          </div>
+          <div class="form-step" data-step="2">
+            <label class="field-label">Como você pretende negociar?</label>
+            <div class="option-grid option-grid-three">
+              <label class="option"><input type="radio" name="negociacao" value="Tenho entrada" /><span class="option-icon">%</span><strong>Tenho entrada</strong></label>
+              <label class="option"><input type="radio" name="negociacao" value="Tenho veículo na troca" /><span class="option-icon">⇄</span><strong>Tenho veículo na troca</strong></label>
+              <label class="option"><input type="radio" name="negociacao" value="Quero avaliar as opções" /><span class="option-icon">?</span><strong>Quero avaliar as opções</strong></label>
+            </div>
+          </div>
+          <div class="form-step" data-step="3">
+            <label class="field-label" for="prazo">Quando você pretende fechar negócio?</label>
+            <select id="prazo" name="prazo" required>
+              <option value="">Selecione uma opção</option>
+              <option>O quanto antes</option><option>Nos próximos 30 dias</option><option>Entre 1 e 3 meses</option><option>Ainda estou pesquisando</option>
+            </select>
+          </div>
+          <div class="form-step" data-step="4">
+            <div class="contact-grid">
+              <label>Seu nome<input name="nome" autocomplete="name" placeholder="Como podemos chamar você?" required /></label>
+              <label>Seu WhatsApp<input name="whatsapp" inputmode="tel" autocomplete="tel" placeholder="(93) 99999-9999" required /></label>
+              <label class="full">Sua cidade<input name="cidade" autocomplete="address-level2" value="Santarém" required /></label>
+            </div>
+            <p class="privacy">Ao enviar, você inicia o atendimento da Auto Prime pelo WhatsApp.</p>
+          </div>
+          <div class="form-actions">
+            <button class="button button-ghost" type="button" id="back-button" hidden>Voltar</button>
+            <button class="button" type="button" id="next-button" disabled>Continuar <span>→</span></button>
+            <button class="button" type="submit" id="submit-button" hidden>Enviar simulação <span>↗</span></button>
+          </div>
+        </form>
+      </section>
+
+      <section class="proof" id="contemplados">
+        <div class="section-heading light reveal"><p class="eyebrow">Clientes contemplados</p><h2>A melhor parte é ver a chave mudar de mão.</h2><p>Registros reais de clientes atendidos pela Auto Prime.</p></div>
+        <div class="proof-grid">
+          <figure class="proof-card reveal"><img src="/clientes/cliente-01.jpeg" alt="Cliente recebendo seu veículo na Auto Prime" /><figcaption>Mais uma entrega realizada</figcaption></figure>
+          <figure class="proof-card proof-card-tall reveal"><img src="/clientes/cliente-02.jpeg" alt="Cliente contemplada com seu veículo" /><figcaption>Conquista entregue</figcaption></figure>
+          <figure class="proof-card reveal"><img src="/clientes/cliente-03.jpeg" alt="Cliente com veículo adquirido na Auto Prime" /><figcaption>Seu próximo capítulo pode começar aqui</figcaption></figure>
+          <figure class="proof-card reveal"><img src="/clientes/cliente-04.jpeg" alt="Cliente recebendo as chaves na Auto Prime" /><figcaption>Atendimento que chega até a entrega</figcaption></figure>
+        </div>
+      </section>
+
+      <section class="process" id="como-funciona">
+        <div class="section-heading reveal"><p class="eyebrow">Sem complicação</p><h2>Você conta o plano. A Auto Prime ajuda a tirar do papel.</h2></div>
+        <div class="process-grid">
+          <article class="reveal"><span>01</span><h3>Faça a simulação</h3><p>Escolha o veículo, a faixa de valor e como pretende negociar.</p></article>
+          <article class="reveal"><span>02</span><h3>Fale com a equipe</h3><p>Suas respostas abrem uma conversa pronta no WhatsApp oficial.</p></article>
+          <article class="reveal"><span>03</span><h3>Conheça as opções</h3><p>A equipe apresenta os caminhos alinhados ao que você procura.</p></article>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-brand"><a class="brand" href="#inicio"><span class="brand-mark">›</span><span>AUTO</span><strong>PRIME</strong></a><p>Compra, venda e troca de veículos em Santarém.</p></div>
+      <div><small>ATENDIMENTO</small><a href="https://wa.me/5593991207140" target="_blank" rel="noreferrer">(93) 99120-7140</a><a href="https://instagram.com/autoprimesantarem" target="_blank" rel="noreferrer">@autoprimesantarem</a></div>
+      <a class="button" href="#simulador">Simular meu veículo</a>
+    </footer>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
