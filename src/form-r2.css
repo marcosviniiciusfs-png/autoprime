@@ -348,8 +348,22 @@
 }
 
 .goal-symbol {
+  display: grid;
+  width: 24px;
+  height: 24px;
+  place-items: center;
   color: var(--orange);
   font-size: 21px;
+}
+
+.goal-symbol svg {
+  width: 24px;
+  height: 24px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.7;
+  stroke-linecap: round;
+  stroke-linejoin: round;
 }
 
 .goal strong {
