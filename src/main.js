@@ -77,7 +77,7 @@ backButton.addEventListener('click', () => {
   updateStep();
 });
 
-form.addEventListener('submit', async (event) => {
+form.addEventListener('submit', (event) => {
   event.preventDefault();
   if (currentStep !== steps.length - 1 || !isStepValid()) return;
   const data = new FormData(form);
@@ -104,12 +104,13 @@ form.addEventListener('submit', async (event) => {
   submitButton.textContent = 'Enviando simulação…';
   window.fbq?.('track', 'Lead', {}, { eventID: eventId });
 
-  try {
-    if (!metaCapiUrl) throw new Error('Endpoint da API de conversões não configurado.');
-
-    const response = await fetch(metaCapiUrl, {
+  if (metaCapiUrl) {
+    // Keep the lead submission alive after navigation without making the user
+    // wait for Meta, webhooks and GitHub archival to finish on the Worker.
+    void fetch(metaCapiUrl, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
+      keepalive: true,
       body: JSON.stringify({
         event_name: 'Lead',
         event_id: eventId,
@@ -142,18 +143,16 @@ form.addEventListener('submit', async (event) => {
           currency: 'BRL',
         },
       }),
+    }).then((response) => {
+      if (!response.ok) throw new Error(`Falha ao registrar a conversão: HTTP ${response.status}.`);
+    }).catch((error) => {
+      console.error('Não foi possível registrar a simulação em segundo plano:', error);
     });
-
-    const result = await response.json().catch(() => ({}));
-    if (!response.ok || !result.success) throw new Error('Falha ao registrar a conversão.');
-
-    window.location.assign(whatsappUrl);
-  } catch (error) {
-    console.error('Não foi possível enviar a simulação:', error);
-    submitButton.disabled = false;
-    submitButton.innerHTML = 'Tentar novamente <span>→</span>';
-    window.alert('Não conseguimos enviar sua simulação agora. Verifique sua conexão e tente novamente.');
+  } else {
+    console.error('Endpoint da API de conversões não configurado.');
   }
+
+  window.location.assign(whatsappUrl);
 });
 
 document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
