@@ -1,0 +1,30 @@
+{
+  "archive_version": 1,
+  "archived_at": "2026-09-04T14:59:43.486Z",
+  "event_name": "Lead",
+  "event_id": "lead_356de865-0577-4da6-a8bc-3d94a2e6373f",
+  "destination_results": {
+    "meta": {
+      "success": true,
+      "status": 200
+    },
+    "webhooks": []
+  },
+  "lead": {
+    "nome": "Teste",
+    "whatsapp": "(85) 84848-4844",
+    "cidade": "Santarém",
+    "objetivo": "Comprar uma moto",
+    "valor": 40000,
+    "entrada": "R$ 15 mil a R$ 40 mil",
+    "parcela": "De R$ 1.000 a R$ 2.000",
+    "prazo": "Entre 1 e 3 meses",
+    "origem": "simulador_autoprime",
+    "received_at": "2026-09-04T14:59:41.128Z"
+  },
+  "request": {
+    "source_url": "https://autoprime.simulead.com.br/",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+    "client_ip_address": "2804:3e04:411:c101:c853:d6b2:9d98:3a47"
+  }
+}
