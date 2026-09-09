@@ -27,6 +27,13 @@ type DestinationResult = {
   error?: string;
 };
 
+type WorkerEnv = Env & {
+  META_CAPI_ACCESS_TOKEN: string;
+  GITHUB_LEADS_TOKEN: string;
+  LEAD_DESTINATION_WEBHOOK_URLS?: string;
+  LEAD_DESTINATION_WEBHOOK_MA_URL?: string;
+};
+
 const GITHUB_API_VERSION = "2022-11-28";
 
 const isRecord = (value: unknown): value is Record<string, unknown> =>
@@ -76,8 +83,11 @@ const slugify = (value: unknown) =>
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/^-+|-+$/g, "") || "lead";
 
-const configuredWebhooks = (env: Env) => {
-  const raw = env.LEAD_DESTINATION_WEBHOOK_URLS?.trim();
+const configuredWebhooks = (env: WorkerEnv, payload: ConversionPayload) => {
+  const isMaComercio = payload.lead_data.origem_conta === "ma_comercio";
+  const raw = (isMaComercio
+    ? env.LEAD_DESTINATION_WEBHOOK_MA_URL
+    : env.LEAD_DESTINATION_WEBHOOK_URLS)?.trim();
   if (!raw) return [];
   return raw.split(/[\n,]+/).map((url) => url.trim()).filter(Boolean);
 };
@@ -111,7 +121,7 @@ const sendWebhook = async (url: string, payload: ConversionPayload): Promise<Des
 const archiveLead = async (
   payload: ConversionPayload,
   request: Request,
-  env: Env,
+  env: WorkerEnv,
   destinations: { meta: DestinationResult; webhooks: DestinationResult[] },
 ) => {
   const archivedAt = new Date().toISOString();
@@ -163,7 +173,7 @@ const archiveLead = async (
   };
 };
 
-const allowedOrigins = (env: Env) => env.ALLOWED_ORIGINS.split(",").map((origin) => origin.trim());
+const allowedOrigins = (env: WorkerEnv) => env.ALLOWED_ORIGINS.split(",").map((origin) => origin.trim());
 
 const corsHeaders = (origin: string) => ({
   "Access-Control-Allow-Origin": origin,
@@ -189,7 +199,7 @@ const metaUserData = async (payload: ConversionPayload, request: Request) => {
 };
 
 export default {
-  async fetch(request: Request, env: Env): Promise<Response> {
+  async fetch(request: Request, env: WorkerEnv): Promise<Response> {
     const url = new URL(request.url);
     if (url.pathname === "/health" && request.method === "GET") {
       return json({ ok: true, service: "autoprime-conversions-api" });
@@ -234,7 +244,7 @@ export default {
         },
       );
 
-      const webhookUrls = configuredWebhooks(env);
+      const webhookUrls = configuredWebhooks(env, body);
       const [response, webhookResults] = await Promise.all([
         metaRequest,
         Promise.all(webhookUrls.map((webhookUrl) => sendWebhook(webhookUrl, body))),
@@ -286,4 +296,4 @@ export default {
       return json({ success: false, error: "Invalid request" }, 400, cors);
     }
   },
-} satisfies ExportedHandler<Env>;
+} satisfies ExportedHandler<WorkerEnv>;

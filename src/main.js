@@ -14,6 +14,22 @@ const stepTitle = document.querySelector('#step-title');
 const progressBar = document.querySelector('#progress-bar');
 const titles = ['Seu objetivo', 'Valor desejado', 'Entrada disponível', 'Parcela mensal', 'Prazo', 'Seus dados'];
 const metaCapiUrl = import.meta.env.VITE_META_CAPI_URL;
+const attributionKeys = [
+  'origem_conta',
+  'utm_source',
+  'utm_medium',
+  'utm_campaign',
+  'utm_id',
+  'utm_term',
+  'utm_content',
+  'ad_id',
+  'adset_id',
+];
+const attribution = Object.fromEntries(
+  attributionKeys
+    .map((key) => [key, new URLSearchParams(window.location.search).get(key)])
+    .filter(([, value]) => value),
+);
 let currentStep = 0;
 
 function getCookie(name) {
@@ -126,6 +142,7 @@ form.addEventListener('submit', (event) => {
           prazo: data.get('prazo'),
           origem: 'simulador_autoprime',
           received_at: new Date().toISOString(),
+          ...attribution,
         },
         user_data: {
           ph: whatsapp,
@@ -141,6 +158,7 @@ form.addEventListener('submit', (event) => {
           lead_type: 'simulador_autoprime',
           value: Number(data.get('valor')),
           currency: 'BRL',
+          ...attribution,
         },
       }),
     }).then((response) => {
