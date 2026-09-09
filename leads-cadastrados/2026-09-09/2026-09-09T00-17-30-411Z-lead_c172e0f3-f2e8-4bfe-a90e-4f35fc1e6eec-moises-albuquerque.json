@@ -1,0 +1,30 @@
+{
+  "archive_version": 1,
+  "archived_at": "2026-09-09T00:17:30.411Z",
+  "event_name": "Lead",
+  "event_id": "lead_c172e0f3-f2e8-4bfe-a90e-4f35fc1e6eec",
+  "destination_results": {
+    "meta": {
+      "success": true,
+      "status": 200
+    },
+    "webhooks": []
+  },
+  "lead": {
+    "nome": "Moisés Albuquerque ",
+    "whatsapp": "(66) 99719-6156",
+    "cidade": "Santarém",
+    "objetivo": "Comprar um carro",
+    "valor": 40000,
+    "entrada": "Até R$ 5 mil",
+    "parcela": "Até R$ 1.000",
+    "prazo": "Nos próximos 30 dias",
+    "origem": "simulador_autoprime",
+    "received_at": "2026-09-09T00:17:27.860Z"
+  },
+  "request": {
+    "source_url": "https://autoprime.simulead.com.br/?fbclid=IwcGRvZgVleHRuA2FlbQEwAGFkaWQBqziyMNMsknNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHrJw76NQ2nit5bDV73t2h_uxOoudtWOmi7znibx3Ad_5i4B1G78kVHBPhlQM_aem_fwKW13BQbcTB_MIHj6sg4Q&utm_medium=paid&utm_source=fb&utm_id=120252109706770130&utm_content=120252109706760130&utm_term=120252109706780130&utm_campaign=120252109706770130",
+    "user_agent": "Mozilla/5.0 (Linux; Android 16; motorola edge 70 fusion Build/W2WE36.56-98-19) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/152.0.7977.61 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/576.0.0.42.73;IABMV/1;]",
+    "client_ip_address": "138.185.125.72"
+  }
+}
