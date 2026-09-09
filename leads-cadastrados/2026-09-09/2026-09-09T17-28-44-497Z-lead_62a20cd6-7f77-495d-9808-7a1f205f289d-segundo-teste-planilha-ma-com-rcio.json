@@ -1,0 +1,40 @@
+{
+  "archive_version": 1,
+  "archived_at": "2026-09-09T17:28:44.497Z",
+  "event_name": "Lead",
+  "event_id": "lead_62a20cd6-7f77-495d-9808-7a1f205f289d",
+  "destination_results": {
+    "meta": {
+      "success": true,
+      "status": 200
+    },
+    "webhooks": [
+      {
+        "success": true,
+        "status": 200
+      }
+    ]
+  },
+  "lead": {
+    "cidade": "Santar�m",
+    "parcela": "At� R$ 1.000",
+    "objetivo": "Comprar uma moto",
+    "origem": "simulador_autoprime",
+    "valor": 40000,
+    "prazo": "O quanto antes",
+    "whatsapp": "(93) 99999-3333",
+    "utm_medium": "paid_social",
+    "entrada": "R$ 5 mil a R$ 15 mil",
+    "utm_campaign": "segundo_teste_integracao_ma",
+    "received_at": "2026-09-09T17:28:42.7543148+00:00",
+    "nome": "Segundo Teste Planilha MA Com�rcio",
+    "utm_content": "anuncio_teste_02",
+    "origem_conta": "ma_comercio",
+    "utm_source": "meta"
+  },
+  "request": {
+    "source_url": "https://autoprime.simulead.com.br/?origem_conta=ma_comercio&utm_source=meta&utm_medium=paid_social&utm_campaign=segundo_teste_integracao_ma&utm_content=anuncio_teste_02",
+    "user_agent": "Mozilla/5.0 (Windows NT; Windows NT 10.0; pt-BR) WindowsPowerShell/5.1.26100.9168",
+    "client_ip_address": "2804:3e04:411:c101:c853:d6b2:9d98:3a47"
+  }
+}
