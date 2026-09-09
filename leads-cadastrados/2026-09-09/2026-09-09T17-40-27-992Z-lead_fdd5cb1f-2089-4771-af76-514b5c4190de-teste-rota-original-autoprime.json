@@ -1,0 +1,35 @@
+{
+  "archive_version": 1,
+  "archived_at": "2026-09-09T17:40:27.992Z",
+  "event_name": "Lead",
+  "event_id": "lead_fdd5cb1f-2089-4771-af76-514b5c4190de",
+  "destination_results": {
+    "meta": {
+      "success": true,
+      "status": 200
+    },
+    "webhooks": [
+      {
+        "success": true,
+        "status": 200
+      }
+    ]
+  },
+  "lead": {
+    "parcela": "At� R$ 1.000",
+    "whatsapp": "(93) 99999-3333",
+    "valor": 40000,
+    "entrada": "R$ 5 mil a R$ 15 mil",
+    "objetivo": "Comprar uma moto",
+    "origem": "simulador_autoprime",
+    "cidade": "Santar�m",
+    "prazo": "O quanto antes",
+    "received_at": "2026-09-09T17:40:26.2172035+00:00",
+    "nome": "Teste Rota Original AutoPrime"
+  },
+  "request": {
+    "source_url": "https://autoprime.simulead.com.br/",
+    "user_agent": "Mozilla/5.0 (Windows NT; Windows NT 10.0; pt-BR) WindowsPowerShell/5.1.26100.9168",
+    "client_ip_address": "2804:3e04:411:c101:c853:d6b2:9d98:3a47"
+  }
+}
