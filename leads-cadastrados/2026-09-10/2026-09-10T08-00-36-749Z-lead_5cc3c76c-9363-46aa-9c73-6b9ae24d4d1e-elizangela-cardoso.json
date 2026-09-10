@@ -1,0 +1,41 @@
+{
+  "archive_version": 1,
+  "archived_at": "2026-09-10T08:00:36.749Z",
+  "event_name": "Lead",
+  "event_id": "lead_5cc3c76c-9363-46aa-9c73-6b9ae24d4d1e",
+  "destination_results": {
+    "meta": {
+      "success": true,
+      "status": 200
+    },
+    "webhooks": [
+      {
+        "success": true,
+        "status": 200
+      }
+    ]
+  },
+  "lead": {
+    "nome": "Elizangela Cardoso",
+    "whatsapp": "(93) 99208-9562",
+    "cidade": "Santarém",
+    "objetivo": "Comprar um carro",
+    "valor": 70000,
+    "entrada": "R$ 5 mil a R$ 15 mil",
+    "parcela": "De R$ 1.000 a R$ 2.000",
+    "prazo": "Entre 1 e 3 meses",
+    "origem": "simulador_autoprime",
+    "received_at": "2026-09-10T08:00:34.807Z",
+    "utm_source": "ig",
+    "utm_medium": "paid",
+    "utm_campaign": "120252109706770130",
+    "utm_id": "120252109706770130",
+    "utm_term": "120252109706780130",
+    "utm_content": "120252109706760130"
+  },
+  "request": {
+    "source_url": "https://autoprime.simulead.com.br/?fbclid=PAcGRvZgJmZGlkFlDizpHo87TjgBXygtUQYdLJKiP3T-VleHRuA2FlbQEwAGFkaWQBqziyMNMsknNydGMGYXBwX2lkDzEyNDAyNDU3NDI4NzQxNAABp0xLXh579Stnw7Q4kFksCM_DT5y-bS9bnQp3i6qts1xfYcgbvvZoCiRvQHHw_aem_fdaRTWEtp9lBVc59YjX1Mg&utm_medium=paid&utm_source=ig&utm_id=120252109706770130&utm_content=120252109706760130&utm_term=120252109706780130&utm_campaign=120252109706770130",
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/23G83 Instagram 445.0.0.34.44 (iPhone12,1; iOS 26_6_1; pt_BR; pt; scale=2.00; 828x1792; IABMV/1; 1053791553) Safari/604.1",
+    "client_ip_address": "2804:18:7044:a58d:5c00:6147:5117:3c87"
+  }
+}
