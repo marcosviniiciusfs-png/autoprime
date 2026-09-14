@@ -1,0 +1,44 @@
+{
+  "archive_version": 1,
+  "archived_at": "2026-09-14T02:49:29.775Z",
+  "event_name": "Lead",
+  "event_id": "lead_b2a39c3c-9c3c-4af3-b3a9-d28b3dd14284",
+  "destination_results": {
+    "meta": {
+      "success": true,
+      "status": 200
+    },
+    "webhooks": [
+      {
+        "success": true,
+        "status": 200
+      }
+    ]
+  },
+  "lead": {
+    "nome": "Carvalho",
+    "whatsapp": "(93) 99126-3300",
+    "cidade": "Santarém",
+    "objetivo": "Comprar um carro",
+    "valor": 40000,
+    "entrada": "Até R$ 5 mil",
+    "parcela": "Até R$ 1.000",
+    "prazo": "O quanto antes",
+    "origem": "simulador_autoprime",
+    "received_at": "2026-09-14T02:49:28.598Z",
+    "origem_conta": "ma_comercio",
+    "utm_source": "meta",
+    "utm_medium": "paid_social",
+    "utm_campaign": "01 - [MA SITE] - 10/09",
+    "utm_id": "120255400477390628",
+    "utm_term": "CONJUNTO",
+    "utm_content": "AD",
+    "ad_id": "120255400477400628",
+    "adset_id": "120255400477380628"
+  },
+  "request": {
+    "source_url": "https://autoprime.simulead.com.br/?utm_source=meta&utm_medium=paid_social&utm_campaign=01+-+%5BMA+SITE%5D+-+10%2F09&utm_content=AD&origem_conta=ma_comercio&utm_id=120255400477390628&utm_term=CONJUNTO&ad_id=120255400477400628&adset_id=120255400477380628&fbclid=PAcGRvZgJleHRuA2FlbQEwAGFkaWQBqzumUNJRFHNydGMGYXBwX2lkDzU2NzA2NzM0MzM1MjQyNwABp0buPpMPS__LxA1VPNGwE9ZyMfMf5nipVK2Mjb-y0eb8CUs-CM-XP7T6SJOy_aem_iwD5sxYBM0aEF0O0-Vwa_Q",
+    "user_agent": "Mozilla/5.0 (Linux; Android 16; Infinix X6873 Build/BP2A.250605.031.A3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/153.0.8010.26 Mobile Safari/537.36 Instagram 446.0.0.49.77 Android (36/16; 480dpi; 1224x2720; INFINIX/Infinix; Infinix X6873; Infinix-X6873; mt6897; pt_BR_#u-mu-celsius; 1061744234; IABMV/1)",
+    "client_ip_address": "179.175.158.62"
+  }
+}
