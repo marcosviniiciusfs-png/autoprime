@@ -1,0 +1,41 @@
+{
+  "archive_version": 1,
+  "archived_at": "2026-09-14T17:44:36.614Z",
+  "event_name": "Lead",
+  "event_id": "lead_dc5266d2-5765-4a27-a8f5-d35576a629ec",
+  "destination_results": {
+    "meta": {
+      "success": true,
+      "status": 200
+    },
+    "webhooks": [
+      {
+        "success": true,
+        "status": 200
+      }
+    ]
+  },
+  "lead": {
+    "nome": "Julia Dantas de Oliveira ",
+    "whatsapp": "(55) 93992-1525",
+    "cidade": "Santarém",
+    "objetivo": "Trocar meu veículo",
+    "valor": 40000,
+    "entrada": "Até R$ 5 mil",
+    "parcela": "Até R$ 1.000",
+    "prazo": "Nos próximos 30 dias",
+    "origem": "simulador_autoprime",
+    "received_at": "2026-09-14T17:44:34.972Z",
+    "utm_source": "fb",
+    "utm_medium": "paid",
+    "utm_campaign": "120252109706770130",
+    "utm_id": "120252109706770130",
+    "utm_term": "120252109706780130",
+    "utm_content": "120252109706760130"
+  },
+  "request": {
+    "source_url": "https://autoprime.simulead.com.br/?fbclid=IwcGRvZgVleHRuA2FlbQEwAGFkaWQBqziyMNMsknNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHiR38DGn2S9EuTEdMfbSeb587NUygoX-OlSF0zRsu7pHlrcHZRxoLI2CsIJa_aem_lcN2woAuHpNd0LzeHZUXFA&utm_medium=paid&utm_source=fb&utm_id=120252109706770130&utm_content=120252109706760130&utm_term=120252109706780130&utm_campaign=120252109706770130",
+    "user_agent": "Mozilla/5.0 (Linux; Android 16; motorola edge 60 fusion Build/W1VCS36H.14-20-19-7) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/152.0.7977.72 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/577.0.0.50.72;IABMV/1;]",
+    "client_ip_address": "138.94.38.216"
+  }
+}
