@@ -1,0 +1,41 @@
+{
+  "archive_version": 1,
+  "archived_at": "2026-09-14T23:10:02.868Z",
+  "event_name": "Lead",
+  "event_id": "lead_9afdf7a2-d9ed-4434-b95a-9ecfcb39c959",
+  "destination_results": {
+    "meta": {
+      "success": true,
+      "status": 200
+    },
+    "webhooks": [
+      {
+        "success": true,
+        "status": 200
+      }
+    ]
+  },
+  "lead": {
+    "nome": "cleidson araujo da silva",
+    "whatsapp": "(93) 99101-5935",
+    "cidade": "Santarém",
+    "objetivo": "Comprar um carro",
+    "valor": 40000,
+    "entrada": "Até R$ 5 mil",
+    "parcela": "Até R$ 1.000",
+    "prazo": "O quanto antes",
+    "origem": "simulador_autoprime",
+    "received_at": "2026-09-14T23:10:00.617Z",
+    "utm_source": "fb",
+    "utm_medium": "paid",
+    "utm_campaign": "120252109706770130",
+    "utm_id": "120252109706770130",
+    "utm_term": "120252109706780130",
+    "utm_content": "120252109706760130"
+  },
+  "request": {
+    "source_url": "https://autoprime.simulead.com.br/?fbclid=IwcGRvZgVleHRuA2FlbQEwAGFkaWQBqziyMNMsknNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHnUrw_dq7CEr4sN27wiqOUWerUmbOVtOQGayTyHDDYFvyH9uG3G08uYO1Sfx_aem_nM95LXAit6VWMlWpFUS_cA&utm_medium=paid&utm_source=fb&utm_id=120252109706770130&utm_content=120252109706760130&utm_term=120252109706780130&utm_campaign=120252109706770130",
+    "user_agent": "Mozilla/5.0 (Linux; Android 12; moto g(30) Build/S0RCS32.41-10-19-14) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/152.0.7977.72 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/577.0.0.50.72;IABMV/1;]",
+    "client_ip_address": "2804:5768:b004:ea00:98fc:4be1:e42f:9d03"
+  }
+}
