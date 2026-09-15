@@ -1,0 +1,44 @@
+{
+  "archive_version": 1,
+  "archived_at": "2026-09-15T01:15:25.394Z",
+  "event_name": "Lead",
+  "event_id": "lead_e8c04bbc-53e1-4468-8e29-4ecf721d4462",
+  "destination_results": {
+    "meta": {
+      "success": true,
+      "status": 200
+    },
+    "webhooks": [
+      {
+        "success": true,
+        "status": 200
+      }
+    ]
+  },
+  "lead": {
+    "nome": "Carlos ",
+    "whatsapp": "(93) 99115-5961",
+    "cidade": "Santarém",
+    "objetivo": "Comprar um carro",
+    "valor": 150000,
+    "entrada": "Acima de R$ 40 mil",
+    "parcela": "De R$ 2.000 a R$ 3.500",
+    "prazo": "Nos próximos 30 dias",
+    "origem": "simulador_autoprime",
+    "received_at": "2026-09-15T01:15:24.190Z",
+    "origem_conta": "ma_comercio",
+    "utm_source": "meta",
+    "utm_medium": "paid_social",
+    "utm_campaign": "01 - [MA SITE] - 10/09",
+    "utm_id": "120255400477390628",
+    "utm_term": "CONJUNTO",
+    "utm_content": "AD",
+    "ad_id": "120255400477400628",
+    "adset_id": "120255400477380628"
+  },
+  "request": {
+    "source_url": "https://autoprime.simulead.com.br/?utm_source=meta&utm_medium=paid_social&utm_campaign=01+-+%5BMA+SITE%5D+-+10%2F09&utm_content=AD&origem_conta=ma_comercio&utm_id=120255400477390628&utm_term=CONJUNTO&ad_id=120255400477400628&adset_id=120255400477380628&fbclid=IwcGRvZgVleHRuA2FlbQEwAGFkaWQBqzumUNJRFHNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHvQJ6vNGig6UB7Cx_6vNcKS8Abd7ypuqdlXQj5DG2Uo3nzOJJE_WQiuzqZFn_aem_ZTwkp0d1HoN43gjm2aobgg",
+    "user_agent": "Mozilla/5.0 (Linux; Android 15; 23129RA5FL Build/AQ3A.240829.003) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/152.0.7977.72 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/577.0.0.50.72;IABMV/1;]",
+    "client_ip_address": "179.124.25.14"
+  }
+}
