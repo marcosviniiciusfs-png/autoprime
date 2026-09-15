@@ -1,0 +1,44 @@
+{
+  "archive_version": 1,
+  "archived_at": "2026-09-15T20:10:08.383Z",
+  "event_name": "Lead",
+  "event_id": "lead_a2bb62fe-0347-40c1-8f7d-d8b16615ea17",
+  "destination_results": {
+    "meta": {
+      "success": true,
+      "status": 200
+    },
+    "webhooks": [
+      {
+        "success": true,
+        "status": 200
+      }
+    ]
+  },
+  "lead": {
+    "nome": "Luciléia souza felix ",
+    "whatsapp": "(55) 93991-0752",
+    "cidade": "Brasil Novo",
+    "objetivo": "Trocar meu veículo",
+    "valor": 100000,
+    "entrada": "R$ 5 mil a R$ 15 mil",
+    "parcela": "De R$ 1.000 a R$ 2.000",
+    "prazo": "Ainda estou pesquisando",
+    "origem": "simulador_autoprime",
+    "received_at": "2026-09-15T20:09:58.295Z",
+    "origem_conta": "ma_comercio",
+    "utm_source": "meta",
+    "utm_medium": "paid_social",
+    "utm_campaign": "01 - [MA SITE] - 10/09",
+    "utm_id": "120255400477390628",
+    "utm_term": "CONJUNTO",
+    "utm_content": "AD",
+    "ad_id": "120255400477400628",
+    "adset_id": "120255400477380628"
+  },
+  "request": {
+    "source_url": "https://autoprime.simulead.com.br/?utm_source=meta&utm_medium=paid_social&utm_campaign=01+-+%5BMA+SITE%5D+-+10%2F09&utm_content=AD&origem_conta=ma_comercio&utm_id=120255400477390628&utm_term=CONJUNTO&ad_id=120255400477400628&adset_id=120255400477380628&fbclid=PAcGRvZgJmZGlkFlDnjAFq4rb9HakWdbYDOrkBvh3F3otleHRuA2FlbQEwAGFkaWQBqzumUNJRFHNydGMGYXBwX2lkDzEyNDAyNDU3NDI4NzQxNAABp-jyhlftxbXB-bce4CTp0xa1J8ZsuN22_RyhpUODbRTIjFTSDN60O0YADSxD_aem_v9IwZ9S7-faIFUcNXiax6Q",
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_6_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/23G90 Instagram 446.0.0.28.66 (iPhone17,1; iOS 26_6_2; pt_BR; pt; scale=3.00; 1206x2622; IABMV/1; 1060018354) Safari/604.1",
+    "client_ip_address": "2804:1afc:1f6:b001:5d2c:99d4:e0d0:c1c0"
+  }
+}
