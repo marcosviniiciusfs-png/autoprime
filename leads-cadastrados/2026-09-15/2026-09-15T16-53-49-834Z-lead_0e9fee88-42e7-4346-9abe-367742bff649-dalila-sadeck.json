@@ -1,0 +1,41 @@
+{
+  "archive_version": 1,
+  "archived_at": "2026-09-15T16:53:49.834Z",
+  "event_name": "Lead",
+  "event_id": "lead_0e9fee88-42e7-4346-9abe-367742bff649",
+  "destination_results": {
+    "meta": {
+      "success": true,
+      "status": 200
+    },
+    "webhooks": [
+      {
+        "success": true,
+        "status": 200
+      }
+    ]
+  },
+  "lead": {
+    "nome": "Dalila Sadeck",
+    "whatsapp": "(93) 98404-8348",
+    "cidade": "Santarém",
+    "objetivo": "Comprar um carro",
+    "valor": 40000,
+    "entrada": "R$ 5 mil a R$ 15 mil",
+    "parcela": "Até R$ 1.000",
+    "prazo": "O quanto antes",
+    "origem": "simulador_autoprime",
+    "received_at": "2026-09-15T16:56:24.079Z",
+    "utm_source": "ig",
+    "utm_medium": "paid",
+    "utm_campaign": "120252109706770130",
+    "utm_id": "120252109706770130",
+    "utm_term": "120252109706780130",
+    "utm_content": "120252109706760130"
+  },
+  "request": {
+    "source_url": "https://autoprime.simulead.com.br/?fbclid=PAcGRvZgJleHRuA2FlbQEwAGFkaWQBqziyMNMsknNydGMGYXBwX2lkDzU2NzA2NzM0MzM1MjQyNwABp4j4-9_TGVY3aB0z8LZU2Q4v3wbOE487A0raDurZmuBAfPbMj_wQ6jTSeWny_aem_Or05M8-DHY5ZVyRgFa3Zbg&utm_medium=paid&utm_source=ig&utm_id=120252109706770130&utm_content=120252109706760130&utm_term=120252109706780130&utm_campaign=120252109706770130",
+    "user_agent": "Mozilla/5.0 (Linux; Android 14; CPH3669 Build/UP1A.231005.007; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/153.0.8010.26 Mobile Safari/537.36 Instagram 446.0.0.49.77 Android (34/14; 320dpi; 720x1604; OPPO; CPH3669; OP5B16L1; qcom; pt_BR; 1061744234; IABMV/1)",
+    "client_ip_address": "2804:3238:1d:7500:e328:9fbe:126:6a17"
+  }
+}
