@@ -1,0 +1,44 @@
+{
+  "archive_version": 1,
+  "archived_at": "2026-09-16T02:28:57.598Z",
+  "event_name": "Lead",
+  "event_id": "lead_c263a046-b1df-4aeb-9bb8-917dcd019e26",
+  "destination_results": {
+    "meta": {
+      "success": true,
+      "status": 200
+    },
+    "webhooks": [
+      {
+        "success": true,
+        "status": 200
+      }
+    ]
+  },
+  "lead": {
+    "nome": "Damiãocosme Oliveira da silva",
+    "whatsapp": "(93) 99124-9149",
+    "cidade": "Santarém",
+    "objetivo": "Comprar um carro",
+    "valor": 40000,
+    "entrada": "Até R$ 5 mil",
+    "parcela": "De R$ 1.000 a R$ 2.000",
+    "prazo": "O quanto antes",
+    "origem": "simulador_autoprime",
+    "received_at": "2026-09-16T02:28:55.806Z",
+    "origem_conta": "ma_comercio",
+    "utm_source": "meta",
+    "utm_medium": "paid_social",
+    "utm_campaign": "01 - [MA SITE] - 10/09",
+    "utm_id": "120255400477390628",
+    "utm_term": "CONJUNTO",
+    "utm_content": "AD",
+    "ad_id": "120255400477400628",
+    "adset_id": "120255400477380628"
+  },
+  "request": {
+    "source_url": "https://autoprime.simulead.com.br/?utm_source=meta&utm_medium=paid_social&utm_campaign=01+-+%5BMA+SITE%5D+-+10%2F09&utm_content=AD&origem_conta=ma_comercio&utm_id=120255400477390628&utm_term=CONJUNTO&ad_id=120255400477400628&adset_id=120255400477380628&fbclid=IwcGRvZgNleHRuA2FlbQEwAGFkaWQBqzumUNJRFHNydGMGYXBwX2lkDzI3NTI1NDY5MjU5ODI3OQABHnNDYu0vFRa1_HZHf8pE7oi1Y893t56ccNwEn7am7SxGzIvnfh2zk1_b2gZu_aem_blBGWxqE59vC_DTshjohuQ",
+    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Mobile Safari/537.36",
+    "client_ip_address": "45.168.127.132"
+  }
+}
