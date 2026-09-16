@@ -1,0 +1,41 @@
+{
+  "archive_version": 1,
+  "archived_at": "2026-09-16T00:34:20.554Z",
+  "event_name": "Lead",
+  "event_id": "lead_2d55967e-75b7-424e-b873-b81a01ff4a21",
+  "destination_results": {
+    "meta": {
+      "success": true,
+      "status": 200
+    },
+    "webhooks": [
+      {
+        "success": true,
+        "status": 200
+      }
+    ]
+  },
+  "lead": {
+    "nome": "Marcos André Mota Cardoso",
+    "whatsapp": "(93) 99115-7841",
+    "cidade": "Santarem",
+    "objetivo": "Comprar um carro",
+    "valor": 70000,
+    "entrada": "Até R$ 5 mil",
+    "parcela": "Até R$ 1.000",
+    "prazo": "Nos próximos 30 dias",
+    "origem": "simulador_autoprime",
+    "received_at": "2026-09-16T00:34:17.841Z",
+    "utm_source": "ig",
+    "utm_medium": "paid",
+    "utm_campaign": "120252109706770130",
+    "utm_id": "120252109706770130",
+    "utm_term": "120252109706780130",
+    "utm_content": "120252109706760130"
+  },
+  "request": {
+    "source_url": "https://autoprime.simulead.com.br/?fbclid=PAcGRvZgJmZGlkFlDo99gEuzGYP4JsCD8rH_SexDyhIp5leHRuA2FlbQEwAGFkaWQBqziyMNMsknNydGMGYXBwX2lkDzEyNDAyNDU3NDI4NzQxNAABpxf0jKEgbYejMTpiu8YsMcDBGcAse70xQhm_0YctU3yg6hhK0NBwMH27LqLf_aem_KfOJ6iwP-tUT0-DN7VCl6Q&utm_medium=paid&utm_source=ig&utm_id=120252109706770130&utm_content=120252109706760130&utm_term=120252109706780130&utm_campaign=120252109706770130",
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_5_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/23F84 Instagram 446.0.0.28.66 (iPhone12,1; iOS 26_5_2; pt_BR; pt; scale=2.00; 828x1792; IABMV/1; 1060018354) Safari/604.1",
+    "client_ip_address": "2804:18:7849:d5ab:8054:a093:9035:6166"
+  }
+}
