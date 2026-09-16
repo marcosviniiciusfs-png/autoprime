@@ -1,0 +1,45 @@
+{
+  "archive_version": 1,
+  "archived_at": "2026-09-16T16:04:08.173Z",
+  "event_name": "Lead",
+  "event_id": "lead_f0133426-bdc3-4f76-95cf-b5377c251e26",
+  "destination_results": {
+    "meta": {
+      "success": true,
+      "status": 200
+    },
+    "webhooks": [
+      {
+        "success": false,
+        "status": 522,
+        "error": "Webhook HTTP 522"
+      }
+    ]
+  },
+  "lead": {
+    "nome": "Gilcilene Silva De sousa",
+    "whatsapp": "(93) 99121-1497",
+    "cidade": "Santarém",
+    "objetivo": "Comprar um carro",
+    "valor": 70000,
+    "entrada": "Até R$ 5 mil",
+    "parcela": "Até R$ 1.000",
+    "prazo": "Ainda estou pesquisando",
+    "origem": "simulador_autoprime",
+    "received_at": "2026-09-16T17:02:41.684Z",
+    "origem_conta": "ma_comercio",
+    "utm_source": "meta",
+    "utm_medium": "paid_social",
+    "utm_campaign": "01 - [MA SITE] - 10/09",
+    "utm_id": "120255400477390628",
+    "utm_term": "CONJUNTO",
+    "utm_content": "AD",
+    "ad_id": "120255400477400628",
+    "adset_id": "120255400477380628"
+  },
+  "request": {
+    "source_url": "https://autoprime.simulead.com.br/?utm_source=meta&utm_medium=paid_social&utm_campaign=01+-+%5BMA+SITE%5D+-+10%2F09&utm_content=AD&origem_conta=ma_comercio&utm_id=120255400477390628&utm_term=CONJUNTO&ad_id=120255400477400628&adset_id=120255400477380628&fbclid=IwcGRvZgVmZGlkFlDo4tEZneJo-2v66N-znV9MaRi_AidleHRuA2FlbQEwAGFkaWQBqzumUNJRFHNydGMGYXBwX2lkCjY2Mjg1NjgzNzkAAR4dwZNBD2yJZMUdYV_kNGBOTEbx9XelHA9z0ixaFLn4q03tCineN0hgyV48Bw_aem_YnLGe7-TFvcKJAAExZDg6Q",
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/23G83 Safari/604.1 [FBAN/FBIOS;FBAV/578.1.0.71.72;FBBV/1063022819;FBDV/iPhone12,1;FBMD/iPhone;FBSN/iOS;FBSV/26.6.1;FBSS/2;FBID/phone;FBLC/pt_BR;FBOP/5;FBRV/1068982601;IABMV/1]",
+    "client_ip_address": "2804:3238:13:2d00:30ea:c1fe:f8d8:ac74"
+  }
+}
