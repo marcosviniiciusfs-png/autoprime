@@ -1,0 +1,42 @@
+{
+  "archive_version": 1,
+  "archived_at": "2026-09-18T15:57:51.774Z",
+  "event_name": "Lead",
+  "event_id": "lead_0c74e5a0-f2a3-4484-8a90-38e74064fe24",
+  "destination_results": {
+    "meta": {
+      "success": true,
+      "status": 200
+    },
+    "webhooks": [
+      {
+        "success": false,
+        "status": 522,
+        "error": "Webhook HTTP 522"
+      }
+    ]
+  },
+  "lead": {
+    "nome": "Diego ",
+    "whatsapp": "(93) 99158-1905",
+    "cidade": "Santarém",
+    "objetivo": "Comprar um carro",
+    "valor": 40000,
+    "entrada": "Até R$ 5 mil",
+    "parcela": "Até R$ 1.000",
+    "prazo": "O quanto antes",
+    "origem": "simulador_autoprime",
+    "received_at": "2026-09-18T16:57:01.478Z",
+    "utm_source": "ig",
+    "utm_medium": "paid",
+    "utm_campaign": "120252109706770130",
+    "utm_id": "120252109706770130",
+    "utm_term": "120252109706780130",
+    "utm_content": "120252109706760130"
+  },
+  "request": {
+    "source_url": "https://autoprime.simulead.com.br/?fbclid=PAcGRvZgJleHRuA2FlbQEwAGFkaWQBqziyMNMsknNydGMGYXBwX2lkDzU2NzA2NzM0MzM1MjQyNwABp1k6zCcUL7Qrb9nFbg3AeI4hz-ON8DvKTAwfeOloUWRd5ixlyG7beTw0M2p8_aem_um-mHBCiAjeEfxctHML5ug&utm_medium=paid&utm_source=ig&utm_id=120252109706770130&utm_content=120252109706760130&utm_term=120252109706780130&utm_campaign=120252109706770130",
+    "user_agent": "Mozilla/5.0 (Linux; Android 15; moto g05 Build/VVTA35.51-158; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/153.0.8010.26 Mobile Safari/537.36 Instagram 446.0.0.49.77 Android (35/15; 280dpi; 720x1604; motorola; moto g05; lamul; mt6768; pt_BR; 1068046059; IABMV/1)",
+    "client_ip_address": "2804:1810:e71b:2200:f8e3:8d2f:6118:68a"
+  }
+}
