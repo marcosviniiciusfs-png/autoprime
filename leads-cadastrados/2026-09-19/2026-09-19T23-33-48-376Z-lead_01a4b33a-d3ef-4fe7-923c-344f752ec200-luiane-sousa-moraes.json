@@ -1,0 +1,45 @@
+{
+  "archive_version": 1,
+  "archived_at": "2026-09-19T23:33:48.376Z",
+  "event_name": "Lead",
+  "event_id": "lead_01a4b33a-d3ef-4fe7-923c-344f752ec200",
+  "destination_results": {
+    "meta": {
+      "success": true,
+      "status": 200
+    },
+    "webhooks": [
+      {
+        "success": false,
+        "status": 522,
+        "error": "Webhook HTTP 522"
+      }
+    ]
+  },
+  "lead": {
+    "nome": "Luiane Sousa Moraes ",
+    "whatsapp": "(93) 99160-0390",
+    "cidade": "Óbidos ",
+    "objetivo": "Comprar um carro",
+    "valor": 40000,
+    "entrada": "R$ 5 mil a R$ 15 mil",
+    "parcela": "De R$ 1.000 a R$ 2.000",
+    "prazo": "Ainda estou pesquisando",
+    "origem": "simulador_autoprime",
+    "received_at": "2026-09-19T23:33:28.490Z",
+    "origem_conta": "ma_comercio",
+    "utm_source": "meta",
+    "utm_medium": "paid_social",
+    "utm_campaign": "01 - [MA SITE] - 10/09",
+    "utm_id": "120255400477390628",
+    "utm_term": "CONJUNTO",
+    "utm_content": "AD",
+    "ad_id": "120255400477400628",
+    "adset_id": "120255400477380628"
+  },
+  "request": {
+    "source_url": "https://autoprime.simulead.com.br/?utm_source=meta&utm_medium=paid_social&utm_campaign=01+-+%5BMA+SITE%5D+-+10%2F09&utm_content=AD&origem_conta=ma_comercio&utm_id=120255400477390628&utm_term=CONJUNTO&ad_id=120255400477400628&adset_id=120255400477380628&fbclid=IwdHNhZgAAAARwZG9mA2V4dG4DYWVtATAAYWRpZAGrO6ZQ0lEUc3J0YwZhcHBfaWQPOTk0NzY2MDczOTU5MjUzAAEeIXRud9O8AFHjv1-jomeJ0wdg0D9Bf98A5aAnMi-dMm0TvC-J_ASna5-4Ggw_aem_cHNWlsXLQOGyzgSV6MQFhw",
+    "user_agent": "Mozilla/5.0 (Linux; Android 15; 25062RN2DL Build/AQ3A.250226.002; ) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/152.0.7977.87 Mobile Safari/537.36 WA4A/2.26.35.75",
+    "client_ip_address": "170.150.129.80"
+  }
+}
