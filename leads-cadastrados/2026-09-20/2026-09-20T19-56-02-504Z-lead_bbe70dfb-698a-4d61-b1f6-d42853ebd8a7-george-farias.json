@@ -1,0 +1,42 @@
+{
+  "archive_version": 1,
+  "archived_at": "2026-09-20T19:56:02.504Z",
+  "event_name": "Lead",
+  "event_id": "lead_bbe70dfb-698a-4d61-b1f6-d42853ebd8a7",
+  "destination_results": {
+    "meta": {
+      "success": true,
+      "status": 200
+    },
+    "webhooks": [
+      {
+        "success": false,
+        "status": 522,
+        "error": "Webhook HTTP 522"
+      }
+    ]
+  },
+  "lead": {
+    "nome": "George Farias",
+    "whatsapp": "(93) 99151-3205",
+    "cidade": "Santarém",
+    "objetivo": "Comprar um carro",
+    "valor": 40000,
+    "entrada": "R$ 5 mil a R$ 15 mil",
+    "parcela": "De R$ 1.000 a R$ 2.000",
+    "prazo": "Nos próximos 30 dias",
+    "origem": "simulador_autoprime",
+    "received_at": "2026-09-20T19:55:42.099Z",
+    "utm_source": "fb",
+    "utm_medium": "paid",
+    "utm_campaign": "120252109706770130",
+    "utm_id": "120252109706770130",
+    "utm_term": "120252109706780130",
+    "utm_content": "120252109706760130"
+  },
+  "request": {
+    "source_url": "https://autoprime.simulead.com.br/?fbclid=IwcGRvZgVmZGlkFlDs4riRjLfZUuE-AsiTO25v4hTXcKVleHRuA2FlbQEwAGFkaWQBqziyMNMsknNydGMGYXBwX2lkCjY2Mjg1NjgzNzkAAR62hFQHWmW3mnOXHDBkB56AnpxlGXklHQjob25cTQhw58BSXeK5KxJD8_lozQ_aem_Yv5IxjCm6aycG1JNRzFvYw&utm_medium=paid&utm_source=fb&utm_id=120252109706770130&utm_content=120252109706760130&utm_term=120252109706780130&utm_campaign=120252109706770130",
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/23G83 Safari/604.1 [FBAN/FBIOS;FBAV/579.0.0.57.68;FBBV/1068430959;FBDV/iPhone15,3;FBMD/iPhone;FBSN/iOS;FBSV/26.6.1;FBSS/3;FBID/phone;FBLC/pt_BR;FBOP/5;FBRV/0;IABMV/1]",
+    "client_ip_address": "38.50.58.133"
+  }
+}
