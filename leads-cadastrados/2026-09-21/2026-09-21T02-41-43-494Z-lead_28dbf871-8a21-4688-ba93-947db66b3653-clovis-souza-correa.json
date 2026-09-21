@@ -1,0 +1,45 @@
+{
+  "archive_version": 1,
+  "archived_at": "2026-09-21T02:41:43.494Z",
+  "event_name": "Lead",
+  "event_id": "lead_28dbf871-8a21-4688-ba93-947db66b3653",
+  "destination_results": {
+    "meta": {
+      "success": true,
+      "status": 200
+    },
+    "webhooks": [
+      {
+        "success": false,
+        "status": 522,
+        "error": "Webhook HTTP 522"
+      }
+    ]
+  },
+  "lead": {
+    "nome": "Clóvis Souza Correa",
+    "whatsapp": "(93) 99121-2075",
+    "cidade": "Santarém",
+    "objetivo": "Comprar um carro",
+    "valor": 40000,
+    "entrada": "Até R$ 5 mil",
+    "parcela": "Até R$ 1.000",
+    "prazo": "O quanto antes",
+    "origem": "simulador_autoprime",
+    "received_at": "2026-09-21T02:41:22.995Z",
+    "origem_conta": "ma_comercio",
+    "utm_source": "meta",
+    "utm_medium": "paid_social",
+    "utm_campaign": "01 - [MA SITE] - 10/09",
+    "utm_id": "120255400477390628",
+    "utm_term": "CONJUNTO",
+    "utm_content": "AD",
+    "ad_id": "120255400477400628",
+    "adset_id": "120255400477380628"
+  },
+  "request": {
+    "source_url": "https://autoprime.simulead.com.br/?utm_source=meta&utm_medium=paid_social&utm_campaign=01+-+%5BMA+SITE%5D+-+10%2F09&utm_content=AD&origem_conta=ma_comercio&utm_id=120255400477390628&utm_term=CONJUNTO&ad_id=120255400477400628&adset_id=120255400477380628&fbclid=IwcGRvZgVleHRuA2FlbQEwAGFkaWQBqzumUNJRFHNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHmP6ps7QvQvF9k7cCSmSYlAFfiQm5VSqmgUyWjK4aOIA2tvBSXoxKcaU0Xqi_aem_SSQweGF4Ts4FkUkyPEykZA",
+    "user_agent": "Mozilla/5.0 (Linux; Android 12; M2010J19CG Build/SKQ1.211202.001) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/153.0.8010.33 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/578.0.0.40.75;IABMV/1;]",
+    "client_ip_address": "168.0.83.182"
+  }
+}
