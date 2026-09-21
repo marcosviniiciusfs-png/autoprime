@@ -1,0 +1,45 @@
+{
+  "archive_version": 1,
+  "archived_at": "2026-09-21T16:20:48.110Z",
+  "event_name": "Lead",
+  "event_id": "lead_2565c4b4-ad90-4101-9f98-a91aca87636d",
+  "destination_results": {
+    "meta": {
+      "success": true,
+      "status": 200
+    },
+    "webhooks": [
+      {
+        "success": false,
+        "status": 522,
+        "error": "Webhook HTTP 522"
+      }
+    ]
+  },
+  "lead": {
+    "nome": "WILLDRAN Bezerra de Souza",
+    "whatsapp": "(93) 99178-8491",
+    "cidade": "Santarém",
+    "objetivo": "Comprar um carro",
+    "valor": 70000,
+    "entrada": "R$ 15 mil a R$ 40 mil",
+    "parcela": "Até R$ 1.000",
+    "prazo": "O quanto antes",
+    "origem": "simulador_autoprime",
+    "received_at": "2026-09-21T16:20:27.692Z",
+    "origem_conta": "ma_comercio",
+    "utm_source": "meta",
+    "utm_medium": "paid_social",
+    "utm_campaign": "01 - [MA SITE] - 10/09",
+    "utm_id": "120255400477390628",
+    "utm_term": "CONJUNTO",
+    "utm_content": "AD",
+    "ad_id": "120255400477400628",
+    "adset_id": "120255400477380628"
+  },
+  "request": {
+    "source_url": "https://autoprime.simulead.com.br/?utm_source=meta&utm_medium=paid_social&utm_campaign=01+-+%5BMA+SITE%5D+-+10%2F09&utm_content=AD&origem_conta=ma_comercio&utm_id=120255400477390628&utm_term=CONJUNTO&ad_id=120255400477400628&adset_id=120255400477380628&fbclid=IwdHNhZgAAAARwZG9mA2V4dG4DYWVtATAAYWRpZAGrO6ZQ0lEUc3J0YwZhcHBfaWQPOTk0NzY2MDczOTU5MjUzAAEeWsjXT4T5RIZcvrLRl0Rn6s9pQpJBq3YBT6iLbQ7-258kON918ZZKJYuYKfk_aem_gUva2Rf3sPekazilxc_eRA",
+    "user_agent": "Mozilla/5.0 (Linux; Android 14; 2109119DG Build/UKQ1.240624.001; ) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/151.0.7922.199 Mobile Safari/537.36 WA4A/2.26.36.74",
+    "client_ip_address": "2804:1810:e702:ef00:e996:ed5:b2e5:5f26"
+  }
+}
