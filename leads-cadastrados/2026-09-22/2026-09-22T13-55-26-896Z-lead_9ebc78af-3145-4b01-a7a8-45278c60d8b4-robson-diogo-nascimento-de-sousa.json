@@ -1,0 +1,45 @@
+{
+  "archive_version": 1,
+  "archived_at": "2026-09-22T13:55:26.896Z",
+  "event_name": "Lead",
+  "event_id": "lead_9ebc78af-3145-4b01-a7a8-45278c60d8b4",
+  "destination_results": {
+    "meta": {
+      "success": true,
+      "status": 200
+    },
+    "webhooks": [
+      {
+        "success": false,
+        "status": 521,
+        "error": "Webhook HTTP 521"
+      }
+    ]
+  },
+  "lead": {
+    "nome": "Robson Diogo Nascimento de Sousa",
+    "whatsapp": "(93) 99207-2654",
+    "cidade": "Santarém",
+    "objetivo": "Comprar um carro",
+    "valor": 40000,
+    "entrada": "R$ 5 mil a R$ 15 mil",
+    "parcela": "Até R$ 1.000",
+    "prazo": "Nos próximos 30 dias",
+    "origem": "simulador_autoprime",
+    "received_at": "2026-09-22T14:55:03.967Z",
+    "origem_conta": "ma_comercio",
+    "utm_source": "meta",
+    "utm_medium": "paid_social",
+    "utm_campaign": "01 - [MA SITE] - 10/09",
+    "utm_id": "120255400477390628",
+    "utm_term": "CONJUNTO",
+    "utm_content": "AD",
+    "ad_id": "120255400477400628",
+    "adset_id": "120255400477380628"
+  },
+  "request": {
+    "source_url": "https://autoprime.simulead.com.br/?utm_source=meta&utm_medium=paid_social&utm_campaign=01+-+%5BMA+SITE%5D+-+10%2F09&utm_content=AD&origem_conta=ma_comercio&utm_id=120255400477390628&utm_term=CONJUNTO&ad_id=120255400477400628&adset_id=120255400477380628&fbclid=PAcGRvZgJleHRuA2FlbQEwAGFkaWQBqzumUNJRFHNydGMGYXBwX2lkDzU2NzA2NzM0MzM1MjQyNwABp7dxCtvN-9Uc53SvqTjgwRA4d6YQb3syG5i5OcLnOqHFtAR6Tt2RuF7FpRC4_aem_rF8IZB_fVm2z2u_xWA7hpg",
+    "user_agent": "Mozilla/5.0 (Linux; Android 12; M2103K19PG Build/SP1A.210812.016; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/153.0.8010.41 Mobile Safari/537.36 Instagram 447.0.0.55.81 Android (31/12; 440dpi; 1080x2400; Xiaomi/POCO; M2103K19PG; camellian; mt6833; pt_BR; 1068046257; IABMV/1)",
+    "client_ip_address": "2804:18:7840:5577:18d7:a273:5843:b88c"
+  }
+}
