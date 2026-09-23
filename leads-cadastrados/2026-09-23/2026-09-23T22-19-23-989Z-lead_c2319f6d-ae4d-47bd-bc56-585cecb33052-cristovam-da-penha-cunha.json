@@ -1,0 +1,42 @@
+{
+  "archive_version": 1,
+  "archived_at": "2026-09-23T22:19:23.989Z",
+  "event_name": "Lead",
+  "event_id": "lead_c2319f6d-ae4d-47bd-bc56-585cecb33052",
+  "destination_results": {
+    "meta": {
+      "success": true,
+      "status": 200
+    },
+    "webhooks": [
+      {
+        "success": false,
+        "status": 521,
+        "error": "Webhook HTTP 521"
+      }
+    ]
+  },
+  "lead": {
+    "nome": "Cristovam da penha cunha",
+    "whatsapp": "(55) 93991-3146",
+    "cidade": "Santarém",
+    "objetivo": "Trocar meu veículo",
+    "valor": 70000,
+    "entrada": "R$ 15 mil a R$ 40 mil",
+    "parcela": "Até R$ 1.000",
+    "prazo": "Nos próximos 30 dias",
+    "origem": "simulador_autoprime",
+    "received_at": "2026-09-23T22:19:22.475Z",
+    "utm_source": "ig",
+    "utm_medium": "paid",
+    "utm_campaign": "120252109706770130",
+    "utm_id": "120252109706770130",
+    "utm_term": "120252109706780130",
+    "utm_content": "120252109706760130"
+  },
+  "request": {
+    "source_url": "https://autoprime.simulead.com.br/?fbclid=PAcGRvZgJleHRuA2FlbQEwAGFkaWQBqziyMNMsknNydGMGYXBwX2lkDzU2NzA2NzM0MzM1MjQyNwABpyyuVg_f-WNr3qH40-zTkxVUdm8u0q0jbhESL1Y386aVe2qFUVhMAd1WCOan_aem_B1njgSFsmAzTmlN7J_cQWA&utm_medium=paid&utm_source=ig&utm_id=120252109706770130&utm_content=120252109706760130&utm_term=120252109706780130&utm_campaign=120252109706770130",
+    "user_agent": "Mozilla/5.0 (Linux; Android 16; moto g55 5G Build/W1UTS36.51-39-1; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/154.0.8037.49 Mobile Safari/537.36 Instagram 448.0.0.52.84 Android (36/16; 400dpi; 1080x2400; motorola; moto g55 5G; taipei; mt6855; pt_BR; 1073357425; IABMV/1)",
+    "client_ip_address": "2804:1810:e703:e700:5d5a:39d6:8dc1:fa53"
+  }
+}
