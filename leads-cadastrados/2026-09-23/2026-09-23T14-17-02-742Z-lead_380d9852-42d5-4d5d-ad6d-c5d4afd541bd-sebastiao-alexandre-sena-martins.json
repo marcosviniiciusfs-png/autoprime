@@ -1,0 +1,45 @@
+{
+  "archive_version": 1,
+  "archived_at": "2026-09-23T14:17:02.742Z",
+  "event_name": "Lead",
+  "event_id": "lead_380d9852-42d5-4d5d-ad6d-c5d4afd541bd",
+  "destination_results": {
+    "meta": {
+      "success": true,
+      "status": 200
+    },
+    "webhooks": [
+      {
+        "success": false,
+        "status": 521,
+        "error": "Webhook HTTP 521"
+      }
+    ]
+  },
+  "lead": {
+    "nome": "Sebastião Alexandre sena Martins ",
+    "whatsapp": "(93) 99222-5574",
+    "cidade": "Santarém",
+    "objetivo": "Comprar um carro",
+    "valor": 70000,
+    "entrada": "R$ 5 mil a R$ 15 mil",
+    "parcela": "Até R$ 1.000",
+    "prazo": "O quanto antes",
+    "origem": "simulador_autoprime",
+    "received_at": "2026-09-23T14:17:00.338Z",
+    "origem_conta": "ma_comercio",
+    "utm_source": "meta",
+    "utm_medium": "paid_social",
+    "utm_campaign": "01 - [MA SITE] - 10/09",
+    "utm_id": "120255400477390628",
+    "utm_term": "CONJUNTO",
+    "utm_content": "AD",
+    "ad_id": "120255400477400628",
+    "adset_id": "120255400477380628"
+  },
+  "request": {
+    "source_url": "https://autoprime.simulead.com.br/?utm_source=meta&utm_medium=paid_social&utm_campaign=01+-+%5BMA+SITE%5D+-+10%2F09&utm_content=AD&origem_conta=ma_comercio&utm_id=120255400477390628&utm_term=CONJUNTO&ad_id=120255400477400628&adset_id=120255400477380628&fbclid=PAcGRvZgJleHRuA2FlbQEwAGFkaWQBqzumUNJRFHNydGMGYXBwX2lkDzU2NzA2NzM0MzM1MjQyNwABp4WOx-7eADra6nT2S7ip2GH2bc32Sn6pc50p3c4Koh82NubvarBXgZPSlYBV_aem_u7ZuBxGsCQivjTeFEiYt9g",
+    "user_agent": "Mozilla/5.0 (Linux; Android 15; 23129RA5FL Build/AQ3A.240829.003; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/154.0.8037.49 Mobile Safari/537.36 Instagram 448.0.0.52.84 Android (35/15; 440dpi; 1080x2400; Xiaomi/Redmi; 23129RA5FL; sapphire; qcom; pt_BR; 1073357578; IABMV/1)",
+    "client_ip_address": "2804:18:704e:ae05:683d:89ff:fec1:5780"
+  }
+}
