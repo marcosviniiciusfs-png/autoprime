@@ -1,0 +1,42 @@
+{
+  "archive_version": 1,
+  "archived_at": "2026-09-24T00:50:02.635Z",
+  "event_name": "Lead",
+  "event_id": "lead_e511e89f-d4c3-44ff-8c3d-369f832ad8c4",
+  "destination_results": {
+    "meta": {
+      "success": true,
+      "status": 200
+    },
+    "webhooks": [
+      {
+        "success": false,
+        "status": 521,
+        "error": "Webhook HTTP 521"
+      }
+    ]
+  },
+  "lead": {
+    "nome": "Dinalva Sampaio",
+    "whatsapp": "(93) 99190-8883",
+    "cidade": "Santarém",
+    "objetivo": "Comprar um carro",
+    "valor": 70000,
+    "entrada": "R$ 5 mil a R$ 15 mil",
+    "parcela": "De R$ 1.000 a R$ 2.000",
+    "prazo": "Ainda estou pesquisando",
+    "origem": "simulador_autoprime",
+    "received_at": "2026-09-24T00:50:01.671Z",
+    "utm_source": "ig",
+    "utm_medium": "paid",
+    "utm_campaign": "120252109706770130",
+    "utm_id": "120252109706770130",
+    "utm_term": "120252109706780130",
+    "utm_content": "120252109706760130"
+  },
+  "request": {
+    "source_url": "https://autoprime.simulead.com.br/?fbclid=PAZXh0bgNhZW0BMABwZG9mAmFkaWQBqziyMNMsknNydGMGYXBwX2lkDzU2NzA2NzM0MzM1MjQyNwABpwfACvRi_8clBx58Q1ahmXJ_KJ6kCZJVxrKLkmIsQgdBqmsTgeG2MJLqXjpe_aem_LTD8lpgvhTijl9OWYgsk9w&utm_medium=paid&utm_source=ig&utm_id=120252109706770130&utm_content=120252109706760130&utm_term=120252109706780130&utm_campaign=120252109706770130",
+    "user_agent": "Mozilla/5.0 (Linux; Android 16; SM-S928B Build/BP4A.251205.006; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/153.0.8010.41 Mobile Safari/537.36 Instagram 447.0.0.55.81 Android (36/16; 450dpi; 1080x2340; samsung; SM-S928B; e3q; qcom; pt_BR; 1068046303; IABMV/1)",
+    "client_ip_address": "45.7.119.46"
+  }
+}
