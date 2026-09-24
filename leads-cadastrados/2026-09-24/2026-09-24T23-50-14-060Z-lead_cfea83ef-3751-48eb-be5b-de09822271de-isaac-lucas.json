@@ -1,0 +1,42 @@
+{
+  "archive_version": 1,
+  "archived_at": "2026-09-24T23:50:14.060Z",
+  "event_name": "Lead",
+  "event_id": "lead_cfea83ef-3751-48eb-be5b-de09822271de",
+  "destination_results": {
+    "meta": {
+      "success": true,
+      "status": 200
+    },
+    "webhooks": [
+      {
+        "success": false,
+        "status": 521,
+        "error": "Webhook HTTP 521"
+      }
+    ]
+  },
+  "lead": {
+    "nome": "Isaac Lucas",
+    "whatsapp": "(93) 99231-5581",
+    "cidade": "Santarém",
+    "objetivo": "Comprar um carro",
+    "valor": 40000,
+    "entrada": "Até R$ 5 mil",
+    "parcela": "Até R$ 1.000",
+    "prazo": "Ainda estou pesquisando",
+    "origem": "simulador_autoprime",
+    "received_at": "2026-09-24T23:50:12.620Z",
+    "utm_source": "ig",
+    "utm_medium": "paid",
+    "utm_campaign": "120252109706770130",
+    "utm_id": "120252109706770130",
+    "utm_term": "120252109706780130",
+    "utm_content": "120252109706760130"
+  },
+  "request": {
+    "source_url": "https://autoprime.simulead.com.br/?fbclid=PAZXh0bgNhZW0BMABwZG9mAmFkaWQBqziyMNMsknNydGMGYXBwX2lkDzU2NzA2NzM0MzM1MjQyNwABp5QhEsPoQoysV11SpWXkuTFVyZvqVp9CS6_qcTqaN374OleOAtykf6ASHQNi_aem_9e9-QmKR5U_Bzm1awSR1wg&utm_medium=paid&utm_source=ig&utm_id=120252109706770130&utm_content=120252109706760130&utm_term=120252109706780130&utm_campaign=120252109706770130",
+    "user_agent": "Mozilla/5.0 (Linux; Android 14; SM-A135M Build/UP1A.231005.007; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/153.0.8010.36 Mobile Safari/537.36 Instagram 448.0.0.52.84 Android (34/14; 450dpi; 1080x2408; samsung; SM-A135M; a13; exynos850; pt_BR; 1073357572; IABMV/1)",
+    "client_ip_address": "138.94.38.252"
+  }
+}
