@@ -1,0 +1,42 @@
+{
+  "archive_version": 1,
+  "archived_at": "2026-09-24T19:41:12.022Z",
+  "event_name": "Lead",
+  "event_id": "lead_84a07e80-f44f-4038-82ae-536622566c10",
+  "destination_results": {
+    "meta": {
+      "success": true,
+      "status": 200
+    },
+    "webhooks": [
+      {
+        "success": false,
+        "status": 521,
+        "error": "Webhook HTTP 521"
+      }
+    ]
+  },
+  "lead": {
+    "nome": "Emílio Gato Ferreira",
+    "whatsapp": "(55) 93991-6275",
+    "cidade": "Santarém",
+    "objetivo": "Comprar um carro",
+    "valor": 100000,
+    "entrada": "Até R$ 5 mil",
+    "parcela": "De R$ 1.000 a R$ 2.000",
+    "prazo": "O quanto antes",
+    "origem": "simulador_autoprime",
+    "received_at": "2026-09-24T19:41:10.767Z",
+    "utm_source": "fb",
+    "utm_medium": "paid",
+    "utm_campaign": "120252109706770130",
+    "utm_id": "120252109706770130",
+    "utm_term": "120252109706780130",
+    "utm_content": "120252109706760130"
+  },
+  "request": {
+    "source_url": "https://autoprime.simulead.com.br/?fbclid=IwZXh0bgNhZW0BMABwZG9mBWFkaWQBqziyMNMsknNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHrql3R72C5pGmUBbCTRGOzxaklzJYngiubr2TOxRgxPup8JnnL2yGik6u3rI_aem__ba1fNGWD50sr2DySFas7g&utm_medium=paid&utm_source=fb&utm_id=120252109706770130&utm_content=120252109706760130&utm_term=120252109706780130&utm_campaign=120252109706770130",
+    "user_agent": "Mozilla/5.0 (Linux; Android 16; 24049RN28L Build/BP2A.250605.031.A3) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/153.0.8010.44 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/579.0.0.52.74;IABMV/1;]",
+    "client_ip_address": "2804:1b68:c02f:1b00:9bbe:c099:c6ff:5e15"
+  }
+}
