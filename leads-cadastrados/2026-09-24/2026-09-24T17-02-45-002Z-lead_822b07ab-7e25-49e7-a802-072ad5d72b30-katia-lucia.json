@@ -1,0 +1,42 @@
+{
+  "archive_version": 1,
+  "archived_at": "2026-09-24T17:02:45.002Z",
+  "event_name": "Lead",
+  "event_id": "lead_822b07ab-7e25-49e7-a802-072ad5d72b30",
+  "destination_results": {
+    "meta": {
+      "success": true,
+      "status": 200
+    },
+    "webhooks": [
+      {
+        "success": false,
+        "status": 521,
+        "error": "Webhook HTTP 521"
+      }
+    ]
+  },
+  "lead": {
+    "nome": "Kátia Lúcia ",
+    "whatsapp": "(93) 99205-8453",
+    "cidade": "Belterra",
+    "objetivo": "Comprar um carro",
+    "valor": 40000,
+    "entrada": "Até R$ 5 mil",
+    "parcela": "De R$ 1.000 a R$ 2.000",
+    "prazo": "O quanto antes",
+    "origem": "simulador_autoprime",
+    "received_at": "2026-09-24T17:02:43.556Z",
+    "utm_source": "fb",
+    "utm_medium": "paid",
+    "utm_campaign": "120252109706770130",
+    "utm_id": "120252109706770130",
+    "utm_term": "120252109706780130",
+    "utm_content": "120252109706760130"
+  },
+  "request": {
+    "source_url": "https://autoprime.simulead.com.br/?fbclid=IwZXh0bgNhZW0BMABwZG9mBWFkaWQBqziyMNMsknNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHn05SIEi-ntBP0ZxBcHRvWV53ybRCfSr81epn65bhdqtiC9wIjWEmLJGxbUh_aem_ZEe4Y9l794nx3OWvv6Evdg&utm_medium=paid&utm_source=fb&utm_id=120252109706770130&utm_content=120252109706760130&utm_term=120252109706780130&utm_campaign=120252109706770130",
+    "user_agent": "Mozilla/5.0 (Linux; Android 11; M2003J15SC Build/RP1A.200720.011) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/153.0.8010.44 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/579.0.0.52.74;IABMV/1;]",
+    "client_ip_address": "177.130.57.44"
+  }
+}
