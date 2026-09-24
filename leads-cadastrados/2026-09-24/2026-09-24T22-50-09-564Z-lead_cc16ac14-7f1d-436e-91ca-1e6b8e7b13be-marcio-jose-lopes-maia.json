@@ -1,0 +1,42 @@
+{
+  "archive_version": 1,
+  "archived_at": "2026-09-24T22:50:09.564Z",
+  "event_name": "Lead",
+  "event_id": "lead_cc16ac14-7f1d-436e-91ca-1e6b8e7b13be",
+  "destination_results": {
+    "meta": {
+      "success": true,
+      "status": 200
+    },
+    "webhooks": [
+      {
+        "success": false,
+        "status": 521,
+        "error": "Webhook HTTP 521"
+      }
+    ]
+  },
+  "lead": {
+    "nome": "Marcio José Lopes Maia",
+    "whatsapp": "(93) 99219-7688",
+    "cidade": "Santarém",
+    "objetivo": "Comprar um carro",
+    "valor": 70000,
+    "entrada": "Acima de R$ 40 mil",
+    "parcela": "De R$ 1.000 a R$ 2.000",
+    "prazo": "O quanto antes",
+    "origem": "simulador_autoprime",
+    "received_at": "2026-09-24T22:50:08.184Z",
+    "utm_source": "fb",
+    "utm_medium": "paid",
+    "utm_campaign": "120252109706770130",
+    "utm_id": "120252109706770130",
+    "utm_term": "120252109706780130",
+    "utm_content": "120252109706760130"
+  },
+  "request": {
+    "source_url": "https://autoprime.simulead.com.br/?fbclid=IwZXh0bgNhZW0BMABwZG9mBWFkaWQBqziyMNMsknNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHis7X4IwoOXwzWdS95F3hPY9_rqeJ14nTuH5nVqQFX17Jo0cawTtzEBMnLYz_aem_HcFB03lbni2AO1uQi2fczw&utm_medium=paid&utm_source=fb&utm_id=120252109706770130&utm_content=120252109706760130&utm_term=120252109706780130&utm_campaign=120252109706770130",
+    "user_agent": "Mozilla/5.0 (Linux; Android 15; 23108RN04Y Build/AP3A.240905.015.A2) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/153.0.8010.44 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/579.0.0.52.74;IABMV/1;]",
+    "client_ip_address": "2804:235c:14f:2700:3653:4ecc:aa20:696d"
+  }
+}
