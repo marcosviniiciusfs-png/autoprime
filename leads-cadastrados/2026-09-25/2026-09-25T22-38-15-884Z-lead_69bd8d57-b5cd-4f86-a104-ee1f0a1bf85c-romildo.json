@@ -1,0 +1,45 @@
+{
+  "archive_version": 1,
+  "archived_at": "2026-09-25T22:38:15.884Z",
+  "event_name": "Lead",
+  "event_id": "lead_69bd8d57-b5cd-4f86-a104-ee1f0a1bf85c",
+  "destination_results": {
+    "meta": {
+      "success": true,
+      "status": 200
+    },
+    "webhooks": [
+      {
+        "success": false,
+        "status": 521,
+        "error": "Webhook HTTP 521"
+      }
+    ]
+  },
+  "lead": {
+    "nome": "Romildo",
+    "whatsapp": "(93) 9915-7973",
+    "cidade": "Santarém",
+    "objetivo": "Comprar um carro",
+    "valor": 40000,
+    "entrada": "R$ 5 mil a R$ 15 mil",
+    "parcela": "De R$ 1.000 a R$ 2.000",
+    "prazo": "O quanto antes",
+    "origem": "simulador_autoprime",
+    "received_at": "2026-09-25T22:38:13.953Z",
+    "origem_conta": "ma_comercio",
+    "utm_source": "meta",
+    "utm_medium": "paid_social",
+    "utm_campaign": "01 - [MA SITE] - 10/09",
+    "utm_id": "120255400477390628",
+    "utm_term": "CONJUNTO",
+    "utm_content": "AD",
+    "ad_id": "120255400477400628",
+    "adset_id": "120255400477380628"
+  },
+  "request": {
+    "source_url": "https://autoprime.simulead.com.br/?utm_source=meta&utm_medium=paid_social&utm_campaign=01+-+%5BMA+SITE%5D+-+10%2F09&utm_content=AD&origem_conta=ma_comercio&utm_id=120255400477390628&utm_term=CONJUNTO&ad_id=120255400477400628&adset_id=120255400477380628&fbclid=IwZXh0bgNhZW0BMAB0c2FmAAAABHBkb2YDYWRpZAGrO6ZQ0lEUc3J0YwZhcHBfaWQMMzA2MDY5NDk1MTEzAAEeGsF5fCclZgtdYx-WcctmGZ-VyZvk1vP_VPEW-gPa_DGcYoh4J4YNS6Q1B5I_aem_bMqJ1VAtvLAylahn4vUcuQ",
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7_8 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.7.8 Mobile/15E148 Safari/604.1 [WAiOS/2.26.36]",
+    "client_ip_address": "2804:235c:111:1f00:35ae:590e:324e:db60"
+  }
+}
