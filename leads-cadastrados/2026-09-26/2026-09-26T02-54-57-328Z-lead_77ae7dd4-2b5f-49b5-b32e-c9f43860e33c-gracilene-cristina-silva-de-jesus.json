@@ -1,0 +1,45 @@
+{
+  "archive_version": 1,
+  "archived_at": "2026-09-26T02:54:57.328Z",
+  "event_name": "Lead",
+  "event_id": "lead_77ae7dd4-2b5f-49b5-b32e-c9f43860e33c",
+  "destination_results": {
+    "meta": {
+      "success": true,
+      "status": 200
+    },
+    "webhooks": [
+      {
+        "success": false,
+        "status": 521,
+        "error": "Webhook HTTP 521"
+      }
+    ]
+  },
+  "lead": {
+    "nome": "Gracilene Cristina Silva de Jesus ",
+    "whatsapp": "(93) 99243-9298",
+    "cidade": "Santarém",
+    "objetivo": "Quero fazer um consórcio",
+    "valor": 70000,
+    "entrada": "Até R$ 5 mil",
+    "parcela": "Até R$ 1.000",
+    "prazo": "Ainda estou pesquisando",
+    "origem": "simulador_autoprime",
+    "received_at": "2026-09-26T02:54:55.540Z",
+    "origem_conta": "ma_comercio",
+    "utm_source": "meta",
+    "utm_medium": "paid_social",
+    "utm_campaign": "01 - [MA SITE] - 10/09",
+    "utm_id": "120255400477390628",
+    "utm_term": "CONJUNTO",
+    "utm_content": "AD",
+    "ad_id": "120255400477400628",
+    "adset_id": "120255400477380628"
+  },
+  "request": {
+    "source_url": "https://autoprime.simulead.com.br/?utm_source=meta&utm_medium=paid_social&utm_campaign=01+-+%5BMA+SITE%5D+-+10%2F09&utm_content=AD&origem_conta=ma_comercio&utm_id=120255400477390628&utm_term=CONJUNTO&ad_id=120255400477400628&adset_id=120255400477380628&fbclid=IwZXh0bgNhZW0BMAB0c2FmAAAABHBkb2YDYWRpZAGrO6ZQ0lEUc3J0YwZhcHBfaWQPOTk0NzY2MDczOTU5MjUzAAEeRDx6gjcJYhvwBMHJvE4oo3144k7sGEp39W9hR-cY5gE37vGOEhAQVOV-pXA_aem_GtFfZVMWQhlTSYiZyZfSPg",
+    "user_agent": "Mozilla/5.0 (Linux; Android 16; RMX3930 Build/BP2A.250605.031.A3; ) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/153.0.8010.36 Mobile Safari/537.36 WA4A/2.26.37.73",
+    "client_ip_address": "138.204.128.192"
+  }
+}
