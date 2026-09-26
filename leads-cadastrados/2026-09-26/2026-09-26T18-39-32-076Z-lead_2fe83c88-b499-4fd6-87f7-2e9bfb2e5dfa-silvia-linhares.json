@@ -1,0 +1,42 @@
+{
+  "archive_version": 1,
+  "archived_at": "2026-09-26T18:39:32.076Z",
+  "event_name": "Lead",
+  "event_id": "lead_2fe83c88-b499-4fd6-87f7-2e9bfb2e5dfa",
+  "destination_results": {
+    "meta": {
+      "success": true,
+      "status": 200
+    },
+    "webhooks": [
+      {
+        "success": false,
+        "status": 521,
+        "error": "Webhook HTTP 521"
+      }
+    ]
+  },
+  "lead": {
+    "nome": "Silvia Linhares",
+    "whatsapp": "(93) 99112-4944",
+    "cidade": "Santarém",
+    "objetivo": "Comprar um carro",
+    "valor": 40000,
+    "entrada": "Até R$ 5 mil",
+    "parcela": "Até R$ 1.000",
+    "prazo": "O quanto antes",
+    "origem": "simulador_autoprime",
+    "received_at": "2026-09-26T18:43:43.095Z",
+    "utm_source": "ig",
+    "utm_medium": "paid",
+    "utm_campaign": "120252109706770130",
+    "utm_id": "120252109706770130",
+    "utm_term": "120252109706780130",
+    "utm_content": "120252109706760130"
+  },
+  "request": {
+    "source_url": "https://autoprime.simulead.com.br/?fbclid=PAZXh0bgNhZW0BMABwZG9mAmZkaWQWUPLGbbDVsRTJp9frBo2eBEKJxh3NXGFkaWQBqziyMNMsknNydGMGYXBwX2lkDzEyNDAyNDU3NDI4NzQxNAABp1Ul58uv2E7KCJXmiaLgj6A_QFFHXn0yl4dsY2JC5cl3Jfo6HxL9QJfqlmyx_aem_XFav5oY68SRMLToibuMuyg&utm_medium=paid&utm_source=ig&utm_id=120252109706770130&utm_content=120252109706760130&utm_term=120252109706780130&utm_campaign=120252109706770130",
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/23G83 Instagram 448.0.0.39.66 (iPhone12,1; iOS 26_6_1; pt_BR; pt; scale=2.00; 828x1792; IABMV/1; 1072661960) Safari/604.1",
+    "client_ip_address": "2804:18:7847:8e9a:a91f:1876:25bb:c43"
+  }
+}
