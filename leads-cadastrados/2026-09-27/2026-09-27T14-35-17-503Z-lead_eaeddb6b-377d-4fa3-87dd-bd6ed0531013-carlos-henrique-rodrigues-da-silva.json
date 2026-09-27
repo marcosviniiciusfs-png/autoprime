@@ -1,0 +1,42 @@
+{
+  "archive_version": 1,
+  "archived_at": "2026-09-27T14:35:17.503Z",
+  "event_name": "Lead",
+  "event_id": "lead_eaeddb6b-377d-4fa3-87dd-bd6ed0531013",
+  "destination_results": {
+    "meta": {
+      "success": true,
+      "status": 200
+    },
+    "webhooks": [
+      {
+        "success": false,
+        "status": 521,
+        "error": "Webhook HTTP 521"
+      }
+    ]
+  },
+  "lead": {
+    "nome": "Carlos Henrique Rodrigues da Silva ",
+    "whatsapp": "(93) 98408-3943",
+    "cidade": "Santarém",
+    "objetivo": "Comprar uma moto",
+    "valor": 40000,
+    "entrada": "Até R$ 5 mil",
+    "parcela": "Até R$ 1.000",
+    "prazo": "Entre 1 e 3 meses",
+    "origem": "simulador_autoprime",
+    "received_at": "2026-09-27T14:35:11.649Z",
+    "utm_source": "ig",
+    "utm_medium": "paid",
+    "utm_campaign": "120252109706770130",
+    "utm_id": "120252109706770130",
+    "utm_term": "120252109706780130",
+    "utm_content": "120252109706760130"
+  },
+  "request": {
+    "source_url": "https://autoprime.simulead.com.br/?fbclid=PAZXh0bgNhZW0BMABwZG9mAmFkaWQBqziyMNMsknNydGMGYXBwX2lkDzU2NzA2NzM0MzM1MjQyNwABpwLpj4-rPFqj5NLzG5VQxmwwNVt-d6mOCx1a5_oAveDvjLqsIusLqwmcxtC1_aem_GlPUbbNMazvDZ-g_FcbuYw&utm_medium=paid&utm_source=ig&utm_id=120252109706770130&utm_content=120252109706760130&utm_term=120252109706780130&utm_campaign=120252109706770130",
+    "user_agent": "Mozilla/5.0 (Linux; Android 11; moto g(9) play Build/RPXS31.Q2-58-17-7-3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/154.0.8037.49 Mobile Safari/537.36 Instagram 448.0.0.52.84 Android (30/11; 280dpi; 720x1600; motorola; moto g(9) play; guamp; qcom; pt_BR; 1073357578; IABMV/1)",
+    "client_ip_address": "2804:1810:e739:c600:69c9:ab54:5d63:8b56"
+  }
+}
