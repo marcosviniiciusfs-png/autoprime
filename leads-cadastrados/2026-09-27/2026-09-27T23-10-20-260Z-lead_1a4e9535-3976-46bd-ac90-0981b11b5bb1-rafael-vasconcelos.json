@@ -1,0 +1,42 @@
+{
+  "archive_version": 1,
+  "archived_at": "2026-09-27T23:10:20.260Z",
+  "event_name": "Lead",
+  "event_id": "lead_1a4e9535-3976-46bd-ac90-0981b11b5bb1",
+  "destination_results": {
+    "meta": {
+      "success": true,
+      "status": 200
+    },
+    "webhooks": [
+      {
+        "success": false,
+        "status": 521,
+        "error": "Webhook HTTP 521"
+      }
+    ]
+  },
+  "lead": {
+    "nome": "Rafael Vasconcelos",
+    "whatsapp": "(93) 98110-2473",
+    "cidade": "Santarém",
+    "objetivo": "Comprar um carro",
+    "valor": 40000,
+    "entrada": "Até R$ 5 mil",
+    "parcela": "Até R$ 1.000",
+    "prazo": "Entre 1 e 3 meses",
+    "origem": "simulador_autoprime",
+    "received_at": "2026-09-27T23:10:18.306Z",
+    "utm_source": "ig",
+    "utm_medium": "paid",
+    "utm_campaign": "120252109706770130",
+    "utm_id": "120252109706770130",
+    "utm_term": "120252109706780130",
+    "utm_content": "120252109706760130"
+  },
+  "request": {
+    "source_url": "https://autoprime.simulead.com.br/?fbclid=PAZXh0bgNhZW0BMABwZG9mAmFkaWQBqziyMNMsknNydGMGYXBwX2lkDzU2NzA2NzM0MzM1MjQyNwABp2io79VKxQ2qS5XPijyDfe2_bOCzps6N2rxevkMZcwAA5u243DRB94q_nv5S_aem_KGmzn0Q_RQNMbx6kPmrhgA&utm_medium=paid&utm_source=ig&utm_id=120252109706770130&utm_content=120252109706760130&utm_term=120252109706780130&utm_campaign=120252109706770130",
+    "user_agent": "Mozilla/5.0 (Linux; Android 15; 25028PC03G Build/AP3A.240905.015.A2; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/154.0.8037.49 Mobile Safari/537.36 Instagram 448.0.0.52.84 Android (35/15; 272dpi; 720x1640; Xiaomi/POCO; 25028PC03G; serenity; serenity; pt_BR; 1073357665; IABMV/1)",
+    "client_ip_address": "2804:214:a182:2a53:18d8:9ca4:e1d:307c"
+  }
+}
