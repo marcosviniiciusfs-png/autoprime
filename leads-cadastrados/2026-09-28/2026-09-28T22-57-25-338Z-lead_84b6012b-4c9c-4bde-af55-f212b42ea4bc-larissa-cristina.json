@@ -1,0 +1,45 @@
+{
+  "archive_version": 1,
+  "archived_at": "2026-09-28T22:57:25.338Z",
+  "event_name": "Lead",
+  "event_id": "lead_84b6012b-4c9c-4bde-af55-f212b42ea4bc",
+  "destination_results": {
+    "meta": {
+      "success": true,
+      "status": 200
+    },
+    "webhooks": [
+      {
+        "success": false,
+        "status": 521,
+        "error": "Webhook HTTP 521"
+      }
+    ]
+  },
+  "lead": {
+    "nome": "Larissa Cristina ",
+    "whatsapp": "(92) 99379-8152",
+    "cidade": "Santarém",
+    "objetivo": "Comprar um carro",
+    "valor": 40000,
+    "entrada": "Até R$ 5 mil",
+    "parcela": "Até R$ 1.000",
+    "prazo": "Ainda estou pesquisando",
+    "origem": "simulador_autoprime",
+    "received_at": "2026-09-28T22:57:25.993Z",
+    "origem_conta": "ma_comercio",
+    "utm_source": "meta",
+    "utm_medium": "paid_social",
+    "utm_campaign": "01 - [MA SITE] - 10/09",
+    "utm_id": "120255400477390628",
+    "utm_term": "CONJUNTO",
+    "utm_content": "AD",
+    "ad_id": "120255400477400628",
+    "adset_id": "120255400477380628"
+  },
+  "request": {
+    "source_url": "https://autoprime.simulead.com.br/?utm_source=meta&utm_medium=paid_social&utm_campaign=01+-+%5BMA+SITE%5D+-+10%2F09&utm_content=AD&origem_conta=ma_comercio&utm_id=120255400477390628&utm_term=CONJUNTO&ad_id=120255400477400628&adset_id=120255400477380628&fbclid=PAZXh0bgNhZW0BMABwZG9mAmFkaWQBqzumUNJRFHNydGMGYXBwX2lkDzU2NzA2NzM0MzM1MjQyNwABp5J9VtVcoKx8OfCf3Z3eBxCFQ_TYIVQRyVSTvpmb9oN7UV19DmLxs9nwPG6w_aem_WlHUXkjWoYrW6AYnkUq6Ag",
+    "user_agent": "Mozilla/5.0 (Linux; Android 12; moto e22 Build/SOVS32.121-56-47; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/154.0.8037.49 Mobile Safari/537.36 Instagram 448.0.0.52.84 Android (31/12; 280dpi; 720x1600; motorola; moto e22; borag; mt6765; pt_BR; 1073357578; IABMV/1)",
+    "client_ip_address": "170.238.113.225"
+  }
+}
