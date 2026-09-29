@@ -1,0 +1,42 @@
+{
+  "archive_version": 1,
+  "archived_at": "2026-09-29T15:35:35.037Z",
+  "event_name": "Lead",
+  "event_id": "lead_5442c6ef-ff07-4ba9-a502-ab3e9293175e",
+  "destination_results": {
+    "meta": {
+      "success": true,
+      "status": 200
+    },
+    "webhooks": [
+      {
+        "success": false,
+        "status": 521,
+        "error": "Webhook HTTP 521"
+      }
+    ]
+  },
+  "lead": {
+    "nome": "Udeilza ferreira ",
+    "whatsapp": "(55) 93991-8492",
+    "cidade": "Santarém",
+    "objetivo": "Comprar um carro",
+    "valor": 40000,
+    "entrada": "Até R$ 5 mil",
+    "parcela": "Até R$ 1.000",
+    "prazo": "O quanto antes",
+    "origem": "simulador_autoprime",
+    "received_at": "2026-09-29T15:35:33.291Z",
+    "utm_source": "ig",
+    "utm_medium": "paid",
+    "utm_campaign": "120252109706770130",
+    "utm_id": "120252109706770130",
+    "utm_term": "120252109706780130",
+    "utm_content": "120252109706760130"
+  },
+  "request": {
+    "source_url": "https://autoprime.simulead.com.br/?fbclid=PAZXh0bgNhZW0BMABwZG9mAmFkaWQBqziyMNMsknNydGMGYXBwX2lkDzU2NzA2NzM0MzM1MjQyNwABp6SFXCDFgnAnxoAt9ESjoajndapTUuiMmo4hWwbuLXVPmeiWo9iwjVzSvv9o_aem_4cZCw8zHT5SW56O0iYL2cw&utm_medium=paid&utm_source=ig&utm_id=120252109706770130&utm_content=120252109706760130&utm_term=120252109706780130&utm_campaign=120252109706770130",
+    "user_agent": "Mozilla/5.0 (Linux; Android 15; RMX3834 Build/AP3A.240905.015.A2; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/154.0.8037.49 Mobile Safari/537.36 Instagram 448.0.0.52.84 Android (35/15; 320dpi; 720x1600; realme; RMX3834; RE5C9F; ums9230_hulk; pt_BR; 1073357665; IABMV/1)",
+    "client_ip_address": "2804:2c88:1150:cd00:eaca:555c:ecc1:aaa0"
+  }
+}
