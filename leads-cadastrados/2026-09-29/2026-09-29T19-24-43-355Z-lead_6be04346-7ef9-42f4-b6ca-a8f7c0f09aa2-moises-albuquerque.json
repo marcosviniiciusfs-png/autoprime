@@ -1,0 +1,42 @@
+{
+  "archive_version": 1,
+  "archived_at": "2026-09-29T19:24:43.355Z",
+  "event_name": "Lead",
+  "event_id": "lead_6be04346-7ef9-42f4-b6ca-a8f7c0f09aa2",
+  "destination_results": {
+    "meta": {
+      "success": true,
+      "status": 200
+    },
+    "webhooks": [
+      {
+        "success": false,
+        "status": 521,
+        "error": "Webhook HTTP 521"
+      }
+    ]
+  },
+  "lead": {
+    "nome": "Moises Albuquerque",
+    "whatsapp": "(55) 93992-1315",
+    "cidade": "Santarém",
+    "objetivo": "Comprar um carro",
+    "valor": 40000,
+    "entrada": "R$ 5 mil a R$ 15 mil",
+    "parcela": "Até R$ 1.000",
+    "prazo": "O quanto antes",
+    "origem": "simulador_autoprime",
+    "received_at": "2026-09-29T19:24:40.567Z",
+    "utm_source": "ig",
+    "utm_medium": "paid",
+    "utm_campaign": "120252109706770130",
+    "utm_id": "120252109706770130",
+    "utm_term": "120252109706780130",
+    "utm_content": "120252109706760130"
+  },
+  "request": {
+    "source_url": "https://autoprime.simulead.com.br/?fbclid=PAZXh0bgNhZW0BMABwZG9mAmFkaWQBqziyMNMsknNydGMGYXBwX2lkDzU2NzA2NzM0MzM1MjQyNwABpwR_-SSHXaMMd7zg8Fbg3GdCFXLptBR4lkR8Ep5Qw0qfJ-2Lky89jazKS8kg_aem_AHPMeajLGr0E3BkhS9TIgg&utm_medium=paid&utm_source=ig&utm_id=120252109706770130&utm_content=120252109706760130&utm_term=120252109706780130&utm_campaign=120252109706770130",
+    "user_agent": "Mozilla/5.0 (Linux; Android 16; motorola edge 70 fusion Build/W2WE36.56-98-19; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/153.0.8010.36 Mobile Safari/537.36 Instagram 448.0.0.52.84 Android (36/16; 450dpi; 1272x2772; motorola; motorola edge 70 fusion; marvel; qcom; pt_BR_#u-fw-mon; 1073357672; IABMV/1)",
+    "client_ip_address": "2804:18:784d:9030:23:7aff:fea4:8d30"
+  }
+}
