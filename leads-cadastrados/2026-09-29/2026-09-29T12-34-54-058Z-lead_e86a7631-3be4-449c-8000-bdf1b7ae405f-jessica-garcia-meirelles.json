@@ -1,0 +1,42 @@
+{
+  "archive_version": 1,
+  "archived_at": "2026-09-29T12:34:54.058Z",
+  "event_name": "Lead",
+  "event_id": "lead_e86a7631-3be4-449c-8000-bdf1b7ae405f",
+  "destination_results": {
+    "meta": {
+      "success": true,
+      "status": 200
+    },
+    "webhooks": [
+      {
+        "success": false,
+        "status": 521,
+        "error": "Webhook HTTP 521"
+      }
+    ]
+  },
+  "lead": {
+    "nome": "Jessica Garcia Meirelles ",
+    "whatsapp": "(93) 99190-6335",
+    "cidade": "Santarém",
+    "objetivo": "Comprar um carro",
+    "valor": 40000,
+    "entrada": "R$ 5 mil a R$ 15 mil",
+    "parcela": "Até R$ 1.000",
+    "prazo": "O quanto antes",
+    "origem": "simulador_autoprime",
+    "received_at": "2026-09-29T12:34:52.741Z",
+    "utm_source": "ig",
+    "utm_medium": "paid",
+    "utm_campaign": "120252109706770130",
+    "utm_id": "120252109706770130",
+    "utm_term": "120252109706780130",
+    "utm_content": "120252109706760130"
+  },
+  "request": {
+    "source_url": "https://autoprime.simulead.com.br/?fbclid=PAZXh0bgNhZW0BMABwZG9mAmZkaWQWUPWE-JnXFbqA69sAC7KFRb0C5nBJfWFkaWQBqziyMNMsknNydGMGYXBwX2lkDzEyNDAyNDU3NDI4NzQxNAABp3bj4c4Uw_MPF5lQYNtqekVA6cyTtNyHX6J64lQj6gpECk_mOHe0_ahmfmIX_aem_j131D9oMtlBZSb7chAswfA&utm_medium=paid&utm_source=ig&utm_id=120252109706770130&utm_content=120252109706760130&utm_term=120252109706780130&utm_campaign=120252109706770130",
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 27_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/24A437 Instagram 448.0.0.39.66 (iPhone16,2; iOS 27_0; pt_BR; pt; scale=3.00; 1290x2796; IABMV/1; 1072661960) Safari/604.1",
+    "client_ip_address": "138.94.37.206"
+  }
+}
