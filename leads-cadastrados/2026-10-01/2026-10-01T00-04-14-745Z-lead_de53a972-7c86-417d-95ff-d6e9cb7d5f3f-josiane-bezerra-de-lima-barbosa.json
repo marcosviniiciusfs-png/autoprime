@@ -1,0 +1,42 @@
+{
+  "archive_version": 1,
+  "archived_at": "2026-10-01T00:04:14.745Z",
+  "event_name": "Lead",
+  "event_id": "lead_de53a972-7c86-417d-95ff-d6e9cb7d5f3f",
+  "destination_results": {
+    "meta": {
+      "success": true,
+      "status": 200
+    },
+    "webhooks": [
+      {
+        "success": false,
+        "status": 521,
+        "error": "Webhook HTTP 521"
+      }
+    ]
+  },
+  "lead": {
+    "nome": "Josiane Bezerra de Lima Barbosa ",
+    "whatsapp": "(93) 98801-8130",
+    "cidade": "Santarém",
+    "objetivo": "Comprar um carro",
+    "valor": 40000,
+    "entrada": "Até R$ 5 mil",
+    "parcela": "De R$ 1.000 a R$ 2.000",
+    "prazo": "Entre 1 e 3 meses",
+    "origem": "simulador_autoprime",
+    "received_at": "2026-10-01T00:04:13.422Z",
+    "utm_source": "fb",
+    "utm_medium": "paid",
+    "utm_campaign": "120252109706770130",
+    "utm_id": "120252109706770130",
+    "utm_term": "120252109706780130",
+    "utm_content": "120252109706760130"
+  },
+  "request": {
+    "source_url": "https://autoprime.simulead.com.br/?fbclid=IwZXh0bgNhZW0BMABwZG9mBWFkaWQBqziyMNMsknNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHpdPXtov1R5-VBkcMIiFds3jbrq3twgendelnFSDU_IaOoBclJ8m7VmiXB5U_aem_7vpPJkJJb6C5Ys4Y_Xv5-w&utm_medium=paid&utm_source=fb&utm_id=120252109706770130&utm_content=120252109706760130&utm_term=120252109706780130&utm_campaign=120252109706770130",
+    "user_agent": "Mozilla/5.0 (Linux; Android 16; CPH2727 Build/BP2A.250605.015) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/154.0.8037.52 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/580.0.0.51.74;IABMV/1;]",
+    "client_ip_address": "179.124.26.42"
+  }
+}
