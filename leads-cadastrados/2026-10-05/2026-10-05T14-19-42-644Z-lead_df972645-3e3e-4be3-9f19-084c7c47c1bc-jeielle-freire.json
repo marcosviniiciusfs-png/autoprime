@@ -1,0 +1,42 @@
+{
+  "archive_version": 1,
+  "archived_at": "2026-10-05T14:19:42.644Z",
+  "event_name": "Lead",
+  "event_id": "lead_df972645-3e3e-4be3-9f19-084c7c47c1bc",
+  "destination_results": {
+    "meta": {
+      "success": true,
+      "status": 200
+    },
+    "webhooks": [
+      {
+        "success": false,
+        "status": 521,
+        "error": "Webhook HTTP 521"
+      }
+    ]
+  },
+  "lead": {
+    "nome": "Jeielle Freire",
+    "whatsapp": "(93) 99144-5157",
+    "cidade": "Santarém",
+    "objetivo": "Comprar um carro",
+    "valor": 40000,
+    "entrada": "R$ 5 mil a R$ 15 mil",
+    "parcela": "Até R$ 1.000",
+    "prazo": "Ainda estou pesquisando",
+    "origem": "simulador_autoprime",
+    "received_at": "2026-10-05T14:19:41.983Z",
+    "utm_source": "ig",
+    "utm_medium": "paid",
+    "utm_campaign": "120252109706770130",
+    "utm_id": "120252109706770130",
+    "utm_term": "120252109706780130",
+    "utm_content": "120252109706760130"
+  },
+  "request": {
+    "source_url": "https://autoprime.simulead.com.br/?fbclid=PAZXh0bgNhZW0BMABwZG9mAmFkaWQBqziyMNMsknNydGMGYXBwX2lkDzU2NzA2NzM0MzM1MjQyNwABpwNwKaYlO_IO_PuLNu2eX-VUe58SKtMz8V_8kBw8T3xPEGsL7SpPqJ_GU5A1_aem_BO6y7ZHOGq1ctDsca2H3Tw&utm_medium=paid&utm_source=ig&utm_id=120252109706770130&utm_content=120252109706760130&utm_term=120252109706780130&utm_campaign=120252109706770130",
+    "user_agent": "Mozilla/5.0 (Linux; Android 16; SM-A576B Build/BP4A.251205.006; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/155.0.8059.32 Mobile Safari/537.36 Instagram 450.0.0.47.77 Android (36/16; 450dpi; 1080x2340; samsung; SM-A576B; a57x; s5e8865; pt_BR; 1084038343; IABMV/1)",
+    "client_ip_address": "2804:2674:402c:1400:327e:5a7a:49d6:c001"
+  }
+}
