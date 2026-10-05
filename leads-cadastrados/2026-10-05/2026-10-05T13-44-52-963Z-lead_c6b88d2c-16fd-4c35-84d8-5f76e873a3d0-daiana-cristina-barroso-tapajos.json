@@ -1,0 +1,42 @@
+{
+  "archive_version": 1,
+  "archived_at": "2026-10-05T13:44:52.963Z",
+  "event_name": "Lead",
+  "event_id": "lead_c6b88d2c-16fd-4c35-84d8-5f76e873a3d0",
+  "destination_results": {
+    "meta": {
+      "success": true,
+      "status": 200
+    },
+    "webhooks": [
+      {
+        "success": false,
+        "status": 521,
+        "error": "Webhook HTTP 521"
+      }
+    ]
+  },
+  "lead": {
+    "nome": "Daiana cristina Barroso Tapajos",
+    "whatsapp": "(55) 93991-9194",
+    "cidade": "SantarÉm",
+    "objetivo": "Comprar um carro",
+    "valor": 40000,
+    "entrada": "R$ 5 mil a R$ 15 mil",
+    "parcela": "Até R$ 1.000",
+    "prazo": "O quanto antes",
+    "origem": "simulador_autoprime",
+    "received_at": "2026-10-05T13:44:52.045Z",
+    "utm_source": "ig",
+    "utm_medium": "paid",
+    "utm_campaign": "120252109706770130",
+    "utm_id": "120252109706770130",
+    "utm_term": "120252109706780130",
+    "utm_content": "120252109706760130"
+  },
+  "request": {
+    "source_url": "https://autoprime.simulead.com.br/?fbclid=PAZXh0bgNhZW0BMABwZG9mAmZkaWQWUPvyPUOjBbFu0lAyy_PTc-xqfIN-XWFkaWQBqziyMNMsknNydGMGYXBwX2lkDzEyNDAyNDU3NDI4NzQxNAABp_NRQvhRF6nhOQY9_dam16_RE3t2xC8x0IVcZqzeijcXU09CRsxWFDxdZaAC_aem_HvQBrBbpJGfjTWPi6UtRhA&utm_medium=paid&utm_source=ig&utm_id=120252109706770130&utm_content=120252109706760130&utm_term=120252109706780130&utm_campaign=120252109706770130",
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/23G71 Instagram 448.0.0.39.66 (iPhone14,3; iOS 26_6; pt_BR; pt; scale=3.00; 1284x2778; IABMV/1; 1072661960) Safari/604.1",
+    "client_ip_address": "2804:3238:10:1300:d963:6285:f07d:7a24"
+  }
+}
