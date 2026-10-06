@@ -1,0 +1,42 @@
+{
+  "archive_version": 1,
+  "archived_at": "2026-10-06T13:57:14.059Z",
+  "event_name": "Lead",
+  "event_id": "lead_5239ec31-ce53-449c-9dc8-fefa82f392ef",
+  "destination_results": {
+    "meta": {
+      "success": true,
+      "status": 200
+    },
+    "webhooks": [
+      {
+        "success": false,
+        "status": 521,
+        "error": "Webhook HTTP 521"
+      }
+    ]
+  },
+  "lead": {
+    "nome": "Jose Denilson Campos Miranda",
+    "whatsapp": "(93) 98417-9632",
+    "cidade": "Santarém",
+    "objetivo": "Comprar um carro",
+    "valor": 70000,
+    "entrada": "Até R$ 5 mil",
+    "parcela": "Até R$ 1.000",
+    "prazo": "Nos próximos 30 dias",
+    "origem": "simulador_autoprime",
+    "received_at": "2026-10-06T13:57:13.103Z",
+    "utm_source": "ig",
+    "utm_medium": "paid",
+    "utm_campaign": "120252109706770130",
+    "utm_id": "120252109706770130",
+    "utm_term": "120252109706780130",
+    "utm_content": "120252109706760130"
+  },
+  "request": {
+    "source_url": "https://autoprime.simulead.com.br/?fbclid=PAZXh0bgNhZW0BMABwZG9mAmZkaWQWUPxcZRDg017R4nc_WUjAQu8bj1i-aWFkaWQBqziyMNMsknNydGMGYXBwX2lkDzEyNDAyNDU3NDI4NzQxNAABp90NL7ZvovLITBsvMl6KrBE0BREHl3W1Myk_caj_UiMJTXUWboESIAn6gwaX_aem_UI5I00VtrxIpGd-rHVqQlQ&utm_medium=paid&utm_source=ig&utm_id=120252109706770130&utm_content=120252109706760130&utm_term=120252109706780130&utm_campaign=120252109706770130",
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/23F81 Instagram 448.0.0.39.66 (iPhone18,2; iOS 26_5_1; pt_BR; pt; scale=3.00; 1320x2868; IABMV/1; 1072661960) Safari/604.1",
+    "client_ip_address": "2804:20b4:80a2:c200:4437:f514:df5:7025"
+  }
+}
