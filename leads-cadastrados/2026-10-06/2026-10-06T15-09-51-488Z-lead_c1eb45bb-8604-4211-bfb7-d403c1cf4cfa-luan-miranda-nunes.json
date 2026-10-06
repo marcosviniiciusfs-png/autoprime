@@ -1,0 +1,42 @@
+{
+  "archive_version": 1,
+  "archived_at": "2026-10-06T15:09:51.488Z",
+  "event_name": "Lead",
+  "event_id": "lead_c1eb45bb-8604-4211-bfb7-d403c1cf4cfa",
+  "destination_results": {
+    "meta": {
+      "success": true,
+      "status": 200
+    },
+    "webhooks": [
+      {
+        "success": false,
+        "status": 521,
+        "error": "Webhook HTTP 521"
+      }
+    ]
+  },
+  "lead": {
+    "nome": "Luan Miranda Nunes ",
+    "whatsapp": "(93) 99217-2794",
+    "cidade": "Santarém",
+    "objetivo": "Trocar meu veículo",
+    "valor": 70000,
+    "entrada": "R$ 5 mil a R$ 15 mil",
+    "parcela": "Até R$ 1.000",
+    "prazo": "Entre 1 e 3 meses",
+    "origem": "simulador_autoprime",
+    "received_at": "2026-10-06T15:09:49.647Z",
+    "utm_source": "ig",
+    "utm_medium": "paid",
+    "utm_campaign": "120252109706770130",
+    "utm_id": "120252109706770130",
+    "utm_term": "120252109706780130",
+    "utm_content": "120252109706760130"
+  },
+  "request": {
+    "source_url": "https://autoprime.simulead.com.br/?fbclid=PAZXh0bgNhZW0BMABwZG9mAmFkaWQBqziyMNMsknNydGMGYXBwX2lkDzU2NzA2NzM0MzM1MjQyNwABp5tT27QothNLBbQxGX6jP8qaFr_2U47ibp36XqYme8uglpu_iDyZmki0PEA3_aem_MaY9l8YNMwTCOXj0QTSjYw&utm_medium=paid&utm_source=ig&utm_id=120252109706770130&utm_content=120252109706760130&utm_term=120252109706780130&utm_campaign=120252109706770130",
+    "user_agent": "Mozilla/5.0 (Linux; Android 13; 2201116SI Build/TKQ1.221114.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/154.0.8037.61 Mobile Safari/537.36 Instagram 449.0.0.52.84 Android (33/13; 440dpi; 1080x2400; Xiaomi/Redmi; 2201116SI; peux; qcom; pt_BR; 1079242229; IABMV/1)",
+    "client_ip_address": "2804:18:7049:22c:74b5:4dff:fee5:cbee"
+  }
+}
