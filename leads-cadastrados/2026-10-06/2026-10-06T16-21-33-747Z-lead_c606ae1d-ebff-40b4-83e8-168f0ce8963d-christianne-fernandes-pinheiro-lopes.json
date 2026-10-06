@@ -1,0 +1,42 @@
+{
+  "archive_version": 1,
+  "archived_at": "2026-10-06T16:21:33.747Z",
+  "event_name": "Lead",
+  "event_id": "lead_c606ae1d-ebff-40b4-83e8-168f0ce8963d",
+  "destination_results": {
+    "meta": {
+      "success": true,
+      "status": 200
+    },
+    "webhooks": [
+      {
+        "success": false,
+        "status": 521,
+        "error": "Webhook HTTP 521"
+      }
+    ]
+  },
+  "lead": {
+    "nome": "Christianne Fernandes Pinheiro Lopes",
+    "whatsapp": "(93) 99217-5647",
+    "cidade": "Santarém",
+    "objetivo": "Comprar um carro",
+    "valor": 40000,
+    "entrada": "Até R$ 5 mil",
+    "parcela": "Até R$ 1.000",
+    "prazo": "Entre 1 e 3 meses",
+    "origem": "simulador_autoprime",
+    "received_at": "2026-10-06T16:21:31.715Z",
+    "utm_source": "ig",
+    "utm_medium": "paid",
+    "utm_campaign": "120252109706770130",
+    "utm_id": "120252109706770130",
+    "utm_term": "120252109706780130",
+    "utm_content": "120252109706760130"
+  },
+  "request": {
+    "source_url": "https://autoprime.simulead.com.br/?fbclid=PAZXh0bgNhZW0BMABwZG9mAmFkaWQBqziyMNMsknNydGMGYXBwX2lkDzU2NzA2NzM0MzM1MjQyNwABp13WWw3DPvnF0vPCbkSUzRxY0zPfDdCUPjNTKTXnJIJ5D1m46DE6j30YxEj4_aem_Kj2M4ZfqNFhEhJAQQ5pagg&utm_medium=paid&utm_source=ig&utm_id=120252109706770130&utm_content=120252109706760130&utm_term=120252109706780130&utm_campaign=120252109706770130",
+    "user_agent": "Mozilla/5.0 (Linux; Android 15; moto g54 5G Build/V1TDS35H.83-20-5-8-2-1-3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/154.0.8037.61 Mobile Safari/537.36 Instagram 449.0.0.52.84 Android (35/15; 400dpi; 1080x2400; motorola; moto g54 5G; cancunf; mt6855; pt_BR; 1079242061; IABMV/1)",
+    "client_ip_address": "2804:1810:e708:7900:4b9f:8c90:ebee:1687"
+  }
+}
