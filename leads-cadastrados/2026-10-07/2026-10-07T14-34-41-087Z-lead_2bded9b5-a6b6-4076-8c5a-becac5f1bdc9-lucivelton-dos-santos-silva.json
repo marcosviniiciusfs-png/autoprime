@@ -1,0 +1,42 @@
+{
+  "archive_version": 1,
+  "archived_at": "2026-10-07T14:34:41.087Z",
+  "event_name": "Lead",
+  "event_id": "lead_2bded9b5-a6b6-4076-8c5a-becac5f1bdc9",
+  "destination_results": {
+    "meta": {
+      "success": true,
+      "status": 200
+    },
+    "webhooks": [
+      {
+        "success": false,
+        "status": 521,
+        "error": "Webhook HTTP 521"
+      }
+    ]
+  },
+  "lead": {
+    "nome": "Lucivelton dos Santos Silva",
+    "whatsapp": "(93) 99107-0050",
+    "cidade": "Santarém",
+    "objetivo": "Comprar um carro",
+    "valor": 40000,
+    "entrada": "Até R$ 5 mil",
+    "parcela": "Até R$ 1.000",
+    "prazo": "O quanto antes",
+    "origem": "simulador_autoprime",
+    "received_at": "2026-10-07T14:34:39.602Z",
+    "utm_source": "ig",
+    "utm_medium": "paid",
+    "utm_campaign": "120252109706770130",
+    "utm_id": "120252109706770130",
+    "utm_term": "120252109706780130",
+    "utm_content": "120252109706760130"
+  },
+  "request": {
+    "source_url": "https://autoprime.simulead.com.br/?fbclid=PAZXh0bgNhZW0BMABwZG9mAmZkaWQWUP27w8-zYQM-0b7NJj6Dxi8H4hqx4mFkaWQBqziyMNMsknNydGMGYXBwX2lkDzEyNDAyNDU3NDI4NzQxNAABpwEUNKxvyvAgbjMCJqyOGbYB_d07a_w5XocgfPjMI6DbTIefhpWiBBfTqp25_aem_5rODkDZg1SzipAIlukp2ow&utm_medium=paid&utm_source=ig&utm_id=120252109706770130&utm_content=120252109706760130&utm_term=120252109706780130&utm_campaign=120252109706770130",
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/22H374 Instagram 448.0.0.39.66 (iPhone11,6; iOS 18_7_10; pt_BR; pt; scale=3.00; 1242x2688; IABMV/1; 1072661960) Safari/604.1",
+    "client_ip_address": "191.6.115.176"
+  }
+}
