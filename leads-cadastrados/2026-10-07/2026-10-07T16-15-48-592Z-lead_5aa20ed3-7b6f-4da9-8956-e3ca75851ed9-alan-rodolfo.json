@@ -1,0 +1,42 @@
+{
+  "archive_version": 1,
+  "archived_at": "2026-10-07T16:15:48.592Z",
+  "event_name": "Lead",
+  "event_id": "lead_5aa20ed3-7b6f-4da9-8956-e3ca75851ed9",
+  "destination_results": {
+    "meta": {
+      "success": true,
+      "status": 200
+    },
+    "webhooks": [
+      {
+        "success": false,
+        "status": 521,
+        "error": "Webhook HTTP 521"
+      }
+    ]
+  },
+  "lead": {
+    "nome": "Alan Rodolfo",
+    "whatsapp": "(55) 93984-3240",
+    "cidade": "Santarém",
+    "objetivo": "Comprar um carro",
+    "valor": 40000,
+    "entrada": "Até R$ 5 mil",
+    "parcela": "Até R$ 1.000",
+    "prazo": "O quanto antes",
+    "origem": "simulador_autoprime",
+    "received_at": "2026-10-07T16:15:47.144Z",
+    "utm_source": "ig",
+    "utm_medium": "paid",
+    "utm_campaign": "120252109706770130",
+    "utm_id": "120252109706770130",
+    "utm_term": "120252109706780130",
+    "utm_content": "120252109706760130"
+  },
+  "request": {
+    "source_url": "https://autoprime.simulead.com.br/?fbclid=PAZXh0bgNhZW0BMABwZG9mAmFkaWQBqziyMNMsknNydGMGYXBwX2lkDzU2NzA2NzM0MzM1MjQyNwABp1egR4wXjbvFqPW8ZoiLqxI7HkmJY27IUDk-VMFOMwry4WmF5EQo_tn1YjBA_aem_Wcaru2nHchyZpl3PbPIQfg&utm_medium=paid&utm_source=ig&utm_id=120252109706770130&utm_content=120252109706760130&utm_term=120252109706780130&utm_campaign=120252109706770130",
+    "user_agent": "Mozilla/5.0 (Linux; Android 16; 2510ERA8BG Build/BP2A.250605.031.A3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/155.0.8059.32 Mobile Safari/537.36 Instagram 450.0.0.50.77 Android (36/16; 520dpi; 1280x2772; Xiaomi/Redmi; 2510ERA8BG; flourite; qcom; pt_BR; 1084453874; IABMV/1)",
+    "client_ip_address": "2804:1b3:8c51:19e0:7644:606:13f3:3831"
+  }
+}
