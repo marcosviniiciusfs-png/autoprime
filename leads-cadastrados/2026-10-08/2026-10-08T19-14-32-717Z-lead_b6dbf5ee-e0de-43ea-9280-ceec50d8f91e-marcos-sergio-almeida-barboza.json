@@ -1,0 +1,42 @@
+{
+  "archive_version": 1,
+  "archived_at": "2026-10-08T19:14:32.717Z",
+  "event_name": "Lead",
+  "event_id": "lead_b6dbf5ee-e0de-43ea-9280-ceec50d8f91e",
+  "destination_results": {
+    "meta": {
+      "success": true,
+      "status": 200
+    },
+    "webhooks": [
+      {
+        "success": false,
+        "status": 521,
+        "error": "Webhook HTTP 521"
+      }
+    ]
+  },
+  "lead": {
+    "nome": "Marcos sergio almeida barboza",
+    "whatsapp": "(93) 99242-8412",
+    "cidade": "Santarém",
+    "objetivo": "Comprar um carro",
+    "valor": 40000,
+    "entrada": "Até R$ 5 mil",
+    "parcela": "Até R$ 1.000",
+    "prazo": "Nos próximos 30 dias",
+    "origem": "simulador_autoprime",
+    "received_at": "2026-10-08T19:14:31.138Z",
+    "utm_source": "ig",
+    "utm_medium": "paid",
+    "utm_campaign": "120252109706770130",
+    "utm_id": "120252109706770130",
+    "utm_term": "120252109706780130",
+    "utm_content": "120252109706760130"
+  },
+  "request": {
+    "source_url": "https://autoprime.simulead.com.br/?fbclid=PAZXh0bgNhZW0BMABwZG9mAmZkaWQWUP4X4LiJxXbdvXbbrSzP3Blgf4kAgmFkaWQBqziyMNMsknNydGMGYXBwX2lkDzEyNDAyNDU3NDI4NzQxNAABp6da5o7QaSktZq4gQRcIC01IpypG28GOz-AF_5eMUxIu3vJTBfal4QXzwppd_aem_l_SdgsVYbW0PcZLZ2a71bQ&utm_medium=paid&utm_source=ig&utm_id=120252109706770130&utm_content=120252109706760130&utm_term=120252109706780130&utm_campaign=120252109706770130",
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 27_0_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/24A446 Instagram 449.0.0.33.70 (iPhone17,3; iOS 27_0_1; pt_BR; pt; scale=3.00; 1179x2556; IABMV/1; 1077525814) Safari/604.1",
+    "client_ip_address": "2804:389:d04f:363:7412:6b40:5d9c:dbb1"
+  }
+}
