@@ -1,0 +1,42 @@
+{
+  "archive_version": 1,
+  "archived_at": "2026-10-09T17:33:04.332Z",
+  "event_name": "Lead",
+  "event_id": "lead_580347b2-bf11-4747-832f-a88833f16bd7",
+  "destination_results": {
+    "meta": {
+      "success": true,
+      "status": 200
+    },
+    "webhooks": [
+      {
+        "success": false,
+        "status": 521,
+        "error": "Webhook HTTP 521"
+      }
+    ]
+  },
+  "lead": {
+    "nome": "Marlon jeandrey Pereira fonseca",
+    "whatsapp": "(93) 98102-4574",
+    "cidade": "Santarém",
+    "objetivo": "Comprar um carro",
+    "valor": 40000,
+    "entrada": "R$ 5 mil a R$ 15 mil",
+    "parcela": "Até R$ 1.000",
+    "prazo": "Nos próximos 30 dias",
+    "origem": "simulador_autoprime",
+    "received_at": "2026-10-09T17:33:00.687Z",
+    "utm_source": "ig",
+    "utm_medium": "paid",
+    "utm_campaign": "120252109706770130",
+    "utm_id": "120252109706770130",
+    "utm_term": "120252109706780130",
+    "utm_content": "120252109706760130"
+  },
+  "request": {
+    "source_url": "https://autoprime.simulead.com.br/?fbclid=PAZXh0bgNhZW0BMABwZG9mAmFkaWQBqziyMNMsknNydGMGYXBwX2lkDzU2NzA2NzM0MzM1MjQyNwABpy_W-zn0SE8bYsUO1oekvXcRGfTmBJzFTgCWZXZ5oV-n_CXZTXpST7tgCC5S_aem_3tDmaOLOpAcfhmy0wu1i_g&utm_medium=paid&utm_source=ig&utm_id=120252109706770130&utm_content=120252109706760130&utm_term=120252109706780130&utm_campaign=120252109706770130",
+    "user_agent": "Mozilla/5.0 (Linux; Android 11; Nokia C30 Build/RP1A.201005.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/153.0.8010.57 Mobile Safari/537.36 Instagram 450.0.0.50.77 Android (30/11; 280dpi; 720x1640; HMD Global/Nokia; Nokia C30; MNR; s9863a1h10_go; pt_BR; 1084453840; IABMV/1)",
+    "client_ip_address": "74.244.223.31"
+  }
+}
