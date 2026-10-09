@@ -1,0 +1,42 @@
+{
+  "archive_version": 1,
+  "archived_at": "2026-10-09T13:11:24.868Z",
+  "event_name": "Lead",
+  "event_id": "lead_5966f8e9-62e7-4de7-8d04-0aca90b5c0ae",
+  "destination_results": {
+    "meta": {
+      "success": true,
+      "status": 200
+    },
+    "webhooks": [
+      {
+        "success": false,
+        "status": 521,
+        "error": "Webhook HTTP 521"
+      }
+    ]
+  },
+  "lead": {
+    "nome": "Celio Antonio de Moura costa",
+    "whatsapp": "(93) 99163-0106",
+    "cidade": "Santarém",
+    "objetivo": "Trocar meu veículo",
+    "valor": 40000,
+    "entrada": "R$ 5 mil a R$ 15 mil",
+    "parcela": "Até R$ 1.000",
+    "prazo": "O quanto antes",
+    "origem": "simulador_autoprime",
+    "received_at": "2026-10-09T13:11:23.868Z",
+    "utm_source": "ig",
+    "utm_medium": "paid",
+    "utm_campaign": "120252109706770130",
+    "utm_id": "120252109706770130",
+    "utm_term": "120252109706780130",
+    "utm_content": "120252109706760130"
+  },
+  "request": {
+    "source_url": "https://autoprime.simulead.com.br/?fbclid=PAZXh0bgNhZW0BMABwZG9mAmFkaWQBqziyMNMsknNydGMGYXBwX2lkDzU2NzA2NzM0MzM1MjQyNwABp2xBUIjDiZ2O0MsnjODb0rjyeEfjQQe--qDBOz3nrp3ltksz2QIutBHJztvN_aem_76m6j3JO5aDk3z4m56KXzg&utm_medium=paid&utm_source=ig&utm_id=120252109706770130&utm_content=120252109706760130&utm_term=120252109706780130&utm_campaign=120252109706770130",
+    "user_agent": "Mozilla/5.0 (Linux; Android 14; SM-T735 Build/UP1A.231005.007; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/154.0.8037.61 Safari/537.36 Instagram 449.0.0.52.84 Android (34/14; 340dpi; 2560x1600; samsung; SM-T735; gts7xllite; qcom; pt_BR; 1084450105; IABMV/1)",
+    "client_ip_address": "45.190.136.123"
+  }
+}
