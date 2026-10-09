@@ -1,0 +1,42 @@
+{
+  "archive_version": 1,
+  "archived_at": "2026-10-09T01:29:49.950Z",
+  "event_name": "Lead",
+  "event_id": "lead_fc7fe368-3f1e-41d0-b6ea-61e11ac58f61",
+  "destination_results": {
+    "meta": {
+      "success": true,
+      "status": 200
+    },
+    "webhooks": [
+      {
+        "success": false,
+        "status": 521,
+        "error": "Webhook HTTP 521"
+      }
+    ]
+  },
+  "lead": {
+    "nome": "Alesson José Nascimento Guimarães",
+    "whatsapp": "(93) 98401-0698",
+    "cidade": "Santarém",
+    "objetivo": "Comprar um carro",
+    "valor": 100000,
+    "entrada": "Até R$ 5 mil",
+    "parcela": "Até R$ 1.000",
+    "prazo": "Ainda estou pesquisando",
+    "origem": "simulador_autoprime",
+    "received_at": "2026-10-09T01:29:48.779Z",
+    "utm_source": "ig",
+    "utm_medium": "paid",
+    "utm_campaign": "120252109706770130",
+    "utm_id": "120252109706770130",
+    "utm_term": "120252109706780130",
+    "utm_content": "120252109706760130"
+  },
+  "request": {
+    "source_url": "https://autoprime.simulead.com.br/?fbclid=PAZXh0bgNhZW0BMABwZG9mAmZkaWQWUP_7ELuQYSVhvoYzGskiznvFoldMCGFkaWQBqziyMNMsknNydGMGYXBwX2lkDzEyNDAyNDU3NDI4NzQxNAABpwEJN5W5jHX73lVojKFjXedAsCZMeu9G2V7nj22eDsGTDckxZ0LrgYXWzxvz_aem_x19JDHrB5HIK8_zYzqSkGw&utm_medium=paid&utm_source=ig&utm_id=120252109706770130&utm_content=120252109706760130&utm_term=120252109706780130&utm_campaign=120252109706770130",
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_6_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/23G90 Instagram 450.1.0.35.61 (iPhone13,2; iOS 26_6_2; pt_BR; pt; scale=3.00; 1170x2532; IABMV/1; 1084815185) Safari/604.1",
+    "client_ip_address": "2804:2674:4019:9400:c48e:7d34:5064:e31e"
+  }
+}
