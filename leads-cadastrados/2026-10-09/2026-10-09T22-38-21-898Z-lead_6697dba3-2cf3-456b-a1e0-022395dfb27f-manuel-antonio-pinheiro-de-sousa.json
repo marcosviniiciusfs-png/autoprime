@@ -1,0 +1,42 @@
+{
+  "archive_version": 1,
+  "archived_at": "2026-10-09T22:38:21.898Z",
+  "event_name": "Lead",
+  "event_id": "lead_6697dba3-2cf3-456b-a1e0-022395dfb27f",
+  "destination_results": {
+    "meta": {
+      "success": true,
+      "status": 200
+    },
+    "webhooks": [
+      {
+        "success": false,
+        "status": 521,
+        "error": "Webhook HTTP 521"
+      }
+    ]
+  },
+  "lead": {
+    "nome": "Manuel Antônio Pinheiro de Sousa ",
+    "whatsapp": "(93) 99193-4428",
+    "cidade": "Santarém ",
+    "objetivo": "Comprar um carro",
+    "valor": 70000,
+    "entrada": "Até R$ 5 mil",
+    "parcela": "De R$ 1.000 a R$ 2.000",
+    "prazo": "Nos próximos 30 dias",
+    "origem": "simulador_autoprime",
+    "received_at": "2026-10-09T22:38:20.933Z",
+    "utm_source": "fb",
+    "utm_medium": "paid",
+    "utm_campaign": "120252109706770130",
+    "utm_id": "120252109706770130",
+    "utm_term": "120252109706780130",
+    "utm_content": "120252109706760130"
+  },
+  "request": {
+    "source_url": "https://autoprime.simulead.com.br/?fbclid=IwZXh0bgNhZW0BMABwZG9mBWFkaWQBqziyMNMsknNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHpDl4FY4OPRGzLRDg62kMWAIepe1QQOYgQaVe5W1GGUP1W7sxLZGee-wSLxr_aem_AGtLGJRCzEhXBcF539RoPA&utm_medium=paid&utm_source=fb&utm_id=120252109706770130&utm_content=120252109706760130&utm_term=120252109706780130&utm_campaign=120252109706770130",
+    "user_agent": "Mozilla/5.0 (Linux; Android 16; SM-A165M Build/BP4A.251205.006) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/155.0.8059.34 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/582.0.0.50.54;IABMV/1;]",
+    "client_ip_address": "2804:2c88:110b:d500:abcc:81f4:5b2b:ed1c"
+  }
+}
