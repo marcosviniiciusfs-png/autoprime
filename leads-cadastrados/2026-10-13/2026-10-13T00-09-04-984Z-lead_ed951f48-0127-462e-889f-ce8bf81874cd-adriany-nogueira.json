@@ -1,0 +1,42 @@
+{
+  "archive_version": 1,
+  "archived_at": "2026-10-13T00:09:04.984Z",
+  "event_name": "Lead",
+  "event_id": "lead_ed951f48-0127-462e-889f-ce8bf81874cd",
+  "destination_results": {
+    "meta": {
+      "success": true,
+      "status": 200
+    },
+    "webhooks": [
+      {
+        "success": false,
+        "status": 521,
+        "error": "Webhook HTTP 521"
+      }
+    ]
+  },
+  "lead": {
+    "nome": "Adriany nogueira",
+    "whatsapp": "(85) 98991-1234",
+    "cidade": "Santarém",
+    "objetivo": "Comprar um carro",
+    "valor": 70000,
+    "entrada": "Até R$ 5 mil",
+    "parcela": "De R$ 1.000 a R$ 2.000",
+    "prazo": "O quanto antes",
+    "origem": "simulador_autoprime",
+    "received_at": "2026-10-13T00:09:03.792Z",
+    "utm_source": "ig",
+    "utm_medium": "paid",
+    "utm_campaign": "120252109706770130",
+    "utm_id": "120252109706770130",
+    "utm_term": "120252109706780130",
+    "utm_content": "120252109706760130"
+  },
+  "request": {
+    "source_url": "https://autoprime.simulead.com.br/?fbclid=PAZXh0bgNhZW0BMABwZG9mAmZkaWQWUQN9ZZzjmo2BLFx_VW8zVVddJwUUomFkaWQBqziyMNMsknNydGMGYXBwX2lkDzEyNDAyNDU3NDI4NzQxNAABp1VCBF_5Itgll6Cg0aoSIkgNCGpJtklK9e2ftGAdTHh6oxwZl86jzFy7cPnw_aem_7W0YhxFEY4OILxPpJCKDyg&utm_medium=paid&utm_source=ig&utm_id=120252109706770130&utm_content=120252109706760130&utm_term=120252109706780130&utm_campaign=120252109706770130",
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/23G83 Instagram 450.1.0.35.61 (iPhone16,2; iOS 26_6_1; pt_BR; pt; scale=3.00; 1290x2796; IABMV/1; 1084815185) Safari/604.1",
+    "client_ip_address": "2804:214:8211:63c3:48b2:4dbb:8184:d27b"
+  }
+}
