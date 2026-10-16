@@ -1,0 +1,42 @@
+{
+  "archive_version": 1,
+  "archived_at": "2026-10-16T19:57:12.946Z",
+  "event_name": "Lead",
+  "event_id": "lead_9f224c73-6630-4ec8-8109-b2f754ce8bf5",
+  "destination_results": {
+    "meta": {
+      "success": true,
+      "status": 200
+    },
+    "webhooks": [
+      {
+        "success": false,
+        "status": 522,
+        "error": "Webhook HTTP 522"
+      }
+    ]
+  },
+  "lead": {
+    "nome": "Edilson dos Santos Roberto",
+    "whatsapp": "(93) 99149-4112",
+    "cidade": "Santarém",
+    "objetivo": "Comprar um carro",
+    "valor": 40000,
+    "entrada": "Até R$ 5 mil",
+    "parcela": "Até R$ 1.000",
+    "prazo": "O quanto antes",
+    "origem": "simulador_autoprime",
+    "received_at": "2026-10-16T19:56:50.717Z",
+    "utm_source": "fb",
+    "utm_medium": "paid",
+    "utm_campaign": "120252109706770130",
+    "utm_id": "120252109706770130",
+    "utm_term": "120252109706780130",
+    "utm_content": "120252109706760130"
+  },
+  "request": {
+    "source_url": "https://autoprime.simulead.com.br/?fbclid=IwZXh0bgNhZW0BMABwZG9mBWFkaWQBqzk78CtAMnNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHp0jAdO7DRe_LE5do2ENzcrKIKEqkfb0Pjdsxu6AiNM8IpjSgquwiHD694pQ_aem_gBr9SQU_FEA2qrkoY5_v_g&utm_medium=paid&utm_source=fb&utm_id=120252109706770130&utm_content=120252109706760130&utm_term=120252109706780130&utm_campaign=120252109706770130",
+    "user_agent": "Mozilla/5.0 (Linux; Android 12; SM-A025M Build/SP1A.210812.016) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/153.0.8010.39 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/582.0.0.50.54;IABMV/1;]",
+    "client_ip_address": "2605:59c8:69db:f010:e098:bce0:2809:49ce"
+  }
+}
