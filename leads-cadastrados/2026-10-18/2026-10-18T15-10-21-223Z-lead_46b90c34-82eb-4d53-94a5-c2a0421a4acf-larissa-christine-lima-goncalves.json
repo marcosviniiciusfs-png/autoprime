@@ -1,0 +1,42 @@
+{
+  "archive_version": 1,
+  "archived_at": "2026-10-18T15:10:21.223Z",
+  "event_name": "Lead",
+  "event_id": "lead_46b90c34-82eb-4d53-94a5-c2a0421a4acf",
+  "destination_results": {
+    "meta": {
+      "success": true,
+      "status": 200
+    },
+    "webhooks": [
+      {
+        "success": false,
+        "status": 522,
+        "error": "Webhook HTTP 522"
+      }
+    ]
+  },
+  "lead": {
+    "nome": "Larissa Christine Lima Goncalves",
+    "whatsapp": "(93) 98107-2659",
+    "cidade": "Santarém",
+    "objetivo": "Comprar um carro",
+    "valor": 40000,
+    "entrada": "Até R$ 5 mil",
+    "parcela": "Até R$ 1.000",
+    "prazo": "O quanto antes",
+    "origem": "simulador_autoprime",
+    "received_at": "2026-10-18T15:10:01.012Z",
+    "utm_source": "ig",
+    "utm_medium": "paid",
+    "utm_campaign": "120252109706770130",
+    "utm_id": "120252109706770130",
+    "utm_term": "120252109706780130",
+    "utm_content": "120252109706760130"
+  },
+  "request": {
+    "source_url": "https://autoprime.simulead.com.br/?fbclid=PAZXh0bgNhZW0BMABwZG9mAmZkaWQWUQiw1vsX6PLJDBtIXH1BUDxFLB4t0WFkaWQBqzk78CtAMnNydGMGYXBwX2lkDzEyNDAyNDU3NDI4NzQxNAABp2CUOWBoEuv-X-EWyg70HtM5awpYsGwh_drTX0DontDnFTOb6ALOcva65OuC_aem_vsINlTDL61zLz33VA5Ko8Q&utm_medium=paid&utm_source=ig&utm_id=120252109706770130&utm_content=120252109706760130&utm_term=120252109706780130&utm_campaign=120252109706770130",
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 27_0_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/24A446 Instagram 451.0.0.37.60 (iPhone18,2; iOS 27_0_1; pt_BR; pt; scale=3.00; 1320x2868; IABMV/1; 1088109557) Safari/604.1",
+    "client_ip_address": "2804:2674:4030:4300:fd42:fa20:74bf:2979"
+  }
+}
