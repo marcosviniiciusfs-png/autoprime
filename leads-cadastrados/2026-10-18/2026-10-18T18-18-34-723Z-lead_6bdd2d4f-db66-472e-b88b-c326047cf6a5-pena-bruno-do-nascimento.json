@@ -1,0 +1,42 @@
+{
+  "archive_version": 1,
+  "archived_at": "2026-10-18T18:18:34.723Z",
+  "event_name": "Lead",
+  "event_id": "lead_6bdd2d4f-db66-472e-b88b-c326047cf6a5",
+  "destination_results": {
+    "meta": {
+      "success": true,
+      "status": 200
+    },
+    "webhooks": [
+      {
+        "success": false,
+        "status": 522,
+        "error": "Webhook HTTP 522"
+      }
+    ]
+  },
+  "lead": {
+    "nome": "PENA BRUNO DO NASCIMENTO",
+    "whatsapp": "(55) 93991-8229",
+    "cidade": "Santarém",
+    "objetivo": "Comprar um carro",
+    "valor": 40000,
+    "entrada": "R$ 5 mil a R$ 15 mil",
+    "parcela": "Até R$ 1.000",
+    "prazo": "Ainda estou pesquisando",
+    "origem": "simulador_autoprime",
+    "received_at": "2026-10-18T18:18:13.781Z",
+    "utm_source": "fb",
+    "utm_medium": "paid",
+    "utm_campaign": "120252109706770130",
+    "utm_id": "120252109706770130",
+    "utm_term": "120252109706780130",
+    "utm_content": "120252109706760130"
+  },
+  "request": {
+    "source_url": "https://autoprime.simulead.com.br/?fbclid=IwZXh0bgNhZW0BMABwZG9mBWZkaWQWUQhT8ViF_oPTWZC24UpGq6vbV9cQ4WFkaWQBqzk78CtAMnNydGMGYXBwX2lkCjY2Mjg1NjgzNzkAAR4I4drk1ci0oUllKc1Jv-kei894dzCR0Bu9JAbRVvxifgH2JCWxkmEs0KeDAw_aem__xyUSSRZNaQOZ_VLbZxnmg&utm_medium=paid&utm_source=fb&utm_id=120252109706770130&utm_content=120252109706760130&utm_term=120252109706780130&utm_campaign=120252109706770130",
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 27_0_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/24A446 Safari/604.1 [FBAN/FBIOS;FBAV/583.0.0.61.69;FBBV/1090364060;FBDV/iPhone18,3;FBMD/iPhone;FBSN/iOS;FBSV/27.0.1;FBSS/3;FBID/phone;FBLC/pt_BR;FBOP/5;FBRV/1094302905;IABMV/1]",
+    "client_ip_address": "2804:1b3:8c50:c27b:e0fb:4efd:714c:98ad"
+  }
+}
