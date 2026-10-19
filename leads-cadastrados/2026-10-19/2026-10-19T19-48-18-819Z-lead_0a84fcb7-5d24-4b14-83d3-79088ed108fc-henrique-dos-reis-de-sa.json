@@ -1,0 +1,42 @@
+{
+  "archive_version": 1,
+  "archived_at": "2026-10-19T19:48:18.819Z",
+  "event_name": "Lead",
+  "event_id": "lead_0a84fcb7-5d24-4b14-83d3-79088ed108fc",
+  "destination_results": {
+    "meta": {
+      "success": true,
+      "status": 200
+    },
+    "webhooks": [
+      {
+        "success": false,
+        "status": 522,
+        "error": "Webhook HTTP 522"
+      }
+    ]
+  },
+  "lead": {
+    "nome": "Henrique dos reis de sá ",
+    "whatsapp": "(93) 99218-7497",
+    "cidade": "Santarém",
+    "objetivo": "Comprar um carro",
+    "valor": 70000,
+    "entrada": "R$ 5 mil a R$ 15 mil",
+    "parcela": "Até R$ 1.000",
+    "prazo": "Ainda estou pesquisando",
+    "origem": "simulador_autoprime",
+    "received_at": "2026-10-19T19:47:58.969Z",
+    "utm_source": "ig",
+    "utm_medium": "paid",
+    "utm_campaign": "120252109706770130",
+    "utm_id": "120252109706770130",
+    "utm_term": "120252109706780130",
+    "utm_content": "120252109706760130"
+  },
+  "request": {
+    "source_url": "https://autoprime.simulead.com.br/?fbclid=PAZXh0bgNhZW0BMABwZG9mAmFkaWQBqzk78CtAMnNydGMGYXBwX2lkDzU2NzA2NzM0MzM1MjQyNwABpw97f05y9DhYmrS25oycfJXPfVxfwNf5mt7btO_U5pU81OqUUHGfaXJvX1eZ_aem_3s9PE0HWSEp3DOGoyVZR_w&utm_medium=paid&utm_source=ig&utm_id=120252109706770130&utm_content=120252109706760130&utm_term=120252109706780130&utm_campaign=120252109706770130",
+    "user_agent": "Mozilla/5.0 (Linux; Android 16; SM-A155M Build/BP4A.251205.006; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/155.0.8059.73 Mobile Safari/537.36 Instagram 451.0.0.53.80 Android (36/16; 450dpi; 1080x2340; samsung; SM-A155M; a15; mt6789; pt_BR; 1089931504; IABMV/1)",
+    "client_ip_address": "170.231.194.45"
+  }
+}
