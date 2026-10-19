@@ -1,0 +1,42 @@
+{
+  "archive_version": 1,
+  "archived_at": "2026-10-19T20:44:33.847Z",
+  "event_name": "Lead",
+  "event_id": "lead_6d7504c7-fa36-4d20-b58f-9819a15557f5",
+  "destination_results": {
+    "meta": {
+      "success": true,
+      "status": 200
+    },
+    "webhooks": [
+      {
+        "success": false,
+        "status": 522,
+        "error": "Webhook HTTP 522"
+      }
+    ]
+  },
+  "lead": {
+    "nome": "Lucas santos",
+    "whatsapp": "(93) 98403-3720",
+    "cidade": "Santarém",
+    "objetivo": "Comprar um carro",
+    "valor": 40000,
+    "entrada": "Até R$ 5 mil",
+    "parcela": "Até R$ 1.000",
+    "prazo": "O quanto antes",
+    "origem": "simulador_autoprime",
+    "received_at": "2026-10-19T20:44:12.395Z",
+    "utm_source": "fb",
+    "utm_medium": "paid",
+    "utm_campaign": "120252109706770130",
+    "utm_id": "120252109706770130",
+    "utm_term": "120252109706780130",
+    "utm_content": "120252109706760130"
+  },
+  "request": {
+    "source_url": "https://autoprime.simulead.com.br/?fbclid=IwZXh0bgNhZW0BMABwZG9mBWFkaWQBqzk78CtAMnNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHiisUbMY3qCUjFvbBYy4nMM-IzPAbKKWDXKc5qHp6Gr4zrvltn0d7hMsHURA_aem_WLS7MsVZd2ZU1heHZ_lTOg&utm_medium=paid&utm_source=fb&utm_id=120252109706770130&utm_content=120252109706760130&utm_term=120252109706780130&utm_campaign=120252109706770130",
+    "user_agent": "Mozilla/5.0 (Linux; Android 13; SM-A515F Build/TP1A.220624.014) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/155.0.8059.76 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/583.0.0.39.55;IABMV/1;]",
+    "client_ip_address": "2803:9810:22c6:f410:303d:e6b5:ea12:4cdc"
+  }
+}
