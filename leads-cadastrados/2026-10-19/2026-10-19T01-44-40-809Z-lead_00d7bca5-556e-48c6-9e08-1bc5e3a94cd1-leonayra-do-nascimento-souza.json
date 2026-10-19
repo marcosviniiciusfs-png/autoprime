@@ -1,0 +1,42 @@
+{
+  "archive_version": 1,
+  "archived_at": "2026-10-19T01:44:40.809Z",
+  "event_name": "Lead",
+  "event_id": "lead_00d7bca5-556e-48c6-9e08-1bc5e3a94cd1",
+  "destination_results": {
+    "meta": {
+      "success": true,
+      "status": 200
+    },
+    "webhooks": [
+      {
+        "success": false,
+        "status": 522,
+        "error": "Webhook HTTP 522"
+      }
+    ]
+  },
+  "lead": {
+    "nome": "Leonayra do Nascimento Souza",
+    "whatsapp": "(93) 99219-7301",
+    "cidade": "Itaituba",
+    "objetivo": "Trocar meu veículo",
+    "valor": 100000,
+    "entrada": "R$ 5 mil a R$ 15 mil",
+    "parcela": "Até R$ 1.000",
+    "prazo": "O quanto antes",
+    "origem": "simulador_autoprime",
+    "received_at": "2026-10-19T01:44:20.799Z",
+    "utm_source": "ig",
+    "utm_medium": "paid",
+    "utm_campaign": "120252109706770130",
+    "utm_id": "120252109706770130",
+    "utm_term": "120252109706780130",
+    "utm_content": "120252109706760130"
+  },
+  "request": {
+    "source_url": "https://autoprime.simulead.com.br/?fbclid=PAZXh0bgNhZW0BMABwZG9mAmZkaWQWUQn_95J3GUS3AhgL731-7-uL7uymN2FkaWQBqzk78CtAMnNydGMGYXBwX2lkDzEyNDAyNDU3NDI4NzQxNAABpxC4RkPsDrbyIW87NZzKuyQwlM2Xm8Z6ogBqjobFJ6cqCtopqiCj6e014iUF_aem_qyfPhstKaRwoO04RMbIYNg&utm_medium=paid&utm_source=ig&utm_id=120252109706770130&utm_content=120252109706760130&utm_term=120252109706780130&utm_campaign=120252109706770130",
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 27_0_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/24A446 Instagram 450.1.0.35.61 (iPhone18,3; iOS 27_0_1; pt_BR; pt; scale=3.00; 1206x2622; IABMV/1; 1084815185) Safari/604.1",
+    "client_ip_address": "177.55.93.193"
+  }
+}
