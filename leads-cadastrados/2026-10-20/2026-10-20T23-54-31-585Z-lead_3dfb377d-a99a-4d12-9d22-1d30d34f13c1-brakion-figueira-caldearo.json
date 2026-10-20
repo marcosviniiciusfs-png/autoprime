@@ -1,0 +1,42 @@
+{
+  "archive_version": 1,
+  "archived_at": "2026-10-20T23:54:31.585Z",
+  "event_name": "Lead",
+  "event_id": "lead_3dfb377d-a99a-4d12-9d22-1d30d34f13c1",
+  "destination_results": {
+    "meta": {
+      "success": true,
+      "status": 200
+    },
+    "webhooks": [
+      {
+        "success": false,
+        "status": 522,
+        "error": "Webhook HTTP 522"
+      }
+    ]
+  },
+  "lead": {
+    "nome": "brakion figueira caldearo ",
+    "whatsapp": "(93) 99197-7904",
+    "cidade": "Santarém",
+    "objetivo": "Comprar um carro",
+    "valor": 70000,
+    "entrada": "Até R$ 5 mil",
+    "parcela": "Até R$ 1.000",
+    "prazo": "O quanto antes",
+    "origem": "simulador_autoprime",
+    "received_at": "2026-10-20T23:54:10.655Z",
+    "utm_source": "ig",
+    "utm_medium": "paid",
+    "utm_campaign": "120252109706770130",
+    "utm_id": "120252109706770130",
+    "utm_term": "120252109706780130",
+    "utm_content": "120252109706760130"
+  },
+  "request": {
+    "source_url": "https://autoprime.simulead.com.br/?fbclid=PAZXh0bgNhZW0BMABwZG9mAmFkaWQBqzk78CtAMnNydGMGYXBwX2lkDzU2NzA2NzM0MzM1MjQyNwABp7BrtrWXsFd8j4dXJxWlnXq27EKALBJJiUCpoh2LAJUH0rR6TilgDOTwx9ft_aem_iDIJnDQt7xpdJ0NW6NK5vA&utm_medium=paid&utm_source=ig&utm_id=120252109706770130&utm_content=120252109706760130&utm_term=120252109706780130&utm_campaign=120252109706770130",
+    "user_agent": "Mozilla/5.0 (Linux; Android 13; moto g52 Build/T2SRS33.72-22-4-11; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/155.0.8059.73 Mobile Safari/537.36 Instagram 451.0.0.53.80 Android (33/13; 400dpi; 1080x2400; motorola; moto g52; rhode; qcom; pt_BR; 1089931504; IABMV/1)",
+    "client_ip_address": "2804:235c:1ac:4f00:e952:dbf8:2146:64ff"
+  }
+}
