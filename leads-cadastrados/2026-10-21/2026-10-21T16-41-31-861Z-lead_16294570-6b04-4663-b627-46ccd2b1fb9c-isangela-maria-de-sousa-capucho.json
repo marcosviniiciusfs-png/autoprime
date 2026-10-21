@@ -1,0 +1,42 @@
+{
+  "archive_version": 1,
+  "archived_at": "2026-10-21T16:41:31.861Z",
+  "event_name": "Lead",
+  "event_id": "lead_16294570-6b04-4663-b627-46ccd2b1fb9c",
+  "destination_results": {
+    "meta": {
+      "success": true,
+      "status": 200
+    },
+    "webhooks": [
+      {
+        "success": false,
+        "status": 522,
+        "error": "Webhook HTTP 522"
+      }
+    ]
+  },
+  "lead": {
+    "nome": "Isangela maria de sousa capucho ",
+    "whatsapp": "(93) 99222-6577",
+    "cidade": "Santarém",
+    "objetivo": "Comprar um carro",
+    "valor": 70000,
+    "entrada": "Até R$ 5 mil",
+    "parcela": "Até R$ 1.000",
+    "prazo": "O quanto antes",
+    "origem": "simulador_autoprime",
+    "received_at": "2026-10-21T16:41:11.533Z",
+    "utm_source": "fb",
+    "utm_medium": "paid",
+    "utm_campaign": "120252109706770130",
+    "utm_id": "120252109706770130",
+    "utm_term": "120252109706780130",
+    "utm_content": "120252109706760130"
+  },
+  "request": {
+    "source_url": "https://autoprime.simulead.com.br/?fbclid=IwZXh0bgNhZW0BMABwZG9mBWZkaWQWUQvU5SkSCDvOimvojOuKmKWNdTjV0WFkaWQBqzk78CtAMnNydGMGYXBwX2lkCjY2Mjg1NjgzNzkAAR6A-IgLoJW-qOZe5x18f3_xP9_XLazstrZyAI6pesfwrvGGNDFzuib91OMRwg_aem_rNco2ouCkMaeekGkEdzEZA&utm_medium=paid&utm_source=fb&utm_id=120252109706770130&utm_content=120252109706760130&utm_term=120252109706780130&utm_campaign=120252109706770130",
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 27_0_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/24A446 Safari/604.1 [FBAN/FBIOS;FBAV/583.0.0.61.69;FBBV/1090364060;FBDV/iPhone15,4;FBMD/iPhone;FBSN/iOS;FBSV/27.0.1;FBSS/3;FBID/phone;FBLC/pt_BR;FBOP/5;FBRV/1096339206;IABMV/1]",
+    "client_ip_address": "138.94.39.141"
+  }
+}
