@@ -1,0 +1,42 @@
+{
+  "archive_version": 1,
+  "archived_at": "2026-10-22T11:23:41.065Z",
+  "event_name": "Lead",
+  "event_id": "lead_b2eb5a61-88df-40b9-a580-a320b75ddb04",
+  "destination_results": {
+    "meta": {
+      "success": true,
+      "status": 200
+    },
+    "webhooks": [
+      {
+        "success": false,
+        "status": 522,
+        "error": "Webhook HTTP 522"
+      }
+    ]
+  },
+  "lead": {
+    "nome": "Kaue Pereira",
+    "whatsapp": "(93) 99103-3430",
+    "cidade": "Santarém",
+    "objetivo": "Comprar um carro",
+    "valor": 40000,
+    "entrada": "R$ 5 mil a R$ 15 mil",
+    "parcela": "Até R$ 1.000",
+    "prazo": "O quanto antes",
+    "origem": "simulador_autoprime",
+    "received_at": "2026-10-22T11:23:21.306Z",
+    "utm_source": "fb",
+    "utm_medium": "paid",
+    "utm_campaign": "120252109706770130",
+    "utm_id": "120252109706770130",
+    "utm_term": "120252109706780130",
+    "utm_content": "120252109706760130"
+  },
+  "request": {
+    "source_url": "https://autoprime.simulead.com.br/?fbclid=IwZXh0bgNhZW0BMABwZG9mBWFkaWQBqzk78CtAMnNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHkVJcvConx1fCPyEm_eUsRu45GwktqlBY4ckKMrqZbKIz_XvygoX0mZcV7qj_aem_eEgC-TnnjFeDju6jDm51wA&utm_medium=paid&utm_source=fb&utm_id=120252109706770130&utm_content=120252109706760130&utm_term=120252109706780130&utm_campaign=120252109706770130",
+    "user_agent": "Mozilla/5.0 (Linux; Android 16; SM-A175F Build/BP4A.251205.006) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/155.0.8059.76 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/583.0.0.39.55;IABMV/1;]",
+    "client_ip_address": "128.201.210.20"
+  }
+}
