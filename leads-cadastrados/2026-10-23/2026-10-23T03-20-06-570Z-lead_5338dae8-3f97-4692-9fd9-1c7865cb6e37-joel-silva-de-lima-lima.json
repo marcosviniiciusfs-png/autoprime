@@ -1,0 +1,42 @@
+{
+  "archive_version": 1,
+  "archived_at": "2026-10-23T03:20:06.570Z",
+  "event_name": "Lead",
+  "event_id": "lead_5338dae8-3f97-4692-9fd9-1c7865cb6e37",
+  "destination_results": {
+    "meta": {
+      "success": true,
+      "status": 200
+    },
+    "webhooks": [
+      {
+        "success": false,
+        "status": 522,
+        "error": "Webhook HTTP 522"
+      }
+    ]
+  },
+  "lead": {
+    "nome": "Joel Silva de lima Lima",
+    "whatsapp": "(93) 9136-0202",
+    "cidade": "Santarém",
+    "objetivo": "Comprar um carro",
+    "valor": 70000,
+    "entrada": "R$ 5 mil a R$ 15 mil",
+    "parcela": "De R$ 1.000 a R$ 2.000",
+    "prazo": "Nos próximos 30 dias",
+    "origem": "simulador_autoprime",
+    "received_at": "2026-10-23T03:19:46.219Z",
+    "utm_source": "fb",
+    "utm_medium": "paid",
+    "utm_campaign": "120252109706770130",
+    "utm_id": "120252109706770130",
+    "utm_term": "120252109706780130",
+    "utm_content": "120252109706760130"
+  },
+  "request": {
+    "source_url": "https://autoprime.simulead.com.br/?fbclid=IwZXh0bgNhZW0BMABwZG9mBWZkaWQWUQ2Pfi_Nr7wimBuewy0wLu5-6C0ks2FkaWQBqzk78CtAMnNydGMGYXBwX2lkCjY2Mjg1NjgzNzkAAR4qM3IrlGWVhL6LXellBN8JmnYYfoL-rMhuuSqkVZ0HZQpI_NuTMRXZQetcmg_aem_nN6wgypwdrMu2Bl68whyWg&utm_medium=paid&utm_source=fb&utm_id=120252109706770130&utm_content=120252109706760130&utm_term=120252109706780130&utm_campaign=120252109706770130",
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/22H374 Safari/604.1 [FBAN/FBIOS;FBAV/583.0.0.61.69;FBBV/1090364060;FBDV/iPhone11,6;FBMD/iPhone;FBSN/iOS;FBSV/18.7.10;FBSS/3;FBID/phone;FBLC/pt_BR;FBOP/5;FBRV/1097452391;IABMV/1]",
+    "client_ip_address": "2804:18:7848:de92:b8e5:5db:a1ed:6660"
+  }
+}
