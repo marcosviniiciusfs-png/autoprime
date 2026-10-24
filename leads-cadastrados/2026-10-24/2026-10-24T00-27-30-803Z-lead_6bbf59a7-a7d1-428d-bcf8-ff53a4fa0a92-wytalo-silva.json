@@ -1,0 +1,42 @@
+{
+  "archive_version": 1,
+  "archived_at": "2026-10-24T00:27:30.803Z",
+  "event_name": "Lead",
+  "event_id": "lead_6bbf59a7-a7d1-428d-bcf8-ff53a4fa0a92",
+  "destination_results": {
+    "meta": {
+      "success": true,
+      "status": 200
+    },
+    "webhooks": [
+      {
+        "success": false,
+        "status": 522,
+        "error": "Webhook HTTP 522"
+      }
+    ]
+  },
+  "lead": {
+    "nome": "Wytalo Silva",
+    "whatsapp": "(12) 98830-6793",
+    "cidade": "Santarém",
+    "objetivo": "Comprar um carro",
+    "valor": 40000,
+    "entrada": "Até R$ 5 mil",
+    "parcela": "Até R$ 1.000",
+    "prazo": "Entre 1 e 3 meses",
+    "origem": "simulador_autoprime",
+    "received_at": "2026-10-24T00:27:10.829Z",
+    "utm_source": "ig",
+    "utm_medium": "paid",
+    "utm_campaign": "120252109706770130",
+    "utm_id": "120252109706770130",
+    "utm_term": "120252109706780130",
+    "utm_content": "120252109706760130"
+  },
+  "request": {
+    "source_url": "https://autoprime.simulead.com.br/?fbclid=PAZXh0bgNhZW0BMABwZG9mAmZkaWQWUQ5khIIHp0bYBWUFqJN7usMXxv4sgWFkaWQBqzk78CtAMnNydGMGYXBwX2lkDzEyNDAyNDU3NDI4NzQxNAABp3Snuq7slgS-UZHsylTDo0nnaiwX11-QAjKR32kHvenaew6Mthc3d123jKfB_aem_JCeNCXaQJLe5efgQKO3AIg&utm_medium=paid&utm_source=ig&utm_id=120252109706770130&utm_content=120252109706760130&utm_term=120252109706780130&utm_campaign=120252109706770130",
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 27_0_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/24A446 Instagram 452.0.1.39.54 (iPhone15,3; iOS 27_0_1; pt_BR; pt; scale=3.00; 1290x2796; IABMV/1; 1093431980) Safari/604.1",
+    "client_ip_address": "2803:9810:c7b:7e10:8c40:9a45:518e:439f"
+  }
+}
