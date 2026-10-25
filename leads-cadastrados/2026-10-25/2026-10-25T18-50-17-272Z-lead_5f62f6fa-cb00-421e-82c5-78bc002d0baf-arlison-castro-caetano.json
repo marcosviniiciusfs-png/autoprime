@@ -1,0 +1,42 @@
+{
+  "archive_version": 1,
+  "archived_at": "2026-10-25T18:50:17.272Z",
+  "event_name": "Lead",
+  "event_id": "lead_5f62f6fa-cb00-421e-82c5-78bc002d0baf",
+  "destination_results": {
+    "meta": {
+      "success": true,
+      "status": 200
+    },
+    "webhooks": [
+      {
+        "success": false,
+        "status": 526,
+        "error": "Webhook HTTP 526"
+      }
+    ]
+  },
+  "lead": {
+    "nome": "Arlison Castro Caetano",
+    "whatsapp": "(93) 99210-9869",
+    "cidade": "CuruÁ",
+    "objetivo": "Comprar uma moto",
+    "valor": 40000,
+    "entrada": "Até R$ 5 mil",
+    "parcela": "De R$ 1.000 a R$ 2.000",
+    "prazo": "O quanto antes",
+    "origem": "simulador_autoprime",
+    "received_at": "2026-10-25T18:51:05.503Z",
+    "utm_source": "ig",
+    "utm_medium": "paid",
+    "utm_campaign": "120252109706770130",
+    "utm_id": "120252109706770130",
+    "utm_term": "120252109706780130",
+    "utm_content": "120252109706760130"
+  },
+  "request": {
+    "source_url": "https://autoprime.simulead.com.br/?fbclid=PAZXh0bgNhZW0BMABwZG9mAmZkaWQWUQ9mSSqksmKnN7AqYBuY_mq2HVJWT2FkaWQBqzk78CtAMnNydGMGYXBwX2lkDzEyNDAyNDU3NDI4NzQxNAABp2_3oeSs0EfERNYjc3mX2y8JK6F4sJynyyzdTyEJ1pvZpyCa7YeVv0LbrDww_aem_-snpWrtx1WLEE6b-gyh-ZA&utm_medium=paid&utm_source=ig&utm_id=120252109706770130&utm_content=120252109706760130&utm_term=120252109706780130&utm_campaign=120252109706770130",
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_7_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/23H30 Instagram 452.0.1.39.54 (iPhone14,8; iOS 26_7_1; pt_BR; pt; scale=3.00; 1284x2778; IABMV/1; 1093431980) Safari/604.1",
+    "client_ip_address": "168.195.153.171"
+  }
+}
