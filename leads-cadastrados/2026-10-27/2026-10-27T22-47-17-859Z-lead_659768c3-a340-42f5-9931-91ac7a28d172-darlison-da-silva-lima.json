@@ -1,0 +1,45 @@
+{
+  "archive_version": 1,
+  "archived_at": "2026-10-27T22:47:17.859Z",
+  "event_name": "Lead",
+  "event_id": "lead_659768c3-a340-42f5-9931-91ac7a28d172",
+  "destination_results": {
+    "meta": {
+      "success": true,
+      "status": 200
+    },
+    "webhooks": [
+      {
+        "success": false,
+        "status": 526,
+        "error": "Webhook HTTP 526"
+      }
+    ]
+  },
+  "lead": {
+    "nome": "Darlison da Silva lima ",
+    "whatsapp": "(93) 98100-8808",
+    "cidade": "Santarém",
+    "objetivo": "Comprar um carro",
+    "valor": 40000,
+    "entrada": "R$ 5 mil a R$ 15 mil",
+    "parcela": "Até R$ 1.000",
+    "prazo": "Nos próximos 30 dias",
+    "origem": "simulador_autoprime",
+    "received_at": "2026-10-27T22:47:16.487Z",
+    "origem_conta": "ma_comercio",
+    "utm_source": "meta",
+    "utm_medium": "paid_social",
+    "utm_campaign": "[MA SITE] - 09/09",
+    "utm_id": "120255379114710628",
+    "utm_term": "CONJUNTO",
+    "utm_content": "AD",
+    "ad_id": "120255379114730628",
+    "adset_id": "120255379114720628"
+  },
+  "request": {
+    "source_url": "https://autoprime.simulead.com.br/?utm_source=meta&utm_medium=paid_social&utm_campaign=%5BMA+SITE%5D+-+09%2F09&utm_content=AD&origem_conta=ma_comercio&utm_id=120255379114710628&utm_term=CONJUNTO&ad_id=120255379114730628&adset_id=120255379114720628&fbclid=PAZXh0bgNhZW0BMABwZG9mAmFkaWQBqzuhW7eR1HNydGMGYXBwX2lkDzU2NzA2NzM0MzM1MjQyNwABp9NzCCVDJhOm-tDxzn2UMINN20-9I2dHpWCZTUKju57Ymw9SVtQw9Ts4nGUS_aem_CtGNo1Hk2CQtptVCBgHVFA",
+    "user_agent": "Mozilla/5.0 (Linux; Android 14; SM-A525M Build/UP1A.231005.007; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/156.0.8078.51 Mobile Safari/537.36 Instagram 452.1.0.53.64 Android (34/14; 420dpi; 1080x2400; samsung; SM-A525M; a52q; qcom; pt_BR; 1096920925; IABMV/1)",
+    "client_ip_address": "2803:9810:4e4f:9e10:b891:5c89:d072:5b6b"
+  }
+}
