@@ -1,0 +1,36 @@
+{
+  "archive_version": 1,
+  "archived_at": "2026-10-28T02:38:30.961Z",
+  "event_name": "Lead",
+  "event_id": "lead_6dae0cb5-a404-46fe-b7f6-475cca92bc22",
+  "destination_results": {
+    "meta": {
+      "success": true,
+      "status": 200
+    },
+    "webhooks": [
+      {
+        "success": false,
+        "status": 526,
+        "error": "Webhook HTTP 526"
+      }
+    ]
+  },
+  "lead": {
+    "nome": "Wesley William",
+    "whatsapp": "(93) 99213-2752",
+    "cidade": "Santarém",
+    "objetivo": "Comprar um carro",
+    "valor": 70000,
+    "entrada": "R$ 5 mil a R$ 15 mil",
+    "parcela": "De R$ 1.000 a R$ 2.000",
+    "prazo": "O quanto antes",
+    "origem": "simulador_autoprime",
+    "received_at": "2026-10-28T02:38:29.527Z"
+  },
+  "request": {
+    "source_url": "https://autoprime.simulead.com.br/",
+    "user_agent": "Mozilla/5.0 (Linux; Android 16; RMX5566 Build/BP2A.250605.015; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/156.0.8078.51 Mobile Safari/537.36 Instagram 452.1.0.53.64 Android (36/16; 320dpi; 720x1570; realme; RMX5566; RE645F; qcom; pt_BR; 1096920925; IABMV/1)",
+    "client_ip_address": "2804:3ab4:7092:a200:dbaf:f0b5:a80a:86e2"
+  }
+}
