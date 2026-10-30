@@ -1,0 +1,45 @@
+{
+  "archive_version": 1,
+  "archived_at": "2026-10-30T11:24:52.129Z",
+  "event_name": "Lead",
+  "event_id": "lead_b9ecf312-c876-4acf-995f-d1bef9ddd145",
+  "destination_results": {
+    "meta": {
+      "success": true,
+      "status": 200
+    },
+    "webhooks": [
+      {
+        "success": false,
+        "status": 526,
+        "error": "Webhook HTTP 526"
+      }
+    ]
+  },
+  "lead": {
+    "nome": "Willian Ramos Guimarães",
+    "whatsapp": "(93) 98106-9601",
+    "cidade": "Santarém",
+    "objetivo": "Comprar um carro",
+    "valor": 70000,
+    "entrada": "R$ 5 mil a R$ 15 mil",
+    "parcela": "Até R$ 1.000",
+    "prazo": "O quanto antes",
+    "origem": "simulador_autoprime",
+    "received_at": "2026-10-30T11:24:47.630Z",
+    "origem_conta": "ma_comercio",
+    "utm_source": "meta",
+    "utm_medium": "paid_social",
+    "utm_campaign": "[MA SITE] - 09/09",
+    "utm_id": "120255379114710628",
+    "utm_term": "CONJUNTO",
+    "utm_content": "AD",
+    "ad_id": "120255379114730628",
+    "adset_id": "120255379114720628"
+  },
+  "request": {
+    "source_url": "https://autoprime.simulead.com.br/?utm_source=meta&utm_medium=paid_social&utm_campaign=%5BMA+SITE%5D+-+09%2F09&utm_content=AD&origem_conta=ma_comercio&utm_id=120255379114710628&utm_term=CONJUNTO&ad_id=120255379114730628&adset_id=120255379114720628&fbclid=IwZXh0bgNhZW0BMABwZG9mBWZkaWQWURQ6fENUVK8RtPcK7i4lSzsNcW_Sg2FkaWQBqzuhW7eR1HNydGMGYXBwX2lkCjY2Mjg1NjgzNzkAAR_IaveOWpQZ5RA_2lSEgncNYc2mr-ZFJi1HxIabY1rVMLvUc9lLt-bHrD-FYg_aem_tcHfsn6jwRBYFXpydBKDSA",
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/23G83 Safari/604.1 [FBAN/FBIOS;FBAV/584.1.0.65.70;FBBV/1097955119;FBDV/iPhone12,1;FBMD/iPhone;FBSN/iOS;FBSV/26.6.1;FBSS/2;FBID/phone;FBLC/pt_BR;FBOP/5;FBRV/1103031392;IABMV/1]",
+    "client_ip_address": "2803:9810:4d62:1410:606a:9c3b:a1b5:bbfe"
+  }
+}
