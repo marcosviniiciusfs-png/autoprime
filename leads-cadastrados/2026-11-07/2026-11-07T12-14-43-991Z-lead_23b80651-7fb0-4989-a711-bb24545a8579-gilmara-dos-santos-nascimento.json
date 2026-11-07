@@ -1,0 +1,45 @@
+{
+  "archive_version": 1,
+  "archived_at": "2026-11-07T12:14:43.991Z",
+  "event_name": "Lead",
+  "event_id": "lead_23b80651-7fb0-4989-a711-bb24545a8579",
+  "destination_results": {
+    "meta": {
+      "success": true,
+      "status": 200
+    },
+    "webhooks": [
+      {
+        "success": false,
+        "status": 526,
+        "error": "Webhook HTTP 526"
+      }
+    ]
+  },
+  "lead": {
+    "nome": "Gilmara dos Santos Nascimento ",
+    "whatsapp": "(93) 98809-9447",
+    "cidade": "Santarém",
+    "objetivo": "Comprar um carro",
+    "valor": 60000,
+    "entrada": "Até R$ 5 mil",
+    "parcela": "Até R$ 1.000",
+    "prazo": "O quanto antes",
+    "origem": "simulador_autoprime",
+    "received_at": "2026-11-07T12:14:41.046Z",
+    "origem_conta": "ma_comercio",
+    "utm_source": "meta",
+    "utm_medium": "paid_social",
+    "utm_campaign": "[MA SITE] - 09/09",
+    "utm_id": "120255379114710628",
+    "utm_term": "CONJUNTO",
+    "utm_content": "AD",
+    "ad_id": "120255379114730628",
+    "adset_id": "120255379114720628"
+  },
+  "request": {
+    "source_url": "https://autoprime.simulead.com.br/?utm_source=meta&utm_medium=paid_social&utm_campaign=%5BMA+SITE%5D+-+09%2F09&utm_content=AD&origem_conta=ma_comercio&utm_id=120255379114710628&utm_term=CONJUNTO&ad_id=120255379114730628&adset_id=120255379114720628&fbclid=IwZXh0bgNhZW0BMAB0c2FmAAAABHBkb2YDYWRpZAGrO6Fbt5HUc3J0YwZhcHBfaWQPOTk0NzY2MDczOTU5MjUzAAEfv0YmDoXkbaInATpVbMYo3ZizyyAPd-pghy8i1VMSI6NYov4hxCewUQ4Jc-8_aem_fcMe11YiqP9ARRHxbU46yQ",
+    "user_agent": "Mozilla/5.0 (Linux; Android 16; RMX5303 Build/BP2A.250605.031.A3) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/156.0.8078.47 Mobile Safari/537.36 WA4A/2.26.43.76",
+    "client_ip_address": "2804:235c:100:a900:a34b:d624:f44f:46c1"
+  }
+}
