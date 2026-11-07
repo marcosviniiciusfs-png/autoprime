@@ -1,0 +1,45 @@
+{
+  "archive_version": 1,
+  "archived_at": "2026-11-07T12:53:57.400Z",
+  "event_name": "Lead",
+  "event_id": "lead_c4d9b7f1-770f-4120-8d13-ddbe26b56db6",
+  "destination_results": {
+    "meta": {
+      "success": true,
+      "status": 200
+    },
+    "webhooks": [
+      {
+        "success": false,
+        "status": 526,
+        "error": "Webhook HTTP 526"
+      }
+    ]
+  },
+  "lead": {
+    "nome": "Crislei Ferreira Castro Fernandes ",
+    "whatsapp": "(93) 98403-3970",
+    "cidade": "Santarém",
+    "objetivo": "Comprar um carro",
+    "valor": 70000,
+    "entrada": "Até R$ 5 mil",
+    "parcela": "De R$ 1.000 a R$ 2.000",
+    "prazo": "O quanto antes",
+    "origem": "simulador_autoprime",
+    "received_at": "2026-11-07T12:53:56.306Z",
+    "origem_conta": "ma_comercio",
+    "utm_source": "meta",
+    "utm_medium": "paid_social",
+    "utm_campaign": "[MA SITE] - 09/09",
+    "utm_id": "120255379114710628",
+    "utm_term": "CONJUNTO",
+    "utm_content": "AD",
+    "ad_id": "120255379114730628",
+    "adset_id": "120255379114720628"
+  },
+  "request": {
+    "source_url": "https://autoprime.simulead.com.br/?utm_source=meta&utm_medium=paid_social&utm_campaign=%5BMA+SITE%5D+-+09%2F09&utm_content=AD&origem_conta=ma_comercio&utm_id=120255379114710628&utm_term=CONJUNTO&ad_id=120255379114730628&adset_id=120255379114720628&fbclid=IwZXh0bgNhZW0BMAB0c2FmAAAABHBkb2YDYWRpZAGrO6Fbt5HUc3J0YwZhcHBfaWQPOTk0NzY2MDczOTU5MjUzAAEfkkND6gYRM0yZEOKBB6KDNGTZ_ZixmZyhW4-HxlRQYj8mj0kjdrdQ7jl2j_U_aem_ytj0Zw9vOILTR9QMHnB7Tg",
+    "user_agent": "Mozilla/5.0 (Linux; Android 13; RMX3760 Build/TP1A.220624.014) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/156.0.8078.47 Mobile Safari/537.36 WA4A/2.26.42.74",
+    "client_ip_address": "2804:2674:4028:f100:6407:6a53:22cd:74a5"
+  }
+}
