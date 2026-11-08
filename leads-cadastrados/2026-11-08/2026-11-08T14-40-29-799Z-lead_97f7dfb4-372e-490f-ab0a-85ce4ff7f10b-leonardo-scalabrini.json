@@ -1,0 +1,42 @@
+{
+  "archive_version": 1,
+  "archived_at": "2026-11-08T14:40:29.799Z",
+  "event_name": "Lead",
+  "event_id": "lead_97f7dfb4-372e-490f-ab0a-85ce4ff7f10b",
+  "destination_results": {
+    "meta": {
+      "success": true,
+      "status": 200
+    },
+    "webhooks": [
+      {
+        "success": false,
+        "status": 526,
+        "error": "Webhook HTTP 526"
+      }
+    ]
+  },
+  "lead": {
+    "nome": "Leonardo Scalabrini",
+    "whatsapp": "(93) 98400-8519",
+    "cidade": "Ruropolis",
+    "objetivo": "Comprar um carro",
+    "valor": 60000,
+    "entrada": "R$ 5 mil a R$ 15 mil",
+    "parcela": "Até R$ 1.000",
+    "prazo": "Entre 1 e 3 meses",
+    "origem": "simulador_autoprime",
+    "received_at": "2026-11-08T14:40:28.744Z",
+    "utm_source": "fb",
+    "utm_medium": "paid",
+    "utm_campaign": "120252109706770130",
+    "utm_id": "120252109706770130",
+    "utm_term": "120252109706780130",
+    "utm_content": "120252109706760130"
+  },
+  "request": {
+    "source_url": "https://autoprime.simulead.com.br/?fbclid=IwZXh0bgNhZW0BMABwZG9mBWZkaWQWUR2Dm_XiYHPgtaBzHcxW4Fs3nc89A2FkaWQBqzk78CtAMnNydGMGYXBwX2lkCjY2Mjg1NjgzNzkAAR8oS02J7WeXbYW_f72kBbzB9UNBeR3GY-Cf30My0faIRrp35VfymPXc7Xbk_w_aem_FInD-CDOE6ahTTyUQtIIUw&utm_medium=paid&utm_source=fb&utm_id=120252109706770130&utm_content=120252109706760130&utm_term=120252109706780130&utm_campaign=120252109706770130",
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 27_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/24B119 Safari/604.1 [FBAN/FBIOS;FBAV/586.0.0.62.72;FBBV/1106861720;FBDV/iPhone14,5;FBMD/iPhone;FBSN/iOS;FBSV/27.2;FBSS/3;FBID/phone;FBLC/pt_BR;FBOP/5;FBRV/1109918685;IABMV/1]",
+    "client_ip_address": "2803:9810:4d4b:2708:bdc6:8ecc:37dc:7fd6"
+  }
+}
