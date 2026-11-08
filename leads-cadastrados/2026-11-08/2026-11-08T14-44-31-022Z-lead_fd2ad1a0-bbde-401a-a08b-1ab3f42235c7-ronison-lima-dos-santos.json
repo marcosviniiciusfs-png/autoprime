@@ -1,0 +1,45 @@
+{
+  "archive_version": 1,
+  "archived_at": "2026-11-08T14:44:31.022Z",
+  "event_name": "Lead",
+  "event_id": "lead_fd2ad1a0-bbde-401a-a08b-1ab3f42235c7",
+  "destination_results": {
+    "meta": {
+      "success": true,
+      "status": 200
+    },
+    "webhooks": [
+      {
+        "success": false,
+        "status": 526,
+        "error": "Webhook HTTP 526"
+      }
+    ]
+  },
+  "lead": {
+    "nome": "Ronison lima dos santos",
+    "whatsapp": "(93) 99200-3703",
+    "cidade": "Santarém",
+    "objetivo": "Comprar um carro",
+    "valor": 60000,
+    "entrada": "Até R$ 5 mil",
+    "parcela": "De R$ 1.000 a R$ 2.000",
+    "prazo": "Nos próximos 30 dias",
+    "origem": "simulador_autoprime",
+    "received_at": "2026-11-08T14:44:56.474Z",
+    "origem_conta": "ma_comercio",
+    "utm_source": "meta",
+    "utm_medium": "paid_social",
+    "utm_campaign": "[MA SITE] - 09/09",
+    "utm_id": "120255379114710628",
+    "utm_term": "CONJUNTO",
+    "utm_content": "AD",
+    "ad_id": "120255379114730628",
+    "adset_id": "120255379114720628"
+  },
+  "request": {
+    "source_url": "https://autoprime.simulead.com.br/?utm_source=meta&utm_medium=paid_social&utm_campaign=%5BMA+SITE%5D+-+09%2F09&utm_content=AD&origem_conta=ma_comercio&utm_id=120255379114710628&utm_term=CONJUNTO&ad_id=120255379114730628&adset_id=120255379114720628&fbclid=IwZXh0bgNhZW0BMABwZG9mBWZkaWQWUR1ypsRNrsRcie7haAjfLj5CZ-6pxWFkaWQBqzuhW7eR1HNydGMGYXBwX2lkCjY2Mjg1NjgzNzkAAR-E_NUkRHoWB1FFgyh0CWo-qZmRhkausptm5-UjuUZICmx--Pcc_5X07z8l3w_aem_9ezmyH8uNDM6rHV53lfRRg",
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 27_0_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/24A446 Safari/604.1 [FBAN/FBIOS;FBAV/586.0.0.62.72;FBBV/1106861720;FBDV/iPhone15,4;FBMD/iPhone;FBSN/iOS;FBSV/27.0.1;FBSS/3;FBID/phone;FBLC/pt_BR;FBOP/5;FBRV/1109918685;IABMV/1]",
+    "client_ip_address": "2803:9810:3f18:4810:34a0:333c:8d1c:ad22"
+  }
+}
