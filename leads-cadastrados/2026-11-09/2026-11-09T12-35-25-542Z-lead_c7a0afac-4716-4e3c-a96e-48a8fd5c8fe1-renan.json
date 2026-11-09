@@ -1,0 +1,45 @@
+{
+  "archive_version": 1,
+  "archived_at": "2026-11-09T12:35:25.542Z",
+  "event_name": "Lead",
+  "event_id": "lead_c7a0afac-4716-4e3c-a96e-48a8fd5c8fe1",
+  "destination_results": {
+    "meta": {
+      "success": true,
+      "status": 200
+    },
+    "webhooks": [
+      {
+        "success": false,
+        "status": 526,
+        "error": "Webhook HTTP 526"
+      }
+    ]
+  },
+  "lead": {
+    "nome": "Renan",
+    "whatsapp": "(55) 93991-3361",
+    "cidade": "Belterra ",
+    "objetivo": "Comprar um carro",
+    "valor": 60000,
+    "entrada": "Até R$ 5 mil",
+    "parcela": "Até R$ 1.000",
+    "prazo": "Nos próximos 30 dias",
+    "origem": "simulador_autoprime",
+    "received_at": "2026-11-09T12:35:22.385Z",
+    "origem_conta": "ma_comercio",
+    "utm_source": "meta",
+    "utm_medium": "paid_social",
+    "utm_campaign": "[MA SITE] - 09/09",
+    "utm_id": "120255379114710628",
+    "utm_term": "CONJUNTO",
+    "utm_content": "AD",
+    "ad_id": "120255379114730628",
+    "adset_id": "120255379114720628"
+  },
+  "request": {
+    "source_url": "https://autoprime.simulead.com.br/?utm_source=meta&utm_medium=paid_social&utm_campaign=%5BMA+SITE%5D+-+09%2F09&utm_content=AD&origem_conta=ma_comercio&utm_id=120255379114710628&utm_term=CONJUNTO&ad_id=120255379114730628&adset_id=120255379114720628&fbclid=PAZXh0bgNhZW0BMAB0c2FmAAAABHBkb2YEYWRpZAGrO6Fbt5HUc3J0YwZhcHBfaWQPOTk0NzY2MDczOTU5MjUzAAGnXuRYTHVeB_xRlrEv4UL-5W8xDthipmK0UP4LJ-P7wdZ2uVTgD3sCairjs-s_aem_Pg7kyLnT7m8ZuCFjyM1Ppw",
+    "user_agent": "Mozilla/5.0 (Linux; Android 15; SM-A145M Build/AP3A.240905.015.A2) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/156.0.8078.47 Mobile Safari/537.36 WA4A/2.26.42.74",
+    "client_ip_address": "170.238.113.136"
+  }
+}
