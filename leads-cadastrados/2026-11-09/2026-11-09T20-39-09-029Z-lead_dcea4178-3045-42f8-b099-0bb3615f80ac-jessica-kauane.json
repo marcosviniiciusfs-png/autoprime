@@ -1,0 +1,42 @@
+{
+  "archive_version": 1,
+  "archived_at": "2026-11-09T20:39:09.029Z",
+  "event_name": "Lead",
+  "event_id": "lead_dcea4178-3045-42f8-b099-0bb3615f80ac",
+  "destination_results": {
+    "meta": {
+      "success": true,
+      "status": 200
+    },
+    "webhooks": [
+      {
+        "success": false,
+        "status": 526,
+        "error": "Webhook HTTP 526"
+      }
+    ]
+  },
+  "lead": {
+    "nome": "Jéssica Kauane",
+    "whatsapp": "(93) 99214-8544",
+    "cidade": "Santarém",
+    "objetivo": "Comprar uma moto",
+    "valor": 60000,
+    "entrada": "Até R$ 5 mil",
+    "parcela": "Até R$ 1.000",
+    "prazo": "O quanto antes",
+    "origem": "simulador_autoprime",
+    "received_at": "2026-11-09T20:39:07.650Z",
+    "utm_source": "ig",
+    "utm_medium": "paid",
+    "utm_campaign": "120252109706770130",
+    "utm_id": "120252109706770130",
+    "utm_term": "120252109706780130",
+    "utm_content": "120252109706760130"
+  },
+  "request": {
+    "source_url": "https://autoprime.simulead.com.br/?fbclid=PAZXh0bgNhZW0BMABwZG9mAmZkaWQWUR4kiqqN-3w2T0CmesN0dAzFOITzOmFkaWQBqzk78CtAMnNydGMGYXBwX2lkDzEyNDAyNDU3NDI4NzQxNAABpzlZNwc1DgiKVtX9KwfCerIuh-Qw9JeYnqY2yL6SF_t4KzlNceUfV857nXfM_aem_z2Vb0i_nQQGj2T2zw1i0Ow&utm_medium=paid&utm_source=ig&utm_id=120252109706770130&utm_content=120252109706760130&utm_term=120252109706780130&utm_campaign=120252109706770130",
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/23G83 Instagram 454.1.0.41.71 (iPhone14,7; iOS 26_6_1; pt_BR; pt; scale=3.00; 1170x2532; IABMV/1; 1106185088) Safari/604.1",
+    "client_ip_address": "2804:3ab4:70cb:eb00:d132:c931:3a69:7943"
+  }
+}
