@@ -1,0 +1,45 @@
+{
+  "archive_version": 1,
+  "archived_at": "2026-11-09T11:57:42.348Z",
+  "event_name": "Lead",
+  "event_id": "lead_de13c49e-6e33-4181-9bd6-f6ba6d392cb6",
+  "destination_results": {
+    "meta": {
+      "success": true,
+      "status": 200
+    },
+    "webhooks": [
+      {
+        "success": false,
+        "status": 526,
+        "error": "Webhook HTTP 526"
+      }
+    ]
+  },
+  "lead": {
+    "nome": "Marcelia Guimaraes Rocha",
+    "whatsapp": "(93) 99193-0809",
+    "cidade": "Santarém",
+    "objetivo": "Comprar um carro",
+    "valor": 60000,
+    "entrada": "Até R$ 5 mil",
+    "parcela": "Até R$ 1.000",
+    "prazo": "O quanto antes",
+    "origem": "simulador_autoprime",
+    "received_at": "2026-11-09T11:57:40.264Z",
+    "origem_conta": "ma_comercio",
+    "utm_source": "meta",
+    "utm_medium": "paid_social",
+    "utm_campaign": "[MA SITE] - 09/09",
+    "utm_id": "120255379114710628",
+    "utm_term": "CONJUNTO",
+    "utm_content": "AD",
+    "ad_id": "120255379114730628",
+    "adset_id": "120255379114720628"
+  },
+  "request": {
+    "source_url": "https://autoprime.simulead.com.br/?utm_source=meta&utm_medium=paid_social&utm_campaign=%5BMA+SITE%5D+-+09%2F09&utm_content=AD&origem_conta=ma_comercio&utm_id=120255379114710628&utm_term=CONJUNTO&ad_id=120255379114730628&adset_id=120255379114720628&fbclid=PAZXh0bgNhZW0BMABwZG9mAmZkaWQWUR6ZxLrUKu9tpimH15Q7lG56XWzo4mFkaWQBqzuhW7eR1HNydGMGYXBwX2lkDzEyNDAyNDU3NDI4NzQxNAABp3oEM5hjPAX3MuoQOZnSIcVGKMw3peJuQfRUJkWQ8FKRuuIOrmAYVwcUMyRO_aem_pNbdpiV8tAKNvZ6nrMlciw",
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 27_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/24B119 Instagram 454.1.0.41.71 (iPhone17,2; iOS 27_2; pt_BR; pt; scale=3.00; 1320x2868; IABMV/1; 1106185088) Safari/604.1",
+    "client_ip_address": "2804:214:81bb:d4e1:81b1:73a6:21e9:2a23"
+  }
+}
