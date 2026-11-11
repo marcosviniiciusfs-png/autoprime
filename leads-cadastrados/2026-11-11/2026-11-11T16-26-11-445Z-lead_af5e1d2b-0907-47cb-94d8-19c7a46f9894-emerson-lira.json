@@ -1,0 +1,45 @@
+{
+  "archive_version": 1,
+  "archived_at": "2026-11-11T16:26:11.445Z",
+  "event_name": "Lead",
+  "event_id": "lead_af5e1d2b-0907-47cb-94d8-19c7a46f9894",
+  "destination_results": {
+    "meta": {
+      "success": true,
+      "status": 200
+    },
+    "webhooks": [
+      {
+        "success": false,
+        "status": 526,
+        "error": "Webhook HTTP 526"
+      }
+    ]
+  },
+  "lead": {
+    "nome": "Emerson Lira",
+    "whatsapp": "(93) 99195-0405",
+    "cidade": "Santarém",
+    "objetivo": "Trocar meu veículo",
+    "valor": 60000,
+    "entrada": "R$ 5 mil a R$ 15 mil",
+    "parcela": "Até R$ 1.000",
+    "prazo": "O quanto antes",
+    "origem": "simulador_autoprime",
+    "received_at": "2026-11-11T16:26:08.609Z",
+    "origem_conta": "ma_comercio",
+    "utm_source": "meta",
+    "utm_medium": "paid_social",
+    "utm_campaign": "[MA SITE] - 09/09",
+    "utm_id": "120255379114710628",
+    "utm_term": "CONJUNTO",
+    "utm_content": "AD",
+    "ad_id": "120255379114730628",
+    "adset_id": "120255379114720628"
+  },
+  "request": {
+    "source_url": "https://autoprime.simulead.com.br/?utm_source=meta&utm_medium=paid_social&utm_campaign=%5BMA+SITE%5D+-+09%2F09&utm_content=AD&origem_conta=ma_comercio&utm_id=120255379114710628&utm_term=CONJUNTO&ad_id=120255379114730628&adset_id=120255379114720628&fbclid=PAZXh0bgNhZW0BMABwZG9mAmFkaWQBqzuhW7eR1HNydGMGYXBwX2lkDzU2NzA2NzM0MzM1MjQyNwABp_muf0yBX8JSt1cmHK-W7GKTYytkYosH8RNCtDYgg92XC76Rp8xvtTehhHeD_aem_KQUYmpii020UWFUW4ZAObw",
+    "user_agent": "Mozilla/5.0 (Linux; Android 14; RMX3938 Build/UP1A.231005.007; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/157.0.8103.31 Mobile Safari/537.36 Instagram 454.0.0.54.77 Android (34/14; 360dpi; 720x1600; realme; RMX3938; RE6095; ums9230_latte; pt_BR; 1105698611; IABMV/1)",
+    "client_ip_address": "2804:2674:403a:fa00:cf55:1693:2ec5:a1b0"
+  }
+}
