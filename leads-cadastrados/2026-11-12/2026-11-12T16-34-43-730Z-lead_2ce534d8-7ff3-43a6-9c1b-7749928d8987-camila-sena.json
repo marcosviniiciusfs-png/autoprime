@@ -1,0 +1,42 @@
+{
+  "archive_version": 1,
+  "archived_at": "2026-11-12T16:34:43.730Z",
+  "event_name": "Lead",
+  "event_id": "lead_2ce534d8-7ff3-43a6-9c1b-7749928d8987",
+  "destination_results": {
+    "meta": {
+      "success": true,
+      "status": 200
+    },
+    "webhooks": [
+      {
+        "success": false,
+        "status": 526,
+        "error": "Webhook HTTP 526"
+      }
+    ]
+  },
+  "lead": {
+    "nome": "Camila Sena",
+    "whatsapp": "(93) 99240-5934",
+    "cidade": "Santarém",
+    "objetivo": "Quero fazer um consórcio",
+    "valor": 60000,
+    "entrada": "Até R$ 5 mil",
+    "parcela": "Até R$ 1.000",
+    "prazo": "Entre 1 e 3 meses",
+    "origem": "simulador_autoprime",
+    "received_at": "2026-11-12T16:34:40.616Z",
+    "utm_source": "fb",
+    "utm_medium": "paid",
+    "utm_campaign": "120252109706770130",
+    "utm_id": "120252109706770130",
+    "utm_term": "120252109706780130",
+    "utm_content": "120252109706760130"
+  },
+  "request": {
+    "source_url": "https://autoprime.simulead.com.br/?fbclid=IwZXh0bgNhZW0BMABwZG9mBWFkaWQBqzk78CtAMnNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABH1eEX631JiBnD7Euy6SEZZaFScXuq20GC7GvCPw7c6SqBk_M9806U5kILn-6_aem_zYiTvsTSL0IDO67Zgu3qog&utm_medium=paid&utm_source=fb&utm_id=120252109706770130&utm_content=120252109706760130&utm_term=120252109706780130&utm_campaign=120252109706770130",
+    "user_agent": "Mozilla/5.0 (Linux; Android 15; moto g35 5G Build/VUOAS35.116-151-3) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/157.0.8103.34 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/586.0.0.52.53;IABMV/1;]",
+    "client_ip_address": "2804:1b3:8c51:587f:1656:fb7f:df68:6ef5"
+  }
+}
