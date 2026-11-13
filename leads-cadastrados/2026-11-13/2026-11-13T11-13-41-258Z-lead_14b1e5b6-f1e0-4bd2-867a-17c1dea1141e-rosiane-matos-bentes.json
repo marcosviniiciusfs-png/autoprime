@@ -1,0 +1,42 @@
+{
+  "archive_version": 1,
+  "archived_at": "2026-11-13T11:13:41.258Z",
+  "event_name": "Lead",
+  "event_id": "lead_14b1e5b6-f1e0-4bd2-867a-17c1dea1141e",
+  "destination_results": {
+    "meta": {
+      "success": true,
+      "status": 200
+    },
+    "webhooks": [
+      {
+        "success": false,
+        "status": 526,
+        "error": "Webhook HTTP 526"
+      }
+    ]
+  },
+  "lead": {
+    "nome": "Rosiane Matos Bentes",
+    "whatsapp": "(93) 99121-5626",
+    "cidade": "Santarém",
+    "objetivo": "Comprar um carro",
+    "valor": 60000,
+    "entrada": "Até R$ 5 mil",
+    "parcela": "Até R$ 1.000",
+    "prazo": "O quanto antes",
+    "origem": "simulador_autoprime",
+    "received_at": "2026-11-13T11:11:52.554Z",
+    "utm_source": "ig",
+    "utm_medium": "paid",
+    "utm_campaign": "120252109706770130",
+    "utm_id": "120252109706770130",
+    "utm_term": "120252109706780130",
+    "utm_content": "120252109706760130"
+  },
+  "request": {
+    "source_url": "https://autoprime.simulead.com.br/?fbclid=PAZXh0bgNhZW0BMABwZG9mAmFkaWQBqzk78CtAMnNydGMGYXBwX2lkDzU2NzA2NzM0MzM1MjQyNwABp_BApqBxLe4miAdKPoWfuDj-CrcOdtb2OR5QFjWzTa3tA5RV93ROaNpvSY08_aem_1iV1somYe5Cl-FK-oyKubg&utm_medium=paid&utm_source=ig&utm_id=120252109706770130&utm_content=120252109706760130&utm_term=120252109706780130&utm_campaign=120252109706770130",
+    "user_agent": "Mozilla/5.0 (Linux; Android 16; SM-A155M Build/BP4A.251205.006; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/157.0.8103.44 Mobile Safari/537.36 Instagram 455.0.0.51.72 Android (36/16; 510dpi; 1080x2340; samsung; SM-A155M; a15; mt6789; pt_BR; 1110835071; IABMV/1)",
+    "client_ip_address": "2804:18:7846:d8b6:18e7:7a15:4d61:8da2"
+  }
+}
