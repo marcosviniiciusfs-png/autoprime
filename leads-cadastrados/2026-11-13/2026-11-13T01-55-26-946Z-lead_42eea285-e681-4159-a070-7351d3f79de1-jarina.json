@@ -1,0 +1,42 @@
+{
+  "archive_version": 1,
+  "archived_at": "2026-11-13T01:55:26.946Z",
+  "event_name": "Lead",
+  "event_id": "lead_42eea285-e681-4159-a070-7351d3f79de1",
+  "destination_results": {
+    "meta": {
+      "success": true,
+      "status": 200
+    },
+    "webhooks": [
+      {
+        "success": false,
+        "status": 526,
+        "error": "Webhook HTTP 526"
+      }
+    ]
+  },
+  "lead": {
+    "nome": "Jarina",
+    "whatsapp": "(93) 99212-3579",
+    "cidade": "Santarém",
+    "objetivo": "Comprar um carro",
+    "valor": 60000,
+    "entrada": "Até R$ 5 mil",
+    "parcela": "Até R$ 1.000",
+    "prazo": "Nos próximos 30 dias",
+    "origem": "simulador_autoprime",
+    "received_at": "2026-11-13T01:55:25.848Z",
+    "utm_source": "ig",
+    "utm_medium": "paid",
+    "utm_campaign": "120252109706770130",
+    "utm_id": "120252109706770130",
+    "utm_term": "120252109706780130",
+    "utm_content": "120252109706760130"
+  },
+  "request": {
+    "source_url": "https://autoprime.simulead.com.br/?fbclid=PAZXh0bgNhZW0BMABwZG9mAmFkaWQBqzk78CtAMnNydGMGYXBwX2lkDzU2NzA2NzM0MzM1MjQyNwABpzGOlkaQWWIFTEAm1jZnm4gPC0AmQRZOiS4_HvtZckULvHKMMY1LtLbcV8Pl_aem_dHKLdY8wKlXpmWe2x_edmw&utm_medium=paid&utm_source=ig&utm_id=120252109706770130&utm_content=120252109706760130&utm_term=120252109706780130&utm_campaign=120252109706770130",
+    "user_agent": "Mozilla/5.0 (Linux; Android 10; K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/157.0.0.0 Mobile Safari/537.36 Instagram 455.0.0.51.72 Android (37/17; 450dpi; 1080x2340; samsung; SM-S731B; r13s; s5e9945; pt_BR; 1110835071; IABMV/1)",
+    "client_ip_address": "138.94.37.94"
+  }
+}
