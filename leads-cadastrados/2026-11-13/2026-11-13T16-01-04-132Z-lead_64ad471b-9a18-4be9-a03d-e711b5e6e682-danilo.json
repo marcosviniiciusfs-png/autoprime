@@ -1,0 +1,42 @@
+{
+  "archive_version": 1,
+  "archived_at": "2026-11-13T16:01:04.132Z",
+  "event_name": "Lead",
+  "event_id": "lead_64ad471b-9a18-4be9-a03d-e711b5e6e682",
+  "destination_results": {
+    "meta": {
+      "success": true,
+      "status": 200
+    },
+    "webhooks": [
+      {
+        "success": false,
+        "status": 526,
+        "error": "Webhook HTTP 526"
+      }
+    ]
+  },
+  "lead": {
+    "nome": "Danilo ",
+    "whatsapp": "(93) 98434-1730",
+    "cidade": "Santarém",
+    "objetivo": "Comprar um carro",
+    "valor": 60000,
+    "entrada": "Até R$ 5 mil",
+    "parcela": "Até R$ 1.000",
+    "prazo": "O quanto antes",
+    "origem": "simulador_autoprime",
+    "received_at": "2026-11-13T16:00:53.377Z",
+    "utm_source": "fb",
+    "utm_medium": "paid",
+    "utm_campaign": "120252109706770130",
+    "utm_id": "120252109706770130",
+    "utm_term": "120252109706780130",
+    "utm_content": "120252109706760130"
+  },
+  "request": {
+    "source_url": "https://autoprime.simulead.com.br/?fbclid=IwZXh0bgNhZW0BMABwZG9mBWFkaWQBqzk78CtAMnNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABH04qGRZYfQ6lOgVpCsnWHnujElcA825NDiJt-jcd2FLqjcBDVMfxrNVSy62y_aem_XZlHVbOo2eyLPq7R03QJnw&utm_medium=paid&utm_source=fb&utm_id=120252109706770130&utm_content=120252109706760130&utm_term=120252109706780130&utm_campaign=120252109706770130",
+    "user_agent": "Mozilla/5.0 (Linux; Android 14; moto g04s Build/ULAS34.89-208-4) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/157.0.8103.34 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/586.0.0.52.53;IABMV/1;]",
+    "client_ip_address": "2804:389:d1b3:6ca:10b2:86ff:fead:9c45"
+  }
+}
