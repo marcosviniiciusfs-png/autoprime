@@ -1,0 +1,42 @@
+{
+  "archive_version": 1,
+  "archived_at": "2026-11-13T16:43:55.772Z",
+  "event_name": "Lead",
+  "event_id": "lead_46236d44-34a4-4e30-adf4-8aa2898658c7",
+  "destination_results": {
+    "meta": {
+      "success": true,
+      "status": 200
+    },
+    "webhooks": [
+      {
+        "success": false,
+        "status": 526,
+        "error": "Webhook HTTP 526"
+      }
+    ]
+  },
+  "lead": {
+    "nome": "Marcos bruno Carvalho lobato ",
+    "whatsapp": "(93) 99123-1197",
+    "cidade": "Santarém",
+    "objetivo": "Comprar um carro",
+    "valor": 60000,
+    "entrada": "R$ 5 mil a R$ 15 mil",
+    "parcela": "Até R$ 1.000",
+    "prazo": "Ainda estou pesquisando",
+    "origem": "simulador_autoprime",
+    "received_at": "2026-11-13T16:43:55.028Z",
+    "utm_source": "ig",
+    "utm_medium": "paid",
+    "utm_campaign": "120252109706770130",
+    "utm_id": "120252109706770130",
+    "utm_term": "120252109706780130",
+    "utm_content": "120252109706760130"
+  },
+  "request": {
+    "source_url": "https://autoprime.simulead.com.br/?fbclid=PAZXh0bgNhZW0BMABwZG9mAmFkaWQBqzk78CtAMnNydGMGYXBwX2lkDzU2NzA2NzM0MzM1MjQyNwABp5Rr1U--cSsCGgWCSh-Fyoy3j_ZbAi3yVy9T4gGI-m9ofu0zH4NamiQK5rPE_aem_BnWSyabR0nkBZfmpN7vZ6A&utm_medium=paid&utm_source=ig&utm_id=120252109706770130&utm_content=120252109706760130&utm_term=120252109706780130&utm_campaign=120252109706770130",
+    "user_agent": "Mozilla/5.0 (Linux; Android 14; SM-A042M Build/UP1A.231005.007; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/157.0.8103.44 Mobile Safari/537.36 Instagram 455.0.0.51.72 Android (34/14; 320dpi; 720x1600; samsung; SM-A042M; a04e; mt6765; pt_BR; 1110835071; IABMV/1)",
+    "client_ip_address": "2804:2674:403c:3b00:8816:d9ff:9faa:b936"
+  }
+}
