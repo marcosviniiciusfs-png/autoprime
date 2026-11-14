@@ -1,0 +1,45 @@
+{
+  "archive_version": 1,
+  "archived_at": "2026-11-14T18:25:07.728Z",
+  "event_name": "Lead",
+  "event_id": "lead_e34bfc66-2b64-4ec6-bc3d-e9e833d5ad92",
+  "destination_results": {
+    "meta": {
+      "success": true,
+      "status": 200
+    },
+    "webhooks": [
+      {
+        "success": false,
+        "status": 526,
+        "error": "Webhook HTTP 526"
+      }
+    ]
+  },
+  "lead": {
+    "nome": "Lene Aguiar",
+    "whatsapp": "(93) 99954-0277",
+    "cidade": "Santarém",
+    "objetivo": "Trocar meu veículo",
+    "valor": 60000,
+    "entrada": "Até R$ 5 mil",
+    "parcela": "Até R$ 1.000",
+    "prazo": "O quanto antes",
+    "origem": "simulador_autoprime",
+    "received_at": "2026-11-14T18:25:05.768Z",
+    "origem_conta": "ma_comercio",
+    "utm_source": "meta",
+    "utm_medium": "paid_social",
+    "utm_campaign": "[MA SITE] - 09/09",
+    "utm_id": "120255379114710628",
+    "utm_term": "CONJUNTO",
+    "utm_content": "AD",
+    "ad_id": "120255379114730628",
+    "adset_id": "120255379114720628"
+  },
+  "request": {
+    "source_url": "https://autoprime.simulead.com.br/?utm_source=meta&utm_medium=paid_social&utm_campaign=%5BMA+SITE%5D+-+09%2F09&utm_content=AD&origem_conta=ma_comercio&utm_id=120255379114710628&utm_term=CONJUNTO&ad_id=120255379114730628&adset_id=120255379114720628&fbclid=IwZXh0bgNhZW0BMAB0c2FmAAAABHBkb2YDYWRpZAGrO6Fbt5HUc3J0YwZhcHBfaWQPOTk0NzY2MDczOTU5MjUzAAEfaFkO1hL6ZmSaMHZi83kbrMfMg_ZeYaYj5LzQxrrPpgX6WAFdon6SHEiThYE_aem_J3LE3sFwCikVCIJ6uaK8WA",
+    "user_agent": "Mozilla/5.0 (Linux; Android 16; RMX5020 Build/BP2A.250605.015) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/157.0.8103.38 Mobile Safari/537.36 WA4A/2.26.44.90",
+    "client_ip_address": "2804:2c88:1107:4e00:c461:3a8b:5457:5b36"
+  }
+}
