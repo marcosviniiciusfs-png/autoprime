@@ -1,0 +1,45 @@
+{
+  "archive_version": 1,
+  "archived_at": "2026-11-17T18:19:31.529Z",
+  "event_name": "Lead",
+  "event_id": "lead_7236cacb-8d2a-4e14-90da-b61039881493",
+  "destination_results": {
+    "meta": {
+      "success": true,
+      "status": 200
+    },
+    "webhooks": [
+      {
+        "success": false,
+        "status": 526,
+        "error": "Webhook HTTP 526"
+      }
+    ]
+  },
+  "lead": {
+    "nome": "Maria ",
+    "whatsapp": "(93) 99224-5844",
+    "cidade": "Santarém",
+    "objetivo": "Comprar um carro",
+    "valor": 60000,
+    "entrada": "Até R$ 5 mil",
+    "parcela": "Até R$ 1.000",
+    "prazo": "O quanto antes",
+    "origem": "simulador_autoprime",
+    "received_at": "2026-11-17T18:19:30.947Z",
+    "origem_conta": "ma_comercio",
+    "utm_source": "meta",
+    "utm_medium": "paid_social",
+    "utm_campaign": "[MA SITE] - 09/09",
+    "utm_id": "120255379114710628",
+    "utm_term": "CONJUNTO",
+    "utm_content": "AD",
+    "ad_id": "120255379114730628",
+    "adset_id": "120255379114720628"
+  },
+  "request": {
+    "source_url": "https://autoprime.simulead.com.br/?utm_source=meta&utm_medium=paid_social&utm_campaign=%5BMA+SITE%5D+-+09%2F09&utm_content=AD&origem_conta=ma_comercio&utm_id=120255379114710628&utm_term=CONJUNTO&ad_id=120255379114730628&adset_id=120255379114720628&fbclid=PAZXh0bgNhZW0BMABwZG9mAmFkaWQBqzuhW7eR1HNydGMGYXBwX2lkDzU2NzA2NzM0MzM1MjQyNwABpxuAsLv9XNXY86Qf6Kei1Oa-TXUCWkshbFuuNSlFv36nf5izqid6NsO694Rb_aem_lf0pDIsnfhvFLcnU4WwSCg",
+    "user_agent": "Mozilla/5.0 (Linux; Android 15; SM-A155M Build/AP3A.240905.015.A2; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/157.0.8103.31 Mobile Safari/537.36 Instagram 454.0.0.54.77 Android (35/15; 450dpi; 1080x2340; samsung; SM-A155M; a15; mt6789; pt_BR; 1110834810; IABMV/1)",
+    "client_ip_address": "2804:2c88:110b:1500:32ee:3e45:cf11:3fe2"
+  }
+}
