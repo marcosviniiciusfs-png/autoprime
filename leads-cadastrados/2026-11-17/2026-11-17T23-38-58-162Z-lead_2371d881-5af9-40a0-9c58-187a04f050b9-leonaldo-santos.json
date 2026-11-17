@@ -1,0 +1,45 @@
+{
+  "archive_version": 1,
+  "archived_at": "2026-11-17T23:38:58.162Z",
+  "event_name": "Lead",
+  "event_id": "lead_2371d881-5af9-40a0-9c58-187a04f050b9",
+  "destination_results": {
+    "meta": {
+      "success": true,
+      "status": 200
+    },
+    "webhooks": [
+      {
+        "success": false,
+        "status": 526,
+        "error": "Webhook HTTP 526"
+      }
+    ]
+  },
+  "lead": {
+    "nome": "Leonaldo Santos",
+    "whatsapp": "(55) 93991-9545",
+    "cidade": "Santarém",
+    "objetivo": "Comprar um carro",
+    "valor": 70000,
+    "entrada": "Até R$ 5 mil",
+    "parcela": "Até R$ 1.000",
+    "prazo": "Nos próximos 30 dias",
+    "origem": "simulador_autoprime",
+    "received_at": "2026-11-17T23:38:58.254Z",
+    "origem_conta": "ma_comercio",
+    "utm_source": "meta",
+    "utm_medium": "paid_social",
+    "utm_campaign": "[MA SITE] - 09/09",
+    "utm_id": "120255379114710628",
+    "utm_term": "CONJUNTO",
+    "utm_content": "AD",
+    "ad_id": "120255379114730628",
+    "adset_id": "120255379114720628"
+  },
+  "request": {
+    "source_url": "https://autoprime.simulead.com.br/?utm_source=meta&utm_medium=paid_social&utm_campaign=%5BMA+SITE%5D+-+09%2F09&utm_content=AD&origem_conta=ma_comercio&utm_id=120255379114710628&utm_term=CONJUNTO&ad_id=120255379114730628&adset_id=120255379114720628&fbclid=IwZXh0bgNhZW0BMABwZG9mBWFkaWQBqzuhW7eR1HNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABH2vKn4o9HpazzdOX7gxmALxPnsdMLrJo2JDlpX5AvbSIQlROX1Ay_t7f3bri_aem_MAQw5PukhojJ_kJU5xIXYA",
+    "user_agent": "Mozilla/5.0 (Linux; Android 16; moto g56 5G Build/W1VOS36.88-71-6-2-1-4) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/157.0.8103.74 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/587.0.0.39.55;IABMV/1;]",
+    "client_ip_address": "2605:59c8:6901:608:d233:5cf9:bcb8:d1d6"
+  }
+}
