@@ -1,0 +1,45 @@
+{
+  "archive_version": 1,
+  "archived_at": "2026-11-17T19:54:30.105Z",
+  "event_name": "Lead",
+  "event_id": "lead_ba7258b3-a3f7-4fb3-9f03-4ae3b8433779",
+  "destination_results": {
+    "meta": {
+      "success": true,
+      "status": 200
+    },
+    "webhooks": [
+      {
+        "success": false,
+        "status": 526,
+        "error": "Webhook HTTP 526"
+      }
+    ]
+  },
+  "lead": {
+    "nome": "ALFREDO BARRETO DOS ANJOS SOBRINHO",
+    "whatsapp": "(97) 99146-4109",
+    "cidade": "oriximiná-Pa",
+    "objetivo": "Comprar um carro",
+    "valor": 70000,
+    "entrada": "Até R$ 5 mil",
+    "parcela": "Até R$ 1.000",
+    "prazo": "O quanto antes",
+    "origem": "simulador_autoprime",
+    "received_at": "2026-11-17T19:54:28.083Z",
+    "origem_conta": "ma_comercio",
+    "utm_source": "meta",
+    "utm_medium": "paid_social",
+    "utm_campaign": "[MA SITE] - 09/09",
+    "utm_id": "120255379114710628",
+    "utm_term": "CONJUNTO",
+    "utm_content": "AD",
+    "ad_id": "120255379114730628",
+    "adset_id": "120255379114720628"
+  },
+  "request": {
+    "source_url": "https://autoprime.simulead.com.br/?utm_source=meta&utm_medium=paid_social&utm_campaign=%5BMA+SITE%5D+-+09%2F09&utm_content=AD&origem_conta=ma_comercio&utm_id=120255379114710628&utm_term=CONJUNTO&ad_id=120255379114730628&adset_id=120255379114720628&fbclid=IwY2xjawVpj_ZleHRuA2FlbQEwAHBkb2YFYWRpZAGrO6Fbt5HUc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABH6igiqdf-iizWVu2pvPOMC1xJ4lc-uGFBu8aVXM8RMpJpN9U4LViYcVqwSFg_aem_-SHfKGYHysB12N-frFt5ZQ",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 Avast/154.0.0.0",
+    "client_ip_address": "2804:3418:8044:b200:b001:5986:c294:913"
+  }
+}
