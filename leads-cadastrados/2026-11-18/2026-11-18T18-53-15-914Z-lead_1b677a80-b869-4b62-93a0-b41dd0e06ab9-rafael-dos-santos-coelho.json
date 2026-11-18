@@ -1,0 +1,42 @@
+{
+  "archive_version": 1,
+  "archived_at": "2026-11-18T18:53:15.914Z",
+  "event_name": "Lead",
+  "event_id": "lead_1b677a80-b869-4b62-93a0-b41dd0e06ab9",
+  "destination_results": {
+    "meta": {
+      "success": true,
+      "status": 200
+    },
+    "webhooks": [
+      {
+        "success": false,
+        "status": 526,
+        "error": "Webhook HTTP 526"
+      }
+    ]
+  },
+  "lead": {
+    "nome": "Rafael dos Santos Coelho ",
+    "whatsapp": "(93) 98418-0489",
+    "cidade": "Santarém",
+    "objetivo": "Comprar um carro",
+    "valor": 60000,
+    "entrada": "Até R$ 5 mil",
+    "parcela": "De R$ 1.000 a R$ 2.000",
+    "prazo": "O quanto antes",
+    "origem": "simulador_autoprime",
+    "received_at": "2026-11-18T18:53:13.486Z",
+    "utm_source": "fb",
+    "utm_medium": "paid",
+    "utm_campaign": "120252109706770130",
+    "utm_id": "120252109706770130",
+    "utm_term": "120252109706780130",
+    "utm_content": "120252109706760130"
+  },
+  "request": {
+    "source_url": "https://autoprime.simulead.com.br/?fbclid=IwZXh0bgNhZW0BMABwZG9mBWFkaWQBqzk78CtAMnNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABH97xmiGmAEM_s0V5JHft6VtYonjFEOlIAGmkk6kr1hxkY4IMC0wTFSvvA_0l_aem_zAYxlTx_ndhilePWnWPy_A&utm_medium=paid&utm_source=fb&utm_id=120252109706770130&utm_content=120252109706760130&utm_term=120252109706780130&utm_campaign=120252109706770130",
+    "user_agent": "Mozilla/5.0 (Linux; Android 15; moto g06 Build/VVOBS35.78-202-5) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/157.0.8103.74 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/587.0.0.39.55;IABMV/1;]",
+    "client_ip_address": "2804:1b3:8c50:fb66:4589:9464:f564:58a9"
+  }
+}
