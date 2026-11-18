@@ -1,0 +1,42 @@
+{
+  "archive_version": 1,
+  "archived_at": "2026-11-18T11:29:50.266Z",
+  "event_name": "Lead",
+  "event_id": "lead_e11b9bcb-88ee-4bf9-b80b-628ccf3fac58",
+  "destination_results": {
+    "meta": {
+      "success": true,
+      "status": 200
+    },
+    "webhooks": [
+      {
+        "success": false,
+        "status": 526,
+        "error": "Webhook HTTP 526"
+      }
+    ]
+  },
+  "lead": {
+    "nome": "Gustavo Rodrigues Vaz",
+    "whatsapp": "(93) 98101-4530",
+    "cidade": "Santarém",
+    "objetivo": "Comprar um carro",
+    "valor": 60000,
+    "entrada": "R$ 5 mil a R$ 15 mil",
+    "parcela": "Até R$ 1.000",
+    "prazo": "Entre 1 e 3 meses",
+    "origem": "simulador_autoprime",
+    "received_at": "2026-11-18T11:29:49.152Z",
+    "utm_source": "ig",
+    "utm_medium": "paid",
+    "utm_campaign": "120252109706770130",
+    "utm_id": "120252109706770130",
+    "utm_term": "120252109706780130",
+    "utm_content": "120252109706760130"
+  },
+  "request": {
+    "source_url": "https://autoprime.simulead.com.br/?fbclid=PAZXh0bgNhZW0BMABwZG9mAmFkaWQBqzk78CtAMnNydGMGYXBwX2lkDzU2NzA2NzM0MzM1MjQyNwABp8H1FI6GwQ6EB-TXlMirh7H7ku0zCFlv-5DOTvFjoi-RtIIXGctiEYbblXZ5_aem_cPf7YHptjFJD3lUXganIeA&utm_medium=paid&utm_source=ig&utm_id=120252109706770130&utm_content=120252109706760130&utm_term=120252109706780130&utm_campaign=120252109706770130",
+    "user_agent": "Mozilla/5.0 (Linux; Android 15; 23028RA60L Build/AQ3A.240829.003; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/158.0.8127.34 Mobile Safari/537.36 Instagram 456.0.0.53.78 Android (35/15; 440dpi; 1080x2400; Xiaomi/Redmi; 23028RA60L; tapas; qcom; pt_BR; 1116270565; IABMV/1)",
+    "client_ip_address": "132.255.214.204"
+  }
+}
