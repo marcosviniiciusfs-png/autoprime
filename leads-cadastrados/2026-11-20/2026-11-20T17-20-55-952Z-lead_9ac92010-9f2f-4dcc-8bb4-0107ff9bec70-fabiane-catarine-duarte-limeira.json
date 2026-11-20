@@ -1,0 +1,45 @@
+{
+  "archive_version": 1,
+  "archived_at": "2026-11-20T17:20:55.952Z",
+  "event_name": "Lead",
+  "event_id": "lead_9ac92010-9f2f-4dcc-8bb4-0107ff9bec70",
+  "destination_results": {
+    "meta": {
+      "success": true,
+      "status": 200
+    },
+    "webhooks": [
+      {
+        "success": false,
+        "status": 526,
+        "error": "Webhook HTTP 526"
+      }
+    ]
+  },
+  "lead": {
+    "nome": "Fabiane Catarine Duarte limeira ",
+    "whatsapp": "(93) 99206-9580",
+    "cidade": "Santarém",
+    "objetivo": "Comprar um carro",
+    "valor": 60000,
+    "entrada": "R$ 5 mil a R$ 15 mil",
+    "parcela": "Até R$ 1.000",
+    "prazo": "Nos próximos 30 dias",
+    "origem": "simulador_autoprime",
+    "received_at": "2026-11-20T17:19:20.735Z",
+    "origem_conta": "ma_comercio",
+    "utm_source": "meta",
+    "utm_medium": "paid_social",
+    "utm_campaign": "[MA SITE] - 09/09",
+    "utm_id": "120255379114710628",
+    "utm_term": "CONJUNTO",
+    "utm_content": "AD",
+    "ad_id": "120255379114730628",
+    "adset_id": "120255379114720628"
+  },
+  "request": {
+    "source_url": "https://autoprime.simulead.com.br/?utm_source=meta&utm_medium=paid_social&utm_campaign=%5BMA+SITE%5D+-+09%2F09&utm_content=AD&origem_conta=ma_comercio&utm_id=120255379114710628&utm_term=CONJUNTO&ad_id=120255379114730628&adset_id=120255379114720628&fbclid=IwZXh0bgNhZW0BMABwZG9mBGFkaWQBqzuhW7eR1HNydGMGYXBwX2lkDzI3NTI1NDY5MjU5ODI3OQABHwUsBR40BSykDtq2q1wN6WQDm3-afijUuxyb_GMW4GSof--1A9dw9bhcaqPI_aem_2xR0T31wNyDPkFRoff37OQ",
+    "user_agent": "Mozilla/5.0 (Linux; Android 15; moto g34 5G Build/V1UGS35H.75-14-6-2-4; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/157.0.8103.50 Mobile Safari/537.36[FBAN/EMA;FBLC/pt_BR;FBAV/539.0.0.7.106;FBCX/modulariab;]",
+    "client_ip_address": "2804:3ab4:70f6:8e00:757a:9854:267d:f4e9"
+  }
+}
