@@ -1,0 +1,45 @@
+{
+  "archive_version": 1,
+  "archived_at": "2026-11-24T15:26:47.333Z",
+  "event_name": "Lead",
+  "event_id": "lead_bad398df-1e16-4295-8046-193a23af9166",
+  "destination_results": {
+    "meta": {
+      "success": true,
+      "status": 200
+    },
+    "webhooks": [
+      {
+        "success": false,
+        "status": 526,
+        "error": "Webhook HTTP 526"
+      }
+    ]
+  },
+  "lead": {
+    "nome": "Marilene dos Santos Pinto ",
+    "whatsapp": "(93) 99204-8843",
+    "cidade": "Alenquer ",
+    "objetivo": "Comprar um carro",
+    "valor": 70000,
+    "entrada": "R$ 5 mil a R$ 15 mil",
+    "parcela": "De R$ 1.000 a R$ 2.000",
+    "prazo": "Nos próximos 30 dias",
+    "origem": "simulador_autoprime",
+    "received_at": "2026-11-24T15:26:45.357Z",
+    "origem_conta": "ma_comercio",
+    "utm_source": "meta",
+    "utm_medium": "paid_social",
+    "utm_campaign": "[MA SITE] - 09/09",
+    "utm_id": "120255379114710628",
+    "utm_term": "CONJUNTO",
+    "utm_content": "AD",
+    "ad_id": "120255379114730628",
+    "adset_id": "120255379114720628"
+  },
+  "request": {
+    "source_url": "https://autoprime.simulead.com.br/?utm_source=meta&utm_medium=paid_social&utm_campaign=%5BMA+SITE%5D+-+09%2F09&utm_content=AD&origem_conta=ma_comercio&utm_id=120255379114710628&utm_term=CONJUNTO&ad_id=120255379114730628&adset_id=120255379114720628&fbclid=PAZXh0bgNhZW0BMAB0c2FmAAAABHBkb2YEYWRpZAGrO6Fbt5HUc3J0YwZhcHBfaWQPOTk0NzY2MDczOTU5MjUzAAGnycFubGEIFS3UCp9kO5H-MhFaSiD9TVarRBmBPl5KORZkYGZ2NenZYD-a8t0_aem_WAJ3Bqezn_eD8nGQ8gGCng",
+    "user_agent": "Mozilla/5.0 (Linux; Android 17; SM-A576B Build/CP2A.260605.016) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/158.0.8127.46 Mobile Safari/537.36 WA4A/2.26.46.76",
+    "client_ip_address": "2804:18:784b:29f5:18ea:e9a0:5c2f:244"
+  }
+}
